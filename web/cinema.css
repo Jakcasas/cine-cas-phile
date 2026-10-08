@@ -43,11 +43,12 @@
 .section-heading h2 { color: #31101b; }
 .poster { box-shadow: 0 2px 10px #39152309; }
 .poster:after { background: linear-gradient(0deg, #1a0919b0, transparent 80%); }
-.collection-card.worlds, .collection-card.hearts { background: #391220; }
-.collection-card.worlds:before, .collection-card.hearts:before { content: ''; position: absolute; inset: 0; z-index: -2; width: auto; height: auto; border: 0; border-radius: 0; box-shadow: none; background-image: url('/static/assets/cinema-contact-sheet.png'); background-size: 300% 200%; }
-.collection-card.worlds:before { background-position: 50% 0%; }
-.collection-card.hearts:before { background-position: 0% 100%; }
-.collection-card:after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, #270b22c9, #270b2225); }
+.collection-card.worlds, .collection-card.hearts { background: #f7f1e7; color: #3b1726; }
+.collection-card.worlds:before, .collection-card.hearts:before { content: ''; position: absolute; inset: 0; z-index: -2; width: auto; height: auto; border: 0; border-radius: 0; box-shadow: none; background-size: cover; background-position: center; }
+.collection-card.worlds:before { background-image: url('/static/assets/2001-space-odyssey-still.jpg'); }
+.collection-card.hearts:before { background-image: url('/static/assets/love-letter-shunji-iwai-hd.png'); }
+.collection-card:after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, #fbf6efed, #fbf6ef12 78%), linear-gradient(90deg, #fbf6ef55, transparent 76%); }
+.collection-card.worlds span, .collection-card.worlds strong, .collection-card.worlds small, .collection-card.hearts span, .collection-card.hearts strong, .collection-card.hearts small { color: #3b1726; text-shadow: 0 1px 10px #fff; }
 .collections { border-top-color: #ddcdc7; }
 .footer-brand { color: #491a2b; }
 .cinema-note { background: #391220; color: #f7eadc; padding: 42px 5%; display: flex; align-items: center; justify-content: space-between; gap: 25px; margin: 55px 0 0; position: relative; overflow: hidden; }

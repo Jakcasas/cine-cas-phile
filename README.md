@@ -46,7 +46,7 @@ Hồ sơ cá nhân bắt đầu **trống**, không tự mượn lịch sử c�
 
 Slogan: **One film, one fish fillet. (Un film, un filet de poisson.)** Giao diện dùng Noto Serif có đầy đủ dấu tiếng Việt; slogan giữ Mirella gốc; logo giữ Operation Napalm và tên thương hiệu góc trái giữ font cũ. Chữ có khoảng cách tự nhiên, không ngắt dòng cứng. Menu không có mục riêng MUBI/Letterboxd; các phim nhập nằm trong kho chung.
 
-Poster được lấy theo nguồn có đối chiếu phim: **1,045 phim có URL ảnh**, gồm 829 phim có poster Letterboxd, 35 từ MUBI; hai website FshareTV và PhimMoi có 1.011 phim khớp trên 3.883 phim gốc. Hero hiện dùng cảnh trong *In the Mood for Love* do bạn cung cấp. Các artwork phụ chỉ dùng khung 2, 3, 4 đã chọn. Khi không có ảnh hoặc CDN lỗi, thẻ dùng bìa minh họa có tên phim. Không phát phim.
+Poster được lấy theo nguồn có đối chiếu phim: **1,045 phim có URL ảnh**, gồm 829 phim có poster Letterboxd, 35 từ MUBI; hai website FshareTV và PhimMoi có 1.011 phim khớp trên 3.883 phim gốc. Hero hiện dùng cảnh trong *In the Mood for Love* do bạn cung cấp. Hai thẻ bộ sưu tập lần lượt dùng ảnh từ *2001: A Space Odyssey* và *Love Letter* bạn cung cấp. Ảnh *Love Letter* được AI hỗ trợ tăng độ phân giải; chú thích trên thẻ ghi rõ ảnh đã được nâng cấp. Artwork phụ chỉ dùng khung 2, 3, 4 đã chọn. Khi không có ảnh hoặc CDN lỗi, thẻ dùng bìa minh họa có tên phim. Không phát phim.
 
 **Đánh giá đa nguồn:** mở chi tiết phim để xem Letterboxd/IMDb (khán giả), Rotten Tomatoes (Tomatometer/Popcornmeter), Metacritic (Metascore/khán giả) và MUBI khi có. Giữ riêng thang điểm và ngày kiểm tra; trường thiếu dữ liệu hiển thị rõ, không tự bịa điểm. IMDb là snapshot qua FshareTV; RT/Metacritic hiện chỉ có một nhóm phim đã xác minh.
 

@@ -4,7 +4,7 @@
 - Paper: #FBFBF8; text: #161616; quiet borders: #DEDEDB.
 - Full-width *In the Mood for Love* still supplied for the hero, with a burgundy overlay and warm amber light.
 - Final avatar: a solid black person on white, two-finger-gun gesture, featureless face, no circular fingertip outlines; Operation Napalm lettering inside the torso. Used in the header and favicon. See BRAND.md.
-- Only selected contact-sheet panels 2 (astronaut), 3 (burgundy corridor), 4 (sunset road) appear in the interface. Other panels are not displayed. The original bitmap is retained and clipped with CSS.
+- The discovery cards use the supplied *2001: A Space Odyssey* still and an AI-assisted resolution enhancement of the supplied *Love Letter* still; the latter is labeled on the card. Selected contact-sheet panels 2, 3 and 4 remain available for illustrative fallback artwork.
 - Uppercase sans-serif navigation and film titles; serif editorial accents.
 - Landscape movie cards, generous margins, quiet metadata, round save control.
 - Same visual language across preferences, details, recommendations and benchmark.
