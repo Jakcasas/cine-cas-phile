@@ -36,7 +36,15 @@ def main():
             for path in sorted((ROOT/'netlify/functions').rglob('*')):
                 if path.is_file(): archive.write(path, path.relative_to(ROOT).as_posix())
             archive.write(ROOT/'netlify.toml','netlify.toml')
-            archive.write(ROOT/'docs/DOMAIN.md','DEPLOY.md')
+            archive.writestr('DEPLOY.md', '# Cine (cas) phile. — prebuilt Netlify bundle\n\n'
+                'Extract this ZIP, open a terminal in its root and sign in with Netlify CLI.\n\n'
+                '```bash\nnetlify login\nnetlify deploy --prod --site 00750758-f294-4229-bdd8-865b45c6382d --dir dist/netlify --functions netlify/functions --no-build\n```\n\n'
+                'This bundle is already built; do not run npm ci or npm run build in it. '
+                'The site ID belongs to the original owner. Use your own site ID when deploying into another account. '
+                'Use the CLI with functions; dropping only the static folder omits the recommendation API.\n\n'
+                'Live: https://cinecasphile.netlify.app\nSource: https://github.com/Jakcasas/cine-cas-phile (private).\n'
+                'Profiles stay in browser localStorage. Image recognition runs in browser WASM. '
+                'The custom domain www.cinecasphile.com is not activated.\n')
         with ZipFile(hosted) as archive: assert archive.testzip() is None
         print(f'Verified Netlify bundle, {hosted.stat().st_size:,} bytes: {hosted}')
 
