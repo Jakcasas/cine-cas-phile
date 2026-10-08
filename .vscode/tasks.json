@@ -5,31 +5,78 @@
       "label": "Prepare Cine 1.0",
       "type": "process",
       "command": "powershell",
-      "args": ["-NoProfile", "-ExecutionPolicy", "Bypass", "-File", "${workspaceFolder}/start.ps1", "-PrepareOnly"],
+      "args": [
+        "-NoProfile",
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/start.ps1",
+        "-PrepareOnly"
+      ],
       "problemMatcher": []
     },
     {
       "label": "Test Python",
       "type": "process",
       "command": "${workspaceFolder}/.venv/Scripts/python.exe",
-      "args": ["-m", "pytest", "-q"],
-      "options": {"cwd": "${workspaceFolder}"},
+      "args": [
+        "-m",
+        "pytest",
+        "-q"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "Verify recommendations",
       "type": "process",
       "command": "${workspaceFolder}/.venv/Scripts/python.exe",
-      "args": ["tools/verify_netlify.py"],
-      "options": {"cwd": "${workspaceFolder}"},
+      "args": [
+        "tools/verify_netlify.py"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     },
     {
       "label": "Build Netlify site",
       "type": "process",
       "command": "npm.cmd",
-      "args": ["run", "build"],
-      "options": {"cwd": "${workspaceFolder}"},
+      "args": [
+        "run",
+        "build"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [],
+      "dependsOn": "Install website dependencies"
+    },
+    {
+      "label": "Install website dependencies",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": [
+        "ci"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Test accounts and community",
+      "type": "process",
+      "command": "npm.cmd",
+      "args": [
+        "test"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
       "problemMatcher": []
     }
   ]

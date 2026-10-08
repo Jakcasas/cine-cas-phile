@@ -9,4 +9,12 @@ await api.request(`/profiles/${profile.profile_id}/watchlist/2571`,{method:'PUT'
 await api.request(`/profiles/${profile.profile_id}/ratings/2571`,{method:'PUT',body:JSON.stringify({rating:5})});
 const loaded=await api.request(`/profiles/${profile.profile_id}`);
 assert.equal(loaded.watchlist[0],2571);assert.equal(loaded.ratings['2571'],5);assert.equal(loaded.watchlist_movies.length,1);
+await api.request(`/profiles/${profile.profile_id}/seen/1`,{method:'PUT'});
+await api.request(`/profiles/${profile.profile_id}/watchlist/2`,{method:'PUT'});
+assert.deepEqual(Array.from((await api.request(`/profiles/${profile.profile_id}`)).watchlist),[2571,2]);
+context.window.cineCloudProfile={profile_id:'cloud',ratings:{1:4.5},seen:[1],watchlist:[],genres:[],survey:{}};
+await api.request('/profiles/cloud/watchlist/3',{method:'PUT'});
+assert.equal((await api.request('/profiles/cloud')).ratings[1],4.5);
+context.window.cineCloudProfile=null;
+assert.equal((await api.request(`/profiles/${profile.profile_id}`)).ratings[1],undefined);
 console.log('PASS: profile, watchlist and ratings remain usable when localStorage is blocked.');

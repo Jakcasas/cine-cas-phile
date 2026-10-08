@@ -65,7 +65,7 @@ if (!existsSync("netlify/functions/data/model.json.gz"))
   );
 writeFileSync(
   path.join(out, "_redirects"),
-  "/api/* /.netlify/functions/api/:splat 200\n/docs /static/hosted-docs.html 302\n",
+  "/club/* /.netlify/functions/club/:splat 200\n/api/* /.netlify/functions/api/:splat 200\n/docs /static/hosted-docs.html 302\n",
 );
 console.log(
   `Netlify web built: ${new Set(refs.movie_ids).size} indexed films. Recommendation model stays inside functions.`,

@@ -4,12 +4,12 @@
     {
       "case": "hybrid-known",
       "same_order": true,
-      "max_score_error": 6.894770376852932e-08
+      "max_score_error": 8.238562188012111e-08
     },
     {
       "case": "hybrid-personal",
       "same_order": true,
-      "max_score_error": 8.475397494933645e-09
+      "max_score_error": 2.3647595770448504e-08
     },
     {
       "case": "collaborative-known",
@@ -24,7 +24,7 @@
     {
       "case": "svd-known",
       "same_order": true,
-      "max_score_error": 2.4926729569330064e-07
+      "max_score_error": 2.6116650775342976e-07
     },
     {
       "case": "svd-personal",
@@ -39,7 +39,7 @@
     {
       "case": "content-personal",
       "same_order": true,
-      "max_score_error": 3.82524201203438e-08
+      "max_score_error": 5.801089142387639e-08
     },
     {
       "case": "popularity-known",

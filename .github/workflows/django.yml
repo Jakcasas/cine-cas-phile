@@ -34,5 +34,5 @@ jobs:
       run: |
         python -m pytest -q
         python tools/verify_netlify.py
-        node tools/verify_hosted_profile.mjs
+        npm test
         npm run build

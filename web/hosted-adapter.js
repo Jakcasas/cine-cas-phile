@@ -1,4 +1,4 @@
-/* Only loaded by the Netlify edition. Personal profiles stay in the browser. */
+/* Device guest profiles stay local; authenticated profiles sync through Cine Club. */
 "use strict";
 window.cineHosted = (() => {
   let referencesPromise, sessionPromise, memoryProfile;
@@ -25,12 +25,13 @@ window.cineHosted = (() => {
       const p = JSON.parse(
         localStorage.getItem("cine-hosted-profile") || "null",
       );
-      return validProfile(p) ? p : memoryProfile || null;
+      return window.cineCloudProfile || (validProfile(p) ? p : memoryProfile || null);
     } catch {
-      return memoryProfile || null;
+      return window.cineCloudProfile || memoryProfile || null;
     }
   };
   const write = (profile) => {
+    if(window.cineCloudProfile){ window.cineCloudProfile=profile; return profile; }
     memoryProfile = profile;
     try {
       localStorage.setItem("cine-hosted-profile", JSON.stringify(profile));
@@ -60,9 +61,11 @@ window.cineHosted = (() => {
         ratings: {},
         watchlist: [],
         genres: [],
+        seen: [],
+        survey: {},
       });
     if (path.startsWith("/profiles/")) {
-      let profile = read();
+      let profile = JSON.parse(JSON.stringify(read()));
       const [, root, id, kind, mid] = path.split("/");
       if (!profile || profile.profile_id !== id)
         throw new Error("Profile not found");
@@ -70,6 +73,7 @@ window.cineHosted = (() => {
         const ids = [
           ...new Set([
             ...profile.watchlist,
+            ...(profile.seen || []),
             ...Object.keys(profile.ratings).map(Number),
           ]),
         ];
@@ -85,6 +89,7 @@ window.cineHosted = (() => {
           watchlist_movies: profile.watchlist
             .map((id) => map.get(id))
             .filter(Boolean),
+          seen_movies: [...new Set([...(profile.seen || []),...Object.keys(profile.ratings).map(Number)])].map(id=>({...map.get(id),my_rating:profile.ratings[id]})).filter(m=>m.movie_id),
           rated_movies: Object.entries(profile.ratings)
             .filter(([id]) => map.has(Number(id)))
             .map(([id, rating]) => ({
@@ -95,28 +100,36 @@ window.cineHosted = (() => {
       }
       if (kind === "preferences") {
         profile.genres = body.genres || [];
+        profile.survey=body.survey || profile.survey || {};
+        await window.cineClub?.sync(profile);
         write(profile);
         return request(`/profiles/${id}`);
       }
-      if (kind === "ratings") {
+      if (kind === "seen") {
+        profile.seen=method==='DELETE'?(profile.seen || []).filter(id=>id!==Number(mid)):[...new Set([...(profile.seen || []),Number(mid)])];
+      } else if (kind === "ratings") {
         if (method === "DELETE") delete profile.ratings[mid];
         else profile.ratings[mid] = body.rating;
       } else if (kind === "watchlist") {
         profile.watchlist =
           method === "DELETE"
             ? profile.watchlist.filter((id) => id !== Number(mid))
-            : [...new Set([...profile.watchlist, Number(mid)])];
+            : [...new Set([...profile.watchlist,
+            Number(mid)])];
       }
+      await window.cineClub?.sync(profile);
       write(profile);
       return { saved: Number(mid) };
     }
-    if (path === "/discover") {
+    if (["/discover","/viewer-discover"].includes(path)) {
       const profile = read();
       return remote(path, {
         ...options,
         body: JSON.stringify({
           ...body,
           ratings: profile?.ratings || {},
+          survey: profile?.survey || {},
+          exclude_ids:profile?.seen || [],
           preferred_genres: body.preferred_genres?.length
             ? body.preferred_genres
             : profile?.genres || [],

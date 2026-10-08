@@ -2,57 +2,52 @@
 
 Phiên bản **1.0**.
 
-Câu lạc bộ khám phá phim với gợi ý có giải thích, giao diện tiếng Việt mang tinh thần tuyển chọn của MUBI, tông **đỏ rượu vang / trắng ngà / ánh sáng hổ phách**. Project chạy cục bộ, có dữ liệu MovieLens bạn cung cấp và mô hình đã huấn luyện; không cần API key.
+Câu lạc bộ khám phá phim với gợi ý có giải thích, giao diện tiếng Việt mang tinh thần tuyển chọn của MUBI, tông **đỏ rượu vang / trắng ngà / ánh sáng hổ phách**. Website ưu tiên thể loại, thời kỳ, cảm xúc và phim khán giả yêu thích. Khách dùng ngay trên thiết bị; tài khoản, chat, blog và góp ý dùng MongoDB Atlas. Giữ version 1.0. Hướng dẫn cấu hình online: [docs/ONLINE_SETUP.md](docs/ONLINE_SETUP.md).
 
 ## Chạy ngay trên Windows
 
 **Web đã chạy trên Netlify:** https://cinecasphile.netlify.app. **GitHub:** https://github.com/Jakcasas/cine-cas-phile (public). Địa chỉ chính thức: **https://cinecasphile.netlify.app/**. Hướng dẫn dựng/deploy: [docs/DOMAIN.md](docs/DOMAIN.md).
 
-Nhấp đúp **Start-CineCasPhile.cmd**, sau đó mở **http://127.0.0.1:8000**. Lần đầu cần Python 3.11 trở lên và Internet để cài thư viện. Máy chủ đọc artifact đã lưu, không huấn luyện neural mỗi lần mở. Dừng bằng `Ctrl+C`.
-
-Hoặc chạy thủ công trong thư mục project:
+Nhấp đúp **Start-CineCasPhile.cmd**, sau đó mở **http://127.0.0.1:8001**. Cần Node.js 22 trở lên; lần đầu tự cài thư viện. Có thể mở thư mục trong VS Code và chọn F5 → **Cine (cas) phile. 1.0 — full website**.
 
 ```powershell
-py -3 -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m src.cli serve
+npm ci
+npm run build
+npm run dev
 ```
 
-Linux/macOS:
-
-```bash
-python3 -m venv .venv
-.venv/bin/python -m pip install -r requirements.txt
-.venv/bin/python -m src.cli serve
-```
+Bản thử dùng database `cinecasphile_dev` để tách khỏi dữ liệu cộng đồng trên website thật. Chế độ khách lưu trong trình duyệt khi không có MongoDB. API nghiên cứu Python vẫn chạy bằng `python -m src.cli serve` trên cổng 8000; chức năng cộng đồng đầy đủ chạy bằng launcher Node phía trên.
 
 ## Mở trong Visual Studio Code / Visual Studio
 
-Trên Windows, mở thư mục project trong **Visual Studio Code** bằng `code .` hoặc dùng **File → Open Folder**. Chọn môi trường Python `.venv` nếu editor hỏi. Nhấn **F5** với cấu hình **“Cine (cas) phile. 1.0 — website”** để chuẩn bị môi trường và chạy server tại `http://127.0.0.1:8000`. Dừng server bằng nút Stop trong editor. Mục **Terminal → Run Task** có lệnh kiểm thử Python, đối chiếu thuật toán Python/Netlify và build website. Để chạy hai lệnh kiểm thử, cài thư viện phát triển bằng `.\.venv\Scripts\python.exe -m pip install -e ".[dev]"`; để build website, chạy `npm ci` một lần.
+Mở thư mục bằng **File → Open Folder** hoặc `code .`. Chọn F5 → **Cine (cas) phile. 1.0 — full website** để build và chạy cổng 8001. Cấu hình Python riêng vẫn có cho API nghiên cứu. Terminal → Run Task có build website, kiểm tra MongoDB/tài khoản/cộng đồng và các kiểm tra Python.
 
-Nếu dùng **Visual Studio** bản đầy đủ, hãy mở cùng thư mục bằng **File → Open → Folder**, cài workload Python development, chọn interpreter `.venv\Scripts\python.exe`, rồi chạy `python -m src.cli serve`. Cấu hình `.vscode/` dành riêng cho Visual Studio Code.
+Visual Studio bản đầy đủ có thể mở thư mục và chạy `npm run dev` trong terminal. Cấu hình `.vscode/` dành riêng cho Visual Studio Code.
 
 `requirements.lock.txt` ghi lại các phiên bản đã dùng để kiểm thử trên Python 3.12 / Windows. `requirements.txt` là các khoảng phiên bản hỗ trợ. Thư mục `web/` phải nằm cạnh `src/`; đây là một project chạy từ source, không phải wheel chứa toàn bộ dữ liệu.
 
 ## Trải nghiệm
 
-- **Khám phá:** tìm tên phim, lọc một trong 18 thể loại, lọc thời kỳ, sắp xếp và phân trang.
-- **Dành cho bạn:** chọn gu phim, chấm sao một vài phim; hệ thống gợi ý phim chưa đánh giá. Điều chỉnh độ khám phá để MMR cân bằng điểm phù hợp và đa dạng thể loại.
-- **Chi tiết phim:** điểm cộng đồng trong train, điểm Bayesian, chấm/xóa đánh giá, phim tương tự và nút “Tìm phim cùng gu”.
-- **Danh sách xem / Đã đánh giá:** bản cục bộ lưu SQLite; bản Netlify lưu trong localStorage của từng trình duyệt, không đồng bộ thiết bị.
-- **Dữ liệu:** thống kê thật, cách chia dữ liệu và benchmark Python. Bản Netlify chuyển cùng artifact sang JavaScript; 10 trường hợp đối chiếu cả 5 model cho cùng thứ tự gợi ý.
+Chỉ có **4 mục chính**: Khám phá, Dành cho bạn, Danh sách xem, Bộ sưu tập.
 
-Hồ sơ cá nhân bắt đầu **trống**, không tự mượn lịch sử của user 1. Ô “MovieLens user” là tùy chọn để thử các người dùng của bộ dữ liệu. Đánh giá cá nhân cập nhật Content và Item-CF ngay; SVD dùng lịch sử train của ID MovieLens và cần huấn luyện lại để thay đổi nhân tố ẩn.
+- **Khảo sát gu phim:** thể loại yêu thích, thời kỳ, cảm xúc, phim gợi cảm hứng và thể loại muốn tránh; giải thích lý do gợi ý. Giao diện không yêu cầu chọn thuật toán hoặc ID MovieLens.
+- **Bộ sưu tập:** đánh dấu đã xem, chấm 0,5–5 sao, lưu danh sách muốn xem và xuất JSON. Khách có biệt danh hoặc tên Ẩn danh; tài khoản đồng bộ MongoDB.
+- **Cộng đồng:** phòng chat cập nhật định kỳ, đánh giá theo phim, thích bài, nội dung spoiler được thu gọn, báo cáo và gỡ bài của mình.
+- **Blog:** người dùng đăng công khai, theo lựa chọn mới nhất của chủ website; có báo cáo nội dung. Bản nháp tự lưu trên thiết bị. Không sao chép đánh giá của người dùng Letterboxd.
+- **Tài khoản:** đăng ký email/mật khẩu, đăng nhập Google/Facebook khi đã cấu hình ứng dụng OAuth; session cookie HttpOnly, Secure, SameSite=Lax; mật khẩu scrypt; giới hạn tần suất và kiểm tra quyền trên server. Chế độ khách online có thể tham gia cộng đồng ẩn danh.
+- **Góp ý:** trải nghiệm, ý tưởng và báo lỗi được lưu vào MongoDB. Không hiển thị số người dùng hoặc đánh giá cộng đồng giả.
 
 Slogan: **One film, one fish fillet. (Un film, un filet de poisson.)** Giao diện dùng Noto Serif có đầy đủ dấu tiếng Việt; slogan giữ Mirella gốc; logo giữ Operation Napalm và tên thương hiệu góc trái giữ font cũ. Chữ có khoảng cách tự nhiên, không ngắt dòng cứng. Menu không có mục riêng MUBI/Letterboxd; các phim nhập nằm trong kho chung.
 
-Poster được lấy theo nguồn có đối chiếu phim: **1,045 phim có URL ảnh**, gồm 829 phim có poster Letterboxd, 35 từ MUBI; hai website FshareTV và PhimMoi có 1.011 phim khớp trên 3.883 phim gốc. Hero hiện dùng bản HD từ cảnh *In the Mood for Love* do bạn cung cấp. Hai thẻ bộ sưu tập lần lượt dùng ảnh từ *2001: A Space Odyssey* và *Love Letter* bạn cung cấp. Ảnh *Love Letter* được AI hỗ trợ tăng độ phân giải; thẻ ghi nguồn phim và đạo diễn. Artwork phụ chỉ dùng khung 2, 3, 4 đã chọn. Khi không có ảnh hoặc CDN lỗi, thẻ dùng bìa minh họa có tên phim. Không phát phim.
+Poster được lấy theo nguồn có đối chiếu phim: Poster đã được bổ sung từ metadata công khai có đối chiếu tên/năm; báo cáo nằm ở `reports/viewer_catalog_sync.json` và `reports/poster_sync.json`. Catalog bổ sung Digger, Verity, Other Mommy, Clayface và Forgotten Island (2026). Các phim vẫn chưa tìm được poster được ghi trong báo cáo; không gán ảnh sai để lấp chỗ trống. Hero hiện dùng bản HD từ cảnh *In the Mood for Love* do bạn cung cấp. Hai thẻ bộ sưu tập lần lượt dùng ảnh từ *2001: A Space Odyssey* và *Love Letter* bạn cung cấp. Ảnh *Love Letter* được AI hỗ trợ tăng độ phân giải; thẻ ghi nguồn phim và đạo diễn. Artwork phụ chỉ dùng khung 2, 3, 4 đã chọn. Khi không có ảnh hoặc CDN lỗi, thẻ dùng bìa minh họa có tên phim. Không phát phim.
 
 **Đánh giá đa nguồn:** mở chi tiết phim để xem Letterboxd/IMDb (khán giả), Rotten Tomatoes (Tomatometer/Popcornmeter), Metacritic (Metascore/khán giả) và MUBI khi có. Giữ riêng thang điểm và ngày kiểm tra; trường thiếu dữ liệu hiển thị rõ, không tự bịa điểm. IMDb là snapshot qua FshareTV; RT/Metacritic hiện chỉ có một nhóm phim đã xác minh.
 
 **Tìm bằng ảnh:** chọn ảnh cảnh phim JPEG/PNG/WebP dưới 8 MB. CLIP ONNX chạy trên CPU, đối chiếu cảnh thật và poster trong kho tham chiếu. Ảnh nhập xử lý cục bộ, không lưu và không gửi Google hay nhà cung cấp khác. Cảnh chưa có trong kho có thể trả về phim gần giống thay vì nhận diện đúng. Chi tiết nguồn, giấy phép và lệnh cập nhật: [docs/ENRICHMENT.md](docs/ENRICHMENT.md).
 
-## Thuật toán
+## Engine nghiên cứu
+
+Website dành cho khán giả dùng `/api/viewer-discover`: đối chiếu thể loại, thời kỳ, cảm xúc, phim yêu thích và điểm cộng đồng, bỏ phim đã xem hoặc thể loại muốn tránh. Các chế độ dưới đây được giữ cho CLI/API nghiên cứu; người xem không cần chọn thuật toán.
 
 | Chế độ | Cách tính | Cold start |
 |---|---|---|
@@ -80,7 +75,7 @@ Train tạo `artifacts/engine.npz`, `data/processed/split_manifest.json` và `re
 
 Chia thời gian **theo từng người dùng**, gần tỷ lệ 80/10/10; các nhóm timestamp bằng nhau không bị tách. Kiểm tra cả train→validation, validation→test, train→test và trùng cặp user/movie. Người dùng có lịch sử quá ngắn hoặc một timestamp được giữ trong train; người dùng chỉ có hai nhóm thời gian có thể không có validation.
 
-Train thực tế: **799.898**; validation: **99.791**; test: **100.520** đánh giá. Catalog có **3,915** phim (3.883 MovieLens và 32 tác phẩm bổ sung); **3.706** phim có đánh giá trong dữ liệu; **6.040** người dùng; tổng **1.000.209** đánh giá. Các con số từ báo cáo đã chạy, không phải số liệu mô phỏng.
+Train thực tế: **799.898**; validation: **99.791**; test: **100.520** đánh giá. Catalog có **3.920** phim (3.883 MovieLens và 37 tác phẩm bổ sung); **3.706** phim có đánh giá trong dữ liệu; **6.040** người dùng; tổng **1.000.209** đánh giá. Các con số từ báo cáo đã chạy, không phải số liệu mô phỏng.
 
 Benchmark dùng cùng tập ứng viên **toàn catalog trừ phim train và validation**, phim relevant có test rating ≥4, seed 42, K=10, MMR=0. Lấy mẫu 200 người có ít nhất một phim test relevant và 10.000 cặp test rating. RMSE/MAE chỉ áp dụng cho đầu ra dự đoán rating của Popularity, CF và SVD; Content/Hybrid chưa hiệu chỉnh rating nên không công bố RMSE/MAE cho chúng. Không tối ưu tham số trên test.
 
@@ -125,7 +120,7 @@ runtime/                   SQLite và dữ liệu chạy local (không đưa và
 
 ## Phạm vi sử dụng và nguồn
 
-Bản Python mặc định chỉ bind `127.0.0.1`; UUID hồ sơ cục bộ chưa có đăng nhập/phân quyền. Bản Netlify đã triển khai dùng API stateless và hồ sơ riêng trong trình duyệt, không công khai SQLite. Nếu cần tài khoản đồng bộ giữa các thiết bị, phải bổ sung đăng nhập và phân quyền cho hồ sơ trên máy chủ.
+Bản Python nghiên cứu mặc định chỉ bind `127.0.0.1`; UUID hồ sơ cục bộ chưa có đăng nhập/phân quyền. Bản Node/Netlify dùng tài khoản và phân quyền trên server, đồng bộ hồ sơ online qua MongoDB Atlas. Khách chưa đăng nhập lưu hồ sơ riêng trên thiết bị. SQLite local không được công khai trên website.
 
 Nguồn: `Cine_Cas_Phile.zip`, bản Python all-in-one, `movielens-recsys.zip` và `movielens-master.zip` do bạn cung cấp. `legacy/` giữ bản gốc chưa được xác minh và có thể cần thư viện/đường dẫn cũ. Kiểu giao diện tham khảo MUBI; thương hiệu và ảnh của Cine (cas) phile. là riêng.
 

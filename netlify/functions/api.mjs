@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { loadEngine, ValidationError } from "./lib/engine.mjs";
+import { viewerRecommendations } from './lib/viewer.mjs';
 
 export async function handler(event) {
   const started = performance.now();
@@ -32,13 +33,14 @@ export async function handler(event) {
       : {};
     if (!body || typeof body !== "object" || Array.isArray(body))
       throw new ValidationError("Invalid request");
-    const expected = ["/discover", "/movie-batch"].includes(path)
+    const expected = ["/discover", "/viewer-discover", "/movie-batch"].includes(path)
       ? "POST"
       : "GET";
     if (method !== expected)
       return reply(405, { detail: "Method not allowed" });
     const engine = loadEngine(),
       d = engine.d;
+    if (path === '/viewer-discover') return reply(200,viewerRecommendations(engine,body));
     const health = {
       status: "healthy",
       version: "1.0.0-netlify",

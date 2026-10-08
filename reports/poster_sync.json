@@ -1,9 +1,9 @@
 {
   "catalog_movies": 3883,
-  "matched_movies": 1011,
-  "coverage": 0.26036569662631986,
+  "matched_movies": 1012,
+  "coverage": 0.26062322946175637,
   "sources": {
-    "FshareTV": 802,
+    "FshareTV": 804,
     "PhimMoi": 234
   },
   "missing_movies": [
@@ -315,11 +315,6 @@
     {
       "movie_id": 96,
       "title": "In the Bleak Midwinter (1995)",
-      "year": 1995
-    },
-    {
-      "movie_id": 97,
-      "title": "Hate (Haine, La) (1995)",
       "year": 1995
     },
     {

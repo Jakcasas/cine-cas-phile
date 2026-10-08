@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cine (cas) phile. personal collection 1.0",
+  "type": "object",
+  "required": [
+    "ratings",
+    "watchlist",
+    "genres"
+  ],
+  "properties": {
+    "ratings": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0.5,
+        "maximum": 5,
+        "multipleOf": 0.5
+      }
+    },
+    "watchlist": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "uniqueItems": true
+    },
+    "seen": {
+      "type": "array",
+      "items": {
+        "type": "integer"
+      },
+      "uniqueItems": true
+    },
+    "genres": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "maxItems": 18
+    },
+    "survey": {
+      "type": "object"
+    }
+  }
+}

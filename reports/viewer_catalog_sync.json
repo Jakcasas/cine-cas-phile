@@ -1,0 +1,132 @@
+{
+  "checked_at": "2026-10-08T17:03:17.417939+00:00",
+  "added_films": [],
+  "verified_updates": 174,
+  "attempted_missing": 200,
+  "errors": [
+    {
+      "movie_id": 1136,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1374,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 750,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1073,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 3623,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2700,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1294,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1909,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 293,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2108,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 265,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2300,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2542,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 3070,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1019,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 3752,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2795,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 3745,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2423,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1059,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1223,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 922,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2311,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1792,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 720,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 3869,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2919,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2010,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 224,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 1125,
+      "error": "No exact public title/year poster match"
+    },
+    {
+      "movie_id": 2794,
+      "error": "No exact public title/year poster match"
+    }
+  ]
+}

@@ -1,0 +1,291 @@
+{
+  "users": {
+    "bsonType": "object",
+    "required": [
+      "id",
+      "loginKey",
+      "provider",
+      "name",
+      "createdAt"
+    ],
+    "properties": {
+      "id": {
+        "bsonType": "string"
+      },
+      "loginKey": {
+        "bsonType": "string"
+      },
+      "provider": {
+        "enum": [
+          "email",
+          "google",
+          "facebook",
+          "guest"
+        ]
+      },
+      "name": {
+        "bsonType": "string",
+        "maxLength": 40
+      },
+      "role": {
+        "enum": [
+          "member",
+          "admin"
+        ]
+      },
+      "createdAt": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "sessions": {
+    "bsonType": "object",
+    "required": [
+      "hash",
+      "userId",
+      "expires"
+    ],
+    "properties": {
+      "hash": {
+        "bsonType": "string"
+      },
+      "userId": {
+        "bsonType": "string"
+      },
+      "expires": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "oauth": {
+    "bsonType": "object",
+    "required": [
+      "hash",
+      "provider",
+      "nonce",
+      "verifier",
+      "expires"
+    ],
+    "properties": {
+      "hash": {
+        "bsonType": "string"
+      },
+      "provider": {
+        "bsonType": "string"
+      },
+      "nonce": {
+        "bsonType": "string"
+      },
+      "verifier": {
+        "bsonType": "string"
+      },
+      "expires": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "profiles": {
+    "bsonType": "object",
+    "required": [
+      "userId",
+      "watchlist",
+      "seen",
+      "ratings",
+      "genres",
+      "survey"
+    ],
+    "properties": {
+      "userId": {
+        "bsonType": "string"
+      },
+      "watchlist": {
+        "bsonType": "array",
+        "maxItems": 5000
+      },
+      "seen": {
+        "bsonType": "array",
+        "maxItems": 5000
+      },
+      "ratings": {
+        "bsonType": "object"
+      },
+      "genres": {
+        "bsonType": "array",
+        "maxItems": 18
+      },
+      "survey": {
+        "bsonType": "object"
+      }
+    }
+  },
+  "posts": {
+    "bsonType": "object",
+    "required": [
+      "id",
+      "userId",
+      "author",
+      "kind",
+      "status",
+      "content",
+      "createdAt"
+    ],
+    "properties": {
+      "id": {
+        "bsonType": "string"
+      },
+      "userId": {
+        "bsonType": "string"
+      },
+      "kind": {
+        "enum": [
+          "chat",
+          "review",
+          "blog"
+        ]
+      },
+      "status": {
+        "enum": [
+          "published",
+          "removed"
+        ]
+      },
+      "author": {
+        "bsonType": "string"
+      },
+      "content": {
+        "bsonType": "string",
+        "minLength": 1,
+        "maxLength": 15000
+      },
+      "createdAt": {
+        "bsonType": "date"
+      },
+      "rating": {
+        "bsonType": [
+          "double",
+          "int"
+        ],
+        "minimum": 0.5,
+        "maximum": 5
+      }
+    }
+  },
+  "likes": {
+    "bsonType": "object",
+    "required": [
+      "postId",
+      "userId"
+    ],
+    "properties": {
+      "postId": {
+        "bsonType": "string"
+      },
+      "userId": {
+        "bsonType": "string"
+      }
+    }
+  },
+  "reports": {
+    "bsonType": "object",
+    "required": [
+      "postId",
+      "userId",
+      "reason",
+      "createdAt"
+    ],
+    "properties": {
+      "postId": {
+        "bsonType": "string"
+      },
+      "userId": {
+        "bsonType": "string"
+      },
+      "reason": {
+        "bsonType": "string"
+      },
+      "createdAt": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "feedback": {
+    "bsonType": "object",
+    "required": [
+      "id",
+      "userId",
+      "content",
+      "createdAt"
+    ],
+    "properties": {
+      "id": {
+        "bsonType": "string"
+      },
+      "userId": {
+        "bsonType": "string"
+      },
+      "content": {
+        "bsonType": "string",
+        "minLength": 5,
+        "maxLength": 3000
+      },
+      "createdAt": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "limits": {
+    "bsonType": "object",
+    "required": [
+      "count",
+      "expires"
+    ],
+    "properties": {
+      "count": {
+        "bsonType": [
+          "int",
+          "long",
+          "double"
+        ]
+      },
+      "expires": {
+        "bsonType": "date"
+      }
+    }
+  },
+  "films": {
+    "bsonType": "object",
+    "required": [
+      "movie_id",
+      "title",
+      "genres",
+      "year"
+    ],
+    "properties": {
+      "movie_id": {
+        "bsonType": [
+          "int",
+          "long",
+          "double"
+        ],
+        "minimum": 1
+      },
+      "title": {
+        "bsonType": "string",
+        "minLength": 1
+      },
+      "genres": {
+        "bsonType": "string"
+      },
+      "year": {
+        "bsonType": [
+          "int",
+          "long",
+          "double",
+          "null"
+        ],
+        "minimum": 1800,
+        "maximum": 2200
+      }
+    }
+  }
+}

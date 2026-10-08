@@ -2,7 +2,20 @@
   "name": "cine-cas-phile",
   "version": "1.0.0",
   "private": true,
-  "scripts": {"build": "node tools/build_netlify.mjs"},
-  "engines": {"node": ">=22"},
-  "dependencies": {"onnxruntime-web": "1.30.0"}
+  "scripts": {
+    "build": "node tools/build_netlify.mjs",
+    "dev": "node tools/preview_netlify.mjs",
+    "test": "node tools/verify_hosted_profile.mjs && node tools/test_club.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "dependencies": {
+    "jose": "^6.1.0",
+    "mongodb": "^6.21.0",
+    "onnxruntime-web": "1.30.0"
+  },
+  "devDependencies": {
+    "mongodb-memory-server": "^10.3.0"
+  }
 }

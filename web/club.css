@@ -1,0 +1,31 @@
+/* Audience-facing additions, shared by the online site and VS Code preview. */
+[hidden]{display:none!important}
+body{font-kerning:normal;text-rendering:optimizeLegibility}
+em{font-style:normal} /* The installed Vietnamese font has no italic face. */
+.movie-meta h3,.poster-title{white-space:normal;word-break:normal;overflow-wrap:break-word;letter-spacing:normal;line-height:1.4}
+.site-header{flex-wrap:wrap}.site-header nav{flex:1;justify-content:center}.header-actions{flex-wrap:wrap}
+.community-bar{display:flex;align-items:center;gap:18px;flex-wrap:wrap;padding:18px 0;border-top:1px solid #e5d6d9;border-bottom:1px solid #e5d6d9;margin-bottom:22px}
+.community-bar .text-button{font-size:13px;padding:4px 0;text-transform:none}
+#identity-label{margin-left:auto;font-size:12px;color:#74495a}
+.recommend-controls{display:flex;align-items:center;gap:20px;flex-wrap:wrap;background:#f6eef0;border:1px solid #dec4cc;border-radius:12px;padding:22px}
+.recommend-controls>div{flex:1;min-width:230px}.recommend-controls p{margin:6px 0;line-height:1.7}
+dialog{border-radius:12px;max-height:90dvh;overflow:auto}dialog::backdrop{background:#231016b8;backdrop-filter:blur(4px)}
+#taste-dialog{width:min(850px,92vw)}#community-dialog{width:min(840px,92vw)}
+fieldset{border:1px solid #e4d4d9;border-radius:10px;padding:20px;margin:20px 0}legend{padding:0 8px;color:#6c2137;font-weight:650}
+.form-row{display:flex;gap:20px;flex-wrap:wrap}.form-row>label{flex:1;min-width:150px}
+form label{display:block;margin:12px 0;font-size:14px}form input:not([type=checkbox]),form select,form textarea{display:block;width:100%;box-sizing:border-box;border:1px solid #ccb5bd;border-radius:6px;padding:12px;background:#fffdf9;color:#381823;font:inherit;margin-top:6px}
+form input[type=checkbox]{accent-color:#7b2034}form textarea{resize:vertical;line-height:1.7}
+.taste-option{margin:0}.taste-option input{accent-color:#7b2034}
+.account-tabs,.oauth-buttons{display:flex;gap:12px;flex-wrap:wrap;margin:20px 0}.account-tabs button[aria-pressed=true]{background:#7b2034;color:white}
+.oauth-buttons a{font-size:13px;text-decoration:none;border:1px solid #c8b0b8;padding:12px;flex:1;text-align:center}
+.survey-results{display:grid;gap:8px}.survey-results button{text-align:left;font-size:14px}
+.community-feed{max-height:48dvh;overflow:auto;overscroll-behavior:contain;padding:4px 12px 4px 0}
+.community-post{padding:22px 0;border-bottom:1px solid #e1cdd4}.post-author{display:flex;align-items:center;gap:10px;font-size:13px}.post-author time{color:#827079;margin-left:auto;font-size:12px}
+.avatar{border-radius:50%;width:30px;height:30px;display:grid;place-items:center;background:#ead8df;color:#742039}
+.community-post h3{font-size:20px;margin:16px 0 10px}.community-post .text-button{text-transform:none;font-size:20px;padding:0;line-height:1.5}
+.post-content{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.85;font-size:15px}.post-actions{display:flex;gap:16px;margin-top:12px}.post-actions button{border:0;background:transparent;color:#782d44;font-size:12px;cursor:pointer}
+.review-stars{color:#9f3c5a;font-size:16px}.community-empty{padding:30px 0;color:#6b4955}
+.diary-panel{border-top:1px solid #e3d0d6;margin-top:28px;padding-top:22px}.stars{flex-wrap:wrap;gap:4px}.stars button{font-size:24px;padding:4px;min-width:30px}
+#account-status,#community-status,#blog-status,#feedback-status,.review-status{color:#7b2034;line-height:1.7;font-size:14px}
+@media(max-width:650px){.header-actions{flex-wrap:wrap}.header-actions #account-open{font-size:12px}.community-bar{gap:12px}.community-bar .text-button{font-size:12px}#identity-label{width:100%;margin:0}.section-heading{gap:16px;flex-wrap:wrap}.form-row{gap:0}.form-row>label{width:100%;flex-basis:100%}.post-author{flex-wrap:wrap}dialog{padding:24px 20px}.recommend-controls{padding:18px}.account-tabs{gap:8px}.account-tabs button{font-size:12px}.stars button{font-size:21px}.site-header nav{justify-content:flex-start}.community-post h3{font-size:18px}}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}

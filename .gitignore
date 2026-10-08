@@ -6,6 +6,8 @@ __pycache__/
 runtime/
 dist/
 .env
+.env.*
+!.env.example
 .netlify/
 node_modules/
 artifacts/*.tmp

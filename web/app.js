@@ -16,7 +16,7 @@ const labels = {
   curated: "MUBI & Letterboxd",
   foryou: "Dành cho bạn",
   watchlist: "Danh sách xem",
-  ratings: "Đã đánh giá",
+  ratings: "Bộ sưu tập",
   insights: "Phòng dữ liệu",
 };
 const genreNames = {
@@ -105,6 +105,7 @@ function toast(message) {
   toastTimer = setTimeout(() => $("#toast").classList.remove("show"), 3000);
 }
 function poster(movie) {
+  movie = {...movie,title:displayTitle(movie.title)};
   const colors = palettes[movie.movie_id % palettes.length];
   const image = movie.poster_urls?.length
     ? `<img class="movie-poster" src="${escapeHtml(movie.poster_urls[0])}" data-poster-urls="${escapeHtml(JSON.stringify(movie.poster_urls))}" data-poster-index="0" alt="Poster ${escapeHtml(movie.title)} (${movie.year ?? ""})" loading="lazy" decoding="async" referrerpolicy="no-referrer">`
@@ -128,10 +129,12 @@ document.addEventListener(
   },
   true,
 );
+function displayTitle(title) { return String(title || "").normalize("NFC").replace(/^(.+),\s*(The|A|An|Le|La|Les|El|Il)(\s*\([^)]*\))?$/, "$2 $1$3"); }
 function card(movie) {
+  movie={...movie,title:displayTitle(movie.title),reason:movie.matching_genres?.length?"Hợp thể loại bạn thích: "+movie.matching_genres.map(genreLabel).join(", "):movie.reason};
   const colors = palettes[movie.movie_id % palettes.length];
   const saved = state.profile?.watchlist.includes(movie.movie_id);
-  return `<article class="movie-card"><button class="poster alt-${movie.movie_id % 4}" data-movie="${movie.movie_id}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})" aria-label="Xem chi tiết ${escapeHtml(movie.title)}">${poster(movie)}</button><button class="save-button ${saved ? "saved" : ""}" data-save="${movie.movie_id}" aria-label="${saved ? "Bỏ lưu" : "Lưu"} ${escapeHtml(movie.title)}" aria-pressed="${!!saved}">${saved ? "✓" : "+"}</button><div class="movie-meta"><div class="movie-top"><h3>${escapeHtml(movie.title)}</h3><span class="rating">★ ${movie.rating === null ? "—" : Number(movie.rating).toFixed(1)}</span></div><div class="meta-line">${movie.year ?? "—"} ${movie.media_type === "series" ? " · SERIES" : ""} <span>·</span> ${escapeHtml(movie.genres.split("|").slice(0, 2).map(genreLabel).join(" / "))}</div>${movie.reason ? `<div class="reason">✧ ${escapeHtml(movie.reason)} <span title="Điểm xếp hạng tương đối, không phải xác suất">· ${Math.round(movie.score * 100)}/100</span></div>` : ""}${movie.my_rating ? `<div class="my-rating">Bạn đã chấm ${movie.my_rating} / 5 ★</div>` : ""}</div></article>`;
+  return `<article class="movie-card"><button class="poster alt-${movie.movie_id % 4}" data-movie="${movie.movie_id}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})" aria-label="Xem chi tiết ${escapeHtml(movie.title)}">${poster(movie)}</button><button class="save-button ${saved ? "saved" : ""}" data-save="${movie.movie_id}" aria-label="${saved ? "Bỏ lưu" : "Lưu"} ${escapeHtml(movie.title)}" aria-pressed="${!!saved}">${saved ? "✓" : "+"}</button><div class="movie-meta"><div class="movie-top"><h3>${escapeHtml(movie.title)}</h3><span class="rating">★ ${movie.rating === null ? "—" : Number(movie.rating).toFixed(1)}</span></div><div class="meta-line">${movie.year ?? "—"} ${movie.media_type === "series" ? " · SERIES" : ""} <span>·</span> ${escapeHtml(movie.genres.split("|").slice(0, 2).map(genreLabel).join(" / "))}</div>${movie.reason ? `<div class="reason">✧ ${escapeHtml(movie.reason)}</div>` : ""}${movie.my_rating ? `<div class="my-rating">${"★".repeat(Math.floor(movie.my_rating))}${movie.my_rating%1?"½":""} · Bạn chấm ${movie.my_rating}/5</div>` : state.profile?.seen?.includes(movie.movie_id)?`<div class="my-rating">✓ Đã xem</div>`:""}</div></article>`;
 }
 function empty(title, description) {
   return `<div class="empty" style="grid-column:1/-1"><span class="small-spark">✧</span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p><button class="primary" data-go="discover">Khám phá kho phim ↗</button></div>`;
@@ -246,22 +249,20 @@ async function loadView() {
       state.total = data.total;
       info = `${format(data.total)} bộ phim · Chọn một câu chuyện cho hôm nay`;
     } else if (state.view === "foryou") {
-      const demo = $("#demo-user").value;
-      if (demo && (!Number.isInteger(Number(demo)) || Number(demo) < 1))
-        throw new Error("ID MovieLens phải là một số nguyên dương.");
-      const data = await send("/discover", "POST", {
+      const data = await send(window.cineHosted ? "/viewer-discover" : "/discover", "POST", {
         profile_id: state.profile.profile_id,
-        user_id: demo ? Number(demo) : null,
-        model: $("#model").value,
+        minimum_rating:Number($("#minimum-rating").value),
+        model: "content",
         genre: state.genre || null,
         year_min: yearMin,
         year_max: yearMax,
         k: 20,
-        diversity: Number($("#diversity").value),
-        seed_ids: state.seed ? [state.seed.movie_id] : [],
+        diversity: 0.2,
+        seed_ids: state.seed ? [state.seed.movie_id] : state.profile.survey?.seed_ids || [],
       });
       movies = data.recommendations;
-      info = `${data.count} gợi ý · ${data.latency_ms} ms · Điểm xếp hạng 0–100`;
+      info = `${data.count} gợi ý · Hợp thể loại, thời kỳ và cảm xúc của bạn`;
+      $("#status").textContent = data.notice || "";
       if (data.is_fallback)
         $("#status").textContent =
           data.fallback_reason ||
@@ -273,7 +274,7 @@ async function loadView() {
       movies =
         state.view === "watchlist"
           ? profile.watchlist_movies
-          : profile.rated_movies;
+          : profile.seen_movies || profile.rated_movies;
       movies = movies.filter(
         (m) =>
           (!state.genre || m.genres.split("|").includes(state.genre)) &&
@@ -340,12 +341,14 @@ async function showDetail(movieId) {
   $("#movie-detail").textContent = "Đang mở câu chuyện…";
   if (!dialog.open) dialog.showModal();
   try {
-    const movie = await api(`/movies/${movieId}`);
+    const rawMovie = await api(`/movies/${movieId}`);
+    const movie={...rawMovie,title:displayTitle(rawMovie.title)};
     if (state.detail !== movieId || !dialog.open) return;
     const colors = palettes[movie.movie_id % palettes.length];
     const rating = Number(state.profile.ratings[movieId] || 0);
     $("#movie-detail").innerHTML =
-      `<div class="eyebrow muted">Cine (cas) phile. / COLLECTION</div><div class="detail-head"><div class="poster alt-${movieId % 4}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})">${poster(movie)}</div><div><h2>${escapeHtml(movie.title)}</h2><div class="detail-badges">${movie.year ?? "—"} · ${escapeHtml(movie.genres.split("|").map(genreLabel).join(" / "))}</div><p>★ ${movie.rating ?? "—"} / 5 từ ${format(movie.rating_count)} đánh giá trong tập huấn luyện Điểm Bayesian: ${movie.bayesian_rating} / 5</p><div class="rating-panel">Đánh giá của bạn <div class="stars" aria-label="Chấm điểm phim">${[1, 2, 3, 4, 5].map((value) => `<button class="${value <= rating ? "rated" : ""}" data-rate="${value}" data-id="${movieId}" aria-label="${value} sao" aria-pressed="${value === rating}">★</button>`).join("")}</div>${rating ? `<button class="remove-rating" data-unrate="${movieId}">Xóa đánh giá (${rating} sao)</button>` : ""}</div></div></div>${externalRatings(movie)}<div class="detail-actions"><button class="primary" data-seed="${movieId}">Tìm phim cùng gu ↗</button><button class="secondary save-button-detail" data-save="${movieId}" aria-pressed="${state.profile.watchlist.includes(movieId)}">${state.profile.watchlist.includes(movieId) ? "✓" : "+"} Danh sách xem</button></div><p class="poster-source">${movie.poster_sources?.length ? `Ảnh phim: ${movie.poster_sources.map((source) => `<a href="${escapeHtml(source.page_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a>`).join(" · ")}.` : "Bìa minh họa Cine (cas) phile."} Điểm MovieLens là dữ liệu lịch sử; điểm nguồn bên ngoài hiển thị riêng ở trên.</p><h3 style="font-size:16px;font-weight:500;margin-top:24px">Nếu bạn thích câu chuyện này…</h3><div class="similar-grid">${movie.similar_movies.slice(0, 4).map(card).join("")}</div>`;
+      `<div class="eyebrow muted">Cine (cas) phile. / COLLECTION</div><div class="detail-head"><div class="poster alt-${movieId % 4}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})">${poster(movie)}</div><div><h2>${escapeHtml(movie.title)}</h2><div class="detail-badges">${movie.year ?? "—"} · ${escapeHtml(movie.genres.split("|").map(genreLabel).join(" / "))}</div><p>★ ${movie.rating ?? "—"} / 5 từ ${format(movie.rating_count)} đánh giá lịch sử MovieLens</p><div class="rating-panel">Đánh giá của bạn <div class="stars" aria-label="Chấm điểm phim">${[.5,1,1.5,2,2.5,3,3.5,4,4.5,5].map((value) => `<button class="${value <= rating ? "rated" : ""}" data-rate="${value}" data-id="${movieId}" aria-label="${value} sao" aria-pressed="${value === rating}">${value%1?"½":"★"}</button>`).join("")}</div>${rating ? `<button class="remove-rating" data-unrate="${movieId}">Xóa đánh giá (${rating} sao)</button>` : ""}</div></div></div>${externalRatings(movie)}<div class="detail-actions"><button class="primary" data-seed="${movieId}">Tìm phim cùng gu ↗</button><button class="secondary save-button-detail" data-save="${movieId}" aria-pressed="${state.profile.watchlist.includes(movieId)}">${state.profile.watchlist.includes(movieId) ? "✓" : "+"} Danh sách xem</button></div><p class="poster-source">${movie.poster_sources?.length ? `Ảnh phim: ${movie.poster_sources.map((source) => `<a href="${escapeHtml(source.page_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a>`).join(" · ")}.` : "Bìa minh họa Cine (cas) phile."} Điểm MovieLens là dữ liệu lịch sử; điểm nguồn bên ngoài hiển thị riêng ở trên.</p><h3 style="font-size:16px;font-weight:500;margin-top:24px">Nếu bạn thích câu chuyện này…</h3><div class="similar-grid">${movie.similar_movies.slice(0, 4).map(card).join("")}</div>`;
+    if(window.cineClub) await window.cineClub.decorateDetail(movie);
   } catch (error) {
     if (state.detail === movieId && dialog.open)
       $("#movie-detail").textContent = error.message;
@@ -362,6 +365,7 @@ function openTaste() {
         `<label class="taste-option"><input type="checkbox" name="genre" value="${escapeHtml(g)}" ${state.profile.genres.some((selected) => selected.toLowerCase() === g.toLowerCase()) ? "checked" : ""}><span>${escapeHtml(genreLabel(g))}</span></label>`,
     )
     .join("");
+  window.cineClub?.prepareSurvey();
   $("#taste-dialog").showModal();
 }
 function externalRatings(movie) {
@@ -522,6 +526,7 @@ document.addEventListener("click", async (event) => {
       return;
     }
     if (target.dataset.rate) {
+      target.disabled=true;
       await send(
         `/profiles/${state.profile.profile_id}/ratings/${target.dataset.id}`,
         "PUT",
@@ -577,8 +582,11 @@ $("#taste-form").addEventListener("submit", async (event) => {
     state.profile = await send(
       `/profiles/${state.profile.profile_id}/preferences`,
       "PUT",
-      { genres },
+      { genres, survey:window.cineClub?.survey(event.currentTarget) || {} },
     );
+    $("#era").value=state.profile.survey?.era || "";
+    state.genre='';renderChips();
+    window.cineClub?.renderTaste();
     $("#taste-dialog").close();
     setView("foryou");
     toast("Đã lưu gu phim của bạn");
@@ -596,15 +604,8 @@ $("#sort").addEventListener("change", () => {
   state.page = 1;
   loadView();
 });
-$("#model").addEventListener("change", loadView);
+$("#minimum-rating").addEventListener("change", loadView);
 $("#refresh").addEventListener("click", loadView);
-$("#diversity").addEventListener(
-  "input",
-  () =>
-    ($("#diversity-value").textContent =
-      Math.round(Number($("#diversity").value) * 100) + "%"),
-);
-$("#diversity").addEventListener("change", loadView);
 $("#previous").addEventListener("click", () => {
   state.page--;
   loadView();
@@ -661,6 +662,7 @@ async function boot() {
     state.stats = await statsPromise;
     renderProfile();
     renderChips();
+    await window.cineClub?.init();
     $("#catalog-stat").textContent = format(state.stats.catalog_size);
     $("#genre-stat").textContent = state.stats.genres.length;
     loadView();

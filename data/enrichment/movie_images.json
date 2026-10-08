@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-10-08T10:40:24.295063+00:00",
+  "updated_at": "2026-10-08T16:48:08.504456+00:00",
   "sources": {
-    "FshareTV": 802,
+    "FshareTV": 804,
     "PhimMoi": 234
   },
   "match_rule": "normalized exact title alias AND exact release year; ambiguous matches skipped",
@@ -222,7 +222,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/girl,-interrupted-episode-1-tt0172493",
           "image_url": "https://m.media-amazon.com/images/M/MV5BNzdjZDYwM2QtMGNlZS00MGQzLTlhMjctYTU4NWI5MWJlYmQwXkEyXkFqcGdeQXVyMTAwMzUyOTc@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/xaxorhzzyd.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -255,7 +255,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/hercules-episode-1-tt0119282",
           "image_url": "https://m.media-amazon.com/images/M/MV5BZDcwYjEyNWItMGI1Mi00MjI1LWIyMDEtMTQ4YjhkNjM4NDU3XkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/cbxludarmi.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -277,7 +277,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/aladdin-episode-1-tt0103639",
           "image_url": "https://m.media-amazon.com/images/M/MV5BY2Q2NDI1MjUtM2Q5ZS00MTFlLWJiYWEtNTZmNjQ3OGJkZDgxXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/bsixrcuhdw.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -327,7 +327,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/pocahontas-episode-1-tt0114148",
           "image_url": "https://m.media-amazon.com/images/M/MV5BMzc4YzhiN2ItY2Y4NC00YTA0LWEyMjEtNzllNTcxZDdjODhiXkEyXkFqcGdeQXVyNTUyMzE4Mzg@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/heftkstpmo.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -404,7 +404,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/the-bone-collector-episode-1-tt0145681",
           "image_url": "https://m.media-amazon.com/images/M/MV5BOWQxN2ZmNDMtMzA2Ny00ZDJhLTlkNTgtMWMyZjljY2QzMzNhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/hafulrhrsf.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -415,7 +415,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/before-sunrise-episode-1-tt0112471",
           "image_url": "https://m.media-amazon.com/images/M/MV5BZDdiZTAwYzAtMDI3Ni00OTRjLTkzN2UtMGE3MDMyZmU4NTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/ktquiyfswq.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -443,7 +443,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/home-alone-2:-lost-in-new-york-episode-1-tt0104431",
           "image_url": "https://m.media-amazon.com/images/M/MV5BNDI1MzM0Y2YtYmIyMS00ODE3LTlhZjEtZTUyNmEzMTNhZWU5XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/yfwkmyetqw.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -454,7 +454,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/notting-hill-episode-1-tt0125439",
           "image_url": "https://m.media-amazon.com/images/M/MV5BMTE5OTkwYzYtNDhlNC00MzljLTk1YTktY2IxZjliZmNjMjUzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/bouqwcgnsj.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -504,7 +504,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/the-nightmare-before-christmas-episode-1-tt0107688",
           "image_url": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/kuizlyxyue.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -526,7 +526,7 @@
           "name": "FshareTV",
           "page_url": "https://fsharetv.com/movie/escape-from-new-york-episode-1-tt0082340",
           "image_url": "https://m.media-amazon.com/images/M/MV5BMTUzMTY0Nzg0MV5BMl5BanBnXkFtZTgwMDU3MzQxMDE@._V1_SX300.jpg",
-          "fallback_url": "https://images.fsharetv.co/ltyzkemlel.jpg"
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -1491,12 +1491,12 @@
       ]
     },
     "1544": {
-      "title_vi": "⭐0",
+      "title_vi": "⭐6.5",
       "poster_sources": [
         {
           "name": "FshareTV",
-          "page_url": "https://fsharetv.com/movie/the-lost-world:-jurassic-park-episode-1-tt4955096",
-          "image_url": "N/A",
+          "page_url": "https://fsharetv.com/movie/the-lost-world:-jurassic-park-episode-1-tt0119567",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDFlMmM4Y2QtNDg1ZS00MWVlLTlmODgtZDdhYjY5YjdhN2M0XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg",
           "fallback_url": "/img/no-poster.jpeg"
         }
       ]
@@ -10552,13 +10552,19 @@
       ]
     },
     "3134": {
-      "title_vi": "Grand Illusion",
+      "title_vi": "⭐8.1",
       "poster_sources": [
         {
           "name": "PhimMoi",
           "page_url": "https://phimmoic.ws/phim/grand-illusion-1703683444",
           "image_url": "https://phimmoic.ws/storage/images/grand-illusion/grand-illusion-poster.webp",
           "fallback_url": null
+        },
+        {
+          "name": "FshareTV",
+          "page_url": "https://fsharetv.com/movie/la-grande-illusion-episode-1-tt0028950",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTg3MTI5NTk0N15BMl5BanBnXkFtZTgwMjU1MDM5MTE@._V1_SX300.jpg",
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     },
@@ -11274,6 +11280,17 @@
           "page_url": "https://phimmoic.ws/phim/ulisse-1760954727",
           "image_url": "https://phimmoic.ws/storage/images/ulisse/ulisse-poster.webp",
           "fallback_url": null
+        }
+      ]
+    },
+    "97": {
+      "title_vi": "⭐8.1",
+      "poster_sources": [
+        {
+          "name": "FshareTV",
+          "page_url": "https://fsharetv.com/movie/la-haine-episode-1-tt0113247",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDNiOTA5YjktY2Q0Ni00ODgzLWE5MWItNGExOWRlYjY2MjBlXkEyXkFqcGdeQXVyNjQ2MjQ5NzM@._V1_SX300.jpg",
+          "fallback_url": "/img/no-poster.jpeg"
         }
       ]
     }

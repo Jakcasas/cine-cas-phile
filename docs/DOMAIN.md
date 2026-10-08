@@ -1,44 +1,37 @@
-# Cine (cas) phile. on Netlify
+# Cine (cas) phile. 1.0 on Netlify
 
-Live website: **https://cinecasphile.netlify.app**.
+Live website: **https://cinecasphile.netlify.app/**.
 
-GitHub source: **https://github.com/Jakcasas/cine-cas-phile** (public repository).
+Public source: **https://github.com/Jakcasas/cine-cas-phile**.
 
-Netlify project: `cinecasphile`, site ID `00750758-f294-4229-bdd8-865b45c6382d`. Production includes the UI, all five recommendation modes, movie search, rating snapshots, personal watchlist and scene image retrieval. Credentials are managed outside this project and excluded from Git/releases.
+Netlify site ID: `00750758-f294-4229-bdd8-865b45c6382d`.
 
-## Rebuild and deploy
+## Build and deploy from source
 
-The trained recommendation artifact is inside `netlify/functions/data/`. The CLIP model and browser index exports are included. Use Node.js 22 or newer:
+Use Node.js 22 or newer. Configure MongoDB and OAuth credentials in the Netlify production context as described in [ONLINE_SETUP.md](ONLINE_SETUP.md). Redeploy whenever function variables change.
 
 ```bash
 npm ci
-npm run build
-netlify deploy --prod --site 00750758-f294-4229-bdd8-865b45c6382d --dir dist/netlify --functions netlify/functions --no-build
+netlify deploy --prod --build --context production --site 00750758-f294-4229-bdd8-865b45c6382d --dir dist/netlify --functions netlify/functions
 ```
 
-`netlify.toml` supports `npm run build` for continuous deployment if the GitHub repository is connected to Netlify. The current deployment uses the CLI; Git-based continuous deployment has not been connected. Dropping only the static folder does not install the API functions.
+The build runs `npm run build`. Explicit production context ensures that the function bundle receives production environment variables. Do not add `--no-build` to this command. The site ID belongs to the original owner; use your own site ID for a separate deployment.
 
-After retraining or updating metadata/index, run `python tools/build_netlify.py` with the project dependencies installed to refresh the JavaScript model and browser index exports. This Python exporter expects `onnxruntime-web` installed under `runtime/browser-onnx/`; the Node build uses the normal root dependency. Run `tools/verify_netlify.py` to compare all five modes against Python. See `reports/netlify_parity.json`.
+Deployment currently uses the authenticated Netlify CLI. Git-based continuous deployment is not connected. Dropping only the static folder omits the API and account functions.
 
-## Hosted behavior
+After changing training data or the visual index, rebuild the Python artifacts and run `python -m tools.build_netlify`, then deploy. `python -m tools.verify_netlify` checks the exported research engine against Python; `npm test` checks browser profiles and the MongoDB community API.
 
-- Recommendation inference runs in a Netlify function. Model arrays are outside the public static directory. Raw MovieLens CSV and local SQLite profiles are not published by the website.
-- Watchlist, ratings and genres persist in each browser's localStorage; there is no cross-device sync. Selected ratings/genres are sent to the site's API for recommendations, without a persistent profile database on Netlify.
-- CLIP runs in the browser via ONNX Runtime Web/WASM. First use downloads approximately 110 MB of model/runtime files. Input screenshots are never uploaded. Matching covers 1,045 referenced films and 35 scene images, not general web image search.
-- The benchmark reports Python measurements and labels them. Actual Netlify latency is returned for each recommendation request.
+## Online behavior
 
-## Official address
+- Four main sections: discovery, recommendations, watchlist and collection. The audience survey uses genres, era, mood and favorite films, with an explanation for each suggestion.
+- Email accounts, Google login and online guests use server sessions and MongoDB profiles. Watchlist, watched films, half-star ratings and survey answers synchronize online. Offline guests retain a separate device profile.
+- Chat, reviews, blogs, likes, reports and feedback use MongoDB. Blogs publish immediately with reporting. No fabricated community activity is included.
+- Facebook credentials and callback are configured, but the public button stays hidden until Meta's identity/business verification and publication requirements are completed. Set `FACEBOOK_LOGIN_ENABLED=true` only after approval.
+- Scene recognition runs in browser WASM. User images are not uploaded. The current index contains 1,365 reference images covering 1,330 films, including 35 scene stills. It searches this reference set rather than the entire web. First use downloads roughly 110 MB of model/runtime files.
+- Public metadata contains 3,920 films. Films without verified poster matches use a named fallback cover. External ratings retain their source, scale and verification date.
 
-The official URL is **https://cinecasphile.netlify.app/**. Canonical metadata, footer, robots.txt and sitemap use this address. Version remains **1.0**.
+## Address and version
 
-## Optional local Python server deployment example
+Canonical metadata, footer, robots.txt and sitemap use **https://cinecasphile.netlify.app/**. Version remains **1.0**.
 
-1. Put the project on your chosen server and install dependencies. Start the application on 127.0.0.1:8000, supervised by your host's process manager.
-2. In your DNS provider, point the apex `@` A record at the server's public IPv4 address. Point `www` at the apex with a CNAME (or use the host's specified target). Add an AAAA record only if the server actually serves IPv6. Use the provider's documented targets when using managed hosting.
-3. Copy `deploy/Caddyfile.example` to the server. Configure `CINE_ADMIN_USER` and a bcrypt password hash generated with `caddy hash-password`; never place a plaintext password in the repository.
-4. Run Caddy with that file on a server reachable on ports 80 and 443. It obtains HTTPS certificates after DNS points to that server, redirects the apex to www and proxies requests to the local app.
-5. Verify the actual HTTPS page, DNS records, redirect and certificate externally before calling the domain active.
-
-This example uses a password gate for a private personal deployment because the current profiles use local UUIDs without account authorization. A public multi-user launch requires proper account authentication/profile authorization and production operations. The example has not been deployed or verified on a server. Caddy's official HTTPS requirements and DNS setup: https://caddyserver.com/docs/quick-starts/https.
-
-Domain fees and font/artwork permissions are separate. The bundled Mirella is for personal use. No purchase has been performed. The source repository is public.
+Secrets in `.env`, local sessions and runtime files are excluded from Git and release ZIPs. Online setup and provider limitations are documented in [ONLINE_SETUP.md](ONLINE_SETUP.md).

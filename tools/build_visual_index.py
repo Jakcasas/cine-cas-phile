@@ -29,7 +29,7 @@ def main():
             try:
                 if file.exists():data=file.read_bytes()
                 else:
-                    request=Request(url,headers={'User-Agent':'CineCasPhile/3.0'})
+                    request=Request(url,headers={'User-Agent':'CineCasPhile/1.0'})
                     with urlopen(request,timeout=12) as response:
                         if not safe_url(response.geturl(),IMAGE_HOSTS):continue
                         data=response.read(8*1024*1024+1)

@@ -22,7 +22,9 @@ def main():
         for key in ['data','indices','indptr']:model[prefix+'_'+key]=getattr(matrix,key).tolist()
     model['poster_movies']=sum(bool(e['poster_sources']) for e in service.enrichment.movies.values())
     destination=ROOT/'netlify/functions/data';destination.mkdir(parents=True,exist_ok=True)
-    with gzip.open(destination/'model.json.gz','wt',encoding='utf-8') as f:json.dump(model,f,separators=(',',':'),allow_nan=False)
+    temporary=destination/'model.json.gz.tmp'
+    with gzip.open(temporary,'wt',encoding='utf-8') as f:json.dump(model,f,separators=(',',':'),allow_nan=False)
+    temporary.replace(destination/'model.json.gz')
     benchmark=ROOT/'reports/benchmark.json';shutil.copyfile(benchmark,destination/'benchmark.json')
     output=ROOT/'dist/netlify';output.mkdir(parents=True,exist_ok=True)
     shutil.copytree(ROOT/'web',output/'static',dirs_exist_ok=True)

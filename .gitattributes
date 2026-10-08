@@ -1,6 +1,6 @@
 * text=auto
 # Dataset fingerprints use exact bytes; retain original CSV line endings.
-*.csv -text
+*.csv -text whitespace=cr-at-eol
 *.npz binary
 *.onnx binary
 *.bin binary
