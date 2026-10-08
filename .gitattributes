@@ -1,0 +1,11 @@
+* text=auto
+# Dataset fingerprints use exact bytes; retain original CSV line endings.
+*.csv -text
+*.npz binary
+*.onnx binary
+*.bin binary
+*.gz binary
+*.png binary
+*.ttf binary
+*.otf binary
+*.zip binary

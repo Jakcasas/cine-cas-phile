@@ -117,7 +117,7 @@ runtime/                   SQLite và dữ liệu chạy local (không đưa và
 
 ## Phạm vi sử dụng và nguồn
 
-Ứng dụng mặc định chỉ bind `127.0.0.1`. UUID hồ sơ là định danh cục bộ, **chưa có đăng nhập hoặc phân quyền đa người dùng**; không đưa nguyên trạng lên Internet. Nếu triển khai công khai, cần authentication, authorization cho từng profile, HTTPS, rate limiting, backup và quản lý dữ liệu.
+Bản Python mặc định chỉ bind `127.0.0.1`; UUID hồ sơ cục bộ chưa có đăng nhập/phân quyền. Bản Netlify đã triển khai dùng API stateless và hồ sơ riêng trong trình duyệt, không công khai SQLite. Nếu cần tài khoản đồng bộ giữa các thiết bị, phải bổ sung đăng nhập và phân quyền cho hồ sơ trên máy chủ.
 
 Nguồn: `Cine_Cas_Phile.zip`, bản Python all-in-one, `movielens-recsys.zip` và `movielens-master.zip` do bạn cung cấp. `legacy/` giữ bản gốc chưa được xác minh và có thể cần thư viện/đường dẫn cũ. Kiểu giao diện tham khảo MUBI; thương hiệu và ảnh của Cine (cas) phile. là riêng.
 
