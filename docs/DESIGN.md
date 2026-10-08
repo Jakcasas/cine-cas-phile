@@ -2,7 +2,7 @@
 
 - Accent: #7B2034; hover: #561426; deep wine: #301019.
 - Paper: #FBFBF8; text: #161616; quiet borders: #DEDEDB.
-- Full-width original cinema hero, analog grain, warm amber lighting.
+- Full-width *In the Mood for Love* still supplied for the hero, with a burgundy overlay and warm amber light.
 - Final avatar: a solid black person on white, two-finger-gun gesture, featureless face, no circular fingertip outlines; Operation Napalm lettering inside the torso. Used in the header and favicon. See BRAND.md.
 - Only selected contact-sheet panels 2 (astronaut), 3 (burgundy corridor), 4 (sunset road) appear in the interface. Other panels are not displayed. The original bitmap is retained and clipped with CSS.
 - Uppercase sans-serif navigation and film titles; serif editorial accents.
@@ -11,8 +11,8 @@
 - Responsive breakpoints at 1280, 1000 and 650px; native dialogs trap focus.
 - Keyboard focus rings, labeled controls, aria-live status and reduced-motion support.
 
-Inspired by MUBI's editorial cinema presentation, with Cine (cas) phile. branding and original illustration. The hero is AI generated, not an actual MovieLens film still. Illustrative thumbnails must never be described as official posters.
+Inspired by MUBI's editorial cinema presentation, with Cine (cas) phile. branding. The supplied film still is used only as the home-page hero; illustrative thumbnails must never be described as official posters.
 
 Matched film posters from FshareTV and PhimMoi are displayed when available. External URLs are attached to exact title/year matches; failed images try another source, then return to the selected cinematic artwork. Hero and collections continue to use panels 2, 3, 4.
 
-Higgsfield generation was attempted but the account requires Basic or higher. The hero was produced using the built-in image generator instead. Canva concepts are supplementary editable layouts; the functional website is the HTML/CSS/JS implementation in this repository.
+Higgsfield generation was attempted but the account requires Basic or higher. The first hero artwork used the built-in image generator; the current home-page hero uses the still supplied by the owner. Canva concepts are supplementary editable layouts; the functional website is the HTML/CSS/JS implementation in this repository.
