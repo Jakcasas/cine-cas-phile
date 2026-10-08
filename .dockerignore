@@ -5,3 +5,6 @@ dist
 legacy
 __pycache__
 .pytest_cache
+
+node_modules
+.netlify

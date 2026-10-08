@@ -1,11 +1,18 @@
 """Artifact loading and catalog queries; no training during API startup."""
 import time
+import unicodedata
 import numpy as np
 from src import settings
 from src.data.loader import MovieLensLoader
 from src.recommenders.engine import RecommendationEngine, fingerprint
 from src.api.enrichment import MovieEnrichment
 from src.data.catalog import load_catalog
+
+
+def search_key(value):
+    """Normalize accents for Vietnamese and international movie titles."""
+    text = unicodedata.normalize('NFD', str(value).casefold()).replace('đ', 'd')
+    return ''.join(char for char in text if unicodedata.category(char) != 'Mn').strip()
 
 
 class RecommendationService:
@@ -47,10 +54,11 @@ class RecommendationService:
             mask &= np.array([bool(names & set(self.enrichment.movies.get(int(mid), {}).get("catalog_sources", [])))
                               for mid in self.engine.movie_ids])
         if q:
-            title_mask = frame.title.str.contains(q, case=False, regex=False).to_numpy()
+            query = search_key(q)
+            title_mask = np.array([query in search_key(title) for title in frame.title])
             enrichment = getattr(self, "enrichment", None)
             if enrichment:
-                title_mask = title_mask | np.array([q.casefold() in enrichment.movies.get(int(mid), {}).get("title_vi", "").casefold()
+                title_mask = title_mask | np.array([query in search_key(enrichment.movies.get(int(mid), {}).get("title_vi", ""))
                                                    for mid in self.engine.movie_ids])
             mask &= title_mask
         if genre:

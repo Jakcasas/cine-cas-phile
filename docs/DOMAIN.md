@@ -2,7 +2,7 @@
 
 Live website: **https://cinecasphile.netlify.app**.
 
-GitHub source: **https://github.com/Jakcasas/cine-cas-phile** (private repository).
+GitHub source: **https://github.com/Jakcasas/cine-cas-phile** (public repository).
 
 Netlify project: `cinecasphile`, site ID `00750758-f294-4229-bdd8-865b45c6382d`. Production includes the UI, all five recommendation modes, movie search, rating snapshots, personal watchlist and scene image retrieval. Credentials are managed outside this project and excluded from Git/releases.
 
@@ -27,11 +27,9 @@ After retraining or updating metadata/index, run `python tools/build_netlify.py`
 - CLIP runs in the browser via ONNX Runtime Web/WASM. First use downloads approximately 110 MB of model/runtime files. Input screenshots are never uploaded. Matching covers 1,045 referenced films and 35 scene images, not general web image search.
 - The benchmark reports Python measurements and labels them. Actual Netlify latency is returned for each recommendation request.
 
-## Requested custom domain
+## Official address
 
-Requested public URL: **https://www.cinecasphile.com**. The interface now declares this canonical URL and displays the domain in its footer. This is configuration intent; it does not register the domain, purchase hosting, change DNS or make localhost publicly accessible.
-
-The local edition remains at http://127.0.0.1:8000 and the hosted edition runs at the Netlify URL above. To activate `www.cinecasphile.com`, its owner must add the domain in Netlify Domain management, verify ownership and configure the registrar's DNS with the values Netlify provides. Domain ownership/DNS have not been verified or changed. Confirm DNS and HTTPS before treating the custom domain as active.
+The official URL is **https://cinecasphile.netlify.app/**. Canonical metadata, footer, robots.txt and sitemap use this address. Version remains **1.0**.
 
 ## Optional local Python server deployment example
 
@@ -43,4 +41,4 @@ The local edition remains at http://127.0.0.1:8000 and the hosted edition runs a
 
 This example uses a password gate for a private personal deployment because the current profiles use local UUIDs without account authorization. A public multi-user launch requires proper account authentication/profile authorization and production operations. The example has not been deployed or verified on a server. Caddy's official HTTPS requirements and DNS setup: https://caddyserver.com/docs/quick-starts/https.
 
-Domain fees and font/artwork permissions are separate. The bundled Mirella is for personal use. No purchase has been performed. The source repository is private.
+Domain fees and font/artwork permissions are separate. The bundled Mirella is for personal use. No purchase has been performed. The source repository is public.

@@ -1,10 +1,12 @@
 # Cine (cas) phile.
 
+Phiên bản **1.0**.
+
 Câu lạc bộ khám phá phim với gợi ý có giải thích, giao diện tiếng Việt mang tinh thần tuyển chọn của MUBI, tông **đỏ rượu vang / trắng ngà / ánh sáng hổ phách**. Project chạy cục bộ, có dữ liệu MovieLens bạn cung cấp và mô hình đã huấn luyện; không cần API key.
 
 ## Chạy ngay trên Windows
 
-**Web đã chạy trên Netlify:** https://cinecasphile.netlify.app. **GitHub:** https://github.com/Jakcasas/cine-cas-phile (private). Địa chỉ `www.cinecasphile.com` cần xác minh sở hữu và cấu hình DNS. Hướng dẫn dựng/deploy: [docs/DOMAIN.md](docs/DOMAIN.md).
+**Web đã chạy trên Netlify:** https://cinecasphile.netlify.app. **GitHub:** https://github.com/Jakcasas/cine-cas-phile (public). Địa chỉ chính thức: **https://cinecasphile.netlify.app/**. Hướng dẫn dựng/deploy: [docs/DOMAIN.md](docs/DOMAIN.md).
 
 Nhấp đúp **Start-CineCasPhile.cmd**, sau đó mở **http://127.0.0.1:8000**. Lần đầu cần Python 3.11 trở lên và Internet để cài thư viện. Máy chủ đọc artifact đã lưu, không huấn luyện neural mỗi lần mở. Dừng bằng `Ctrl+C`.
 
@@ -36,7 +38,7 @@ python3 -m venv .venv
 
 Hồ sơ cá nhân bắt đầu **trống**, không tự mượn lịch sử của user 1. Ô “MovieLens user” là tùy chọn để thử các người dùng của bộ dữ liệu. Đánh giá cá nhân cập nhật Content và Item-CF ngay; SVD dùng lịch sử train của ID MovieLens và cần huấn luyện lại để thay đổi nhân tố ẩn.
 
-Slogan: **One film, one fish fillet. (Un film, un filet de poisson.)** Giao diện dùng Mirella với bản bổ sung dấu tiếng Việt cho project cá nhân; logo giữ Operation Napalm và tên thương hiệu góc trái giữ font cũ. Chữ có khoảng cách tự nhiên, không ngắt dòng cứng. Menu không có mục riêng MUBI/Letterboxd; các phim nhập nằm trong kho chung.
+Slogan: **One film, one fish fillet. (Un film, un filet de poisson.)** Giao diện dùng Noto Serif có đầy đủ dấu tiếng Việt; slogan giữ Mirella gốc; logo giữ Operation Napalm và tên thương hiệu góc trái giữ font cũ. Chữ có khoảng cách tự nhiên, không ngắt dòng cứng. Menu không có mục riêng MUBI/Letterboxd; các phim nhập nằm trong kho chung.
 
 Poster được lấy theo nguồn có đối chiếu phim: **1,045 phim có URL ảnh**, gồm 829 phim có poster Letterboxd, 35 từ MUBI; hai website FshareTV và PhimMoi có 1.011 phim khớp trên 3.883 phim gốc. Hero dùng artwork gốc và chỉ hiển thị các khung 2, 3, 4 bạn chọn. Khi không có ảnh hoặc CDN lỗi, thẻ dùng bìa minh họa có tên phim. Không phát phim.
 
@@ -121,6 +123,6 @@ Bản Python mặc định chỉ bind `127.0.0.1`; UUID hồ sơ cục bộ chư
 
 Nguồn: `Cine_Cas_Phile.zip`, bản Python all-in-one, `movielens-recsys.zip` và `movielens-master.zip` do bạn cung cấp. `legacy/` giữ bản gốc chưa được xác minh và có thể cần thư viện/đường dẫn cũ. Kiểu giao diện tham khảo MUBI; thương hiệu và ảnh của Cine (cas) phile. là riêng.
 
-MovieLens thuộc GroupLens, University of Minnesota. Điều khoản gốc trong `docs/MOVIELENS_README.txt` yêu cầu ghi nhận nguồn, không phân phối lại hoặc dùng thương mại nếu chưa có quyền phù hợp. ZIP có dữ liệu được tạo để trả lại cho bạn phục vụ project cá nhân, không phải bản phát hành dataset công khai. Giấy phép MIT của repository nguồn được giữ tại `docs/UPSTREAM_LICENSE.txt`.
+MovieLens thuộc GroupLens, University of Minnesota. Điều khoản gốc trong `docs/MOVIELENS_README.txt` yêu cầu ghi nhận nguồn, không phân phối lại hoặc dùng thương mại nếu chưa có quyền phù hợp. Repository được công khai theo yêu cầu của chủ project; giấy phép riêng của dữ liệu và tài nguyên vẫn được giữ nguyên. Giấy phép MIT của repository nguồn được giữ tại `docs/UPSTREAM_LICENSE.txt`.
 
 Citation: F. Maxwell Harper and Joseph A. Konstan (2015), *The MovieLens Datasets: History and Context*, ACM TiiS 5(4), Article 19, DOI: 10.1145/2827872.

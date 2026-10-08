@@ -1,53 +1,403 @@
-/* Requested Mirella UI. The header brand and raster/vector logo retain their fonts. */
+/* Mirella remains the display face; Noto Serif supplies complete Vietnamese glyphs. */
 @font-face {
-  font-family: 'Mirella';
-  src: url('/static/assets/fonts/mirella/Mirella-CCP-Personal.ttf') format('truetype');
+  font-family: "Mirella";
+  src: url("/static/assets/fonts/mirella/Mirella.ttf") format("truetype");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
-:root { font-family: 'Mirella', Georgia, 'Times New Roman', serif; }
-body, button, input, select, textarea, kbd, h1, h2, h3, p, span, strong, small, em, b, label, a, table, output {
-  font-family: 'Mirella', Georgia, 'Times New Roman', serif;
+@font-face {
+  font-family: "Noto Serif";
+  src: url("/static/assets/fonts/noto-serif/NotoSerif.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
 }
-.brand, .brand span { font-family: Arial, 'Segoe UI', sans-serif; }
-.hero h1 { font-weight: 400; line-height: 1.12; letter-spacing: -.7px; }
-.hero h1 em { font-family: 'Mirella', Georgia, serif; letter-spacing: -.7px; }
-.club-strip em,.collection-intro em,.cinema-note p,.cinema-note > span { font-family: 'Mirella', Georgia, serif; }
-.nav { font-size: 14px; font-weight: 600; }
-.chip { font-size: 13px; }
-.section-heading h2 { font-weight: 400; line-height: 1.3; }
-.section-heading p,.hero-copy p { line-height: 1.9; }
-.movie-top h3 { font-size: 15px; line-height: 1.5; font-weight: 400; }
-.meta-line { font-size: 12px; line-height: 1.8; }
-.reason { font-size: 12px; }
-.primary,.secondary { font-size: 12px; line-height: 1.5; }
-.site-header { height: auto; min-height: 100px; padding-top: 20px; padding-bottom: 20px; gap: 22px; }
-.brand { font-size: 23px; }
-.brand-sub { font-size: 8px; }
-.source-rating > span,.source-rating small,.source-rating a { font-size: 12px; line-height: 1.6; }
-.detail-head p,.detail-badges,.rating-panel,.poster-source { font-size: 13px; line-height: 1.8; }
-.source-rating > span { font-size: 13px; font-weight: 600; }
-.detail-head h2 { font-weight: 400; }
-.workspace *,dialog *,nav *, .header-actions * { letter-spacing: normal !important; }
-body { word-spacing: .07em; }
-.eyebrow,.breadcrumb,.dataset-badge,.hero-bottom { font-size: 10px; }
-.toolbar,.filters label,.search input,.rating { font-size: 12px; }
-.primary,.secondary { font-weight: 600; }
-.hero h1 { max-width: 1200px; font-size: clamp(34px,4.2vw,66px); text-transform: none; }
-.hero-slogan-fr { font-size: clamp(17px,1.5vw,24px); color: #ead2c7; margin: 15px 0 25px; }
-.poster-title,.movie-top h3 { text-transform: none; }
-.hero-copy p,.cinema-note p,.collection-intro h2,.collection-intro p { max-width: 650px; }
-.external-ratings p,.image-notice,.match-score { font-size: 13px; }
-.site-address { display: block; font-size: 12px; margin-top: 9px; }
-@media(max-width:650px) {
-  .site-header { gap: 12px; }
-  .brand { font-size: 19px; }
-  .brand-sub { font-size: 7px; }
-  .hero h1 { font-size: 35px; line-height: 1.25; }
-  .nav { font-size: 12px; }
-  .movie-top h3 { font-size: 12px; }
-  .meta-line { font-size: 10px; }
+:root {
+  font-family: "Noto Serif", Georgia, serif;
+  font-synthesis: none;
 }
-/* Keep the exact mixed-case brand spelling requested by the author. */
-.brand,.brand>span,.footer-brand {text-transform:none!important;}
+body,
+button,
+input,
+select,
+textarea,
+kbd,
+h1,
+h2,
+h3,
+p,
+span,
+strong,
+small,
+em,
+b,
+label,
+a,
+table,
+output {
+  font-family: "Noto Serif", Georgia, serif;
+  letter-spacing: normal;
+  word-spacing: normal;
+}
+body {
+  font-size: 15px;
+  line-height: 1.65;
+}
+.brand,
+.brand span {
+  font-family: Arial, "Segoe UI", sans-serif;
+}
+.brand,
+.brand > span,
+.footer-brand {
+  text-transform: none;
+}
+.brand {
+  font-size: 23px;
+}
+.brand-sub {
+  font-size: 9px;
+  letter-spacing: 0.1em;
+}
+.site-header {
+  height: auto;
+  min-height: 100px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  gap: 20px;
+}
+.site-header nav {
+  min-width: 0;
+}
+.nav {
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: none;
+  white-space: nowrap;
+}
+.header-actions {
+  min-width: 0;
+}
+.search input {
+  font-size: 14px;
+}
+.hero h1,
+.hero-slogan-fr {
+  font-family: "Mirella", "Noto Serif", Georgia, serif;
+  font-weight: 400;
+  text-transform: none;
+}
+.hero h1 {
+  max-width: 1200px;
+  font-size: clamp(38px, 4.2vw, 66px);
+  line-height: 1.18;
+  letter-spacing: normal;
+}
+.hero-slogan-fr {
+  font-size: clamp(20px, 1.8vw, 27px);
+  color: #ead2c7;
+  margin: 16px 0 26px;
+  line-height: 1.45;
+}
+.hero-copy p {
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 650px;
+  color: #f2e7e0;
+}
+.eyebrow,
+.breadcrumb,
+.dataset-badge,
+.hero-bottom {
+  font-size: 11px;
+  line-height: 1.6;
+  letter-spacing: 0.025em;
+}
+.section-heading h2 {
+  font-size: clamp(25px, 2.6vw, 36px);
+  line-height: 1.35;
+  font-weight: 550;
+}
+.section-heading p,
+.collection-intro p {
+  font-size: 15px;
+  line-height: 1.8;
+}
+.chip {
+  font-size: 13px;
+  line-height: 1.5;
+  padding: 9px 12px;
+}
+.primary,
+.secondary,
+.text-button {
+  font-size: 13px;
+  line-height: 1.55;
+  font-weight: 600;
+  letter-spacing: normal;
+  text-transform: none;
+  min-height: 42px;
+}
+.toolbar,
+.filters label,
+.filters select,
+.recommend-controls label,
+.recommend-controls select,
+.recommend-controls p {
+  font-size: 13px;
+  line-height: 1.65;
+}
+.movie-top h3 {
+  font-size: 16px;
+  line-height: 1.55;
+  font-weight: 600;
+  text-transform: none;
+}
+.meta-line,
+.reason,
+.my-rating,
+.rating {
+  font-size: 12px;
+  line-height: 1.7;
+}
+.poster-title {
+  font-family: "Noto Serif", Georgia, serif;
+  line-height: 1.3;
+  text-transform: none;
+}
+.source-rating > span,
+.source-rating small,
+.source-rating a {
+  font-size: 13px;
+  line-height: 1.6;
+}
+.detail-head p,
+.detail-badges,
+.rating-panel,
+.poster-source,
+dialog p,
+.image-notice,
+.match-score,
+.external-ratings p {
+  font-size: 14px;
+  line-height: 1.8;
+}
+.detail-head h2 {
+  font-weight: 550;
+  line-height: 1.4;
+  overflow-wrap: anywhere;
+}
+.source-rating strong {
+  font-size: 27px;
+  font-variant-numeric: tabular-nums;
+}
+.collection-intro h2,
+.collection-card strong,
+.cinema-note p {
+  font-family: "Noto Serif", Georgia, serif;
+  font-weight: 500;
+  line-height: 1.45;
+}
+.cinema-note .eyebrow {
+  font-size: 11px;
+  letter-spacing: normal;
+}
+.collection-card span,
+.collection-card small {
+  font-size: 11px;
+  line-height: 1.65;
+  letter-spacing: normal;
+}
+.insight-panel p {
+  font-size: 14px;
+  line-height: 1.85;
+}
+.stat span,
+.split-legend {
+  font-size: 12px;
+}
+footer,
+footer a {
+  font-size: 12px;
+  line-height: 1.8;
+  letter-spacing: normal;
+}
+.site-address {
+  display: block;
+  font-size: 13px;
+  margin-top: 9px;
+  overflow-wrap: anywhere;
+}
+.taste-option span {
+  font-size: 14px;
+}
+.stars button {
+  font-family: Arial, sans-serif;
+  font-size: 30px;
+}
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible {
+  outline: 3px solid #a95268;
+  outline-offset: 4px;
+}
+.skip-link {
+  position: fixed;
+  left: 16px;
+  top: -80px;
+  padding: 12px 18px;
+  background: #fff7ed;
+  color: #491a2b;
+  z-index: 100;
+}
+.skip-link:focus {
+  top: 12px;
+}
+@media (max-width: 1000px) {
+  .site-header {
+    gap: 15px;
+  }
+  .site-header nav {
+    margin-top: 0;
+  }
+  .header-actions {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .site-header {
+    padding: 18px 20px 0;
+    gap: 14px;
+  }
+  .brand {
+    font-size: 21px;
+  }
+  .brand-sub {
+    font-size: 8px;
+  }
+  .header-actions {
+    width: 100%;
+    gap: 12px;
+    flex-wrap: nowrap;
+  }
+  .header-actions .search {
+    flex: 1;
+    width: auto;
+    min-width: 60px;
+  }
+  .image-search-button {
+    white-space: nowrap;
+  }
+  .site-header nav {
+    width: 100%;
+    gap: 6px 18px;
+    flex-wrap: wrap;
+    overflow: visible;
+  }
+  .nav {
+    font-size: 13px;
+  }
+  .hero h1 {
+    font-size: 38px;
+    line-height: 1.2;
+  }
+  .hero-copy p {
+    font-size: 15px;
+  }
+  .hero .eyebrow {
+    font-size: 10px;
+    letter-spacing: normal;
+  }
+  .hero .primary {
+    font-size: 12px;
+  }
+  .hero-bottom {
+    font-size: 9px;
+    letter-spacing: normal;
+  }
+  .hero-copy {
+    padding-bottom: 90px;
+  }
+  main {
+    padding: 0 20px;
+  }
+  .club-strip > div {
+    flex-wrap: wrap;
+    font-size: 12px;
+  }
+  .club-strip > p {
+    line-height: 1.5;
+  }
+  .section-heading p {
+    font-size: 14px;
+  }
+  .movie-top {
+    flex-wrap: wrap;
+    gap: 3px;
+  }
+  .movie-top h3 {
+    font-size: 14px;
+    width: 100%;
+  }
+  .rating,
+  .meta-line,
+  .reason {
+    font-size: 12px;
+  }
+  .filters {
+    flex-wrap: wrap;
+  }
+  .filters select {
+    max-width: 155px;
+  }
+  .recommend-controls label {
+    max-width: 100%;
+  }
+  .recommend-controls select {
+    max-width: 100%;
+  }
+  .detail-head {
+    grid-template-columns: 95px minmax(0, 1fr);
+    gap: 16px;
+  }
+  .detail-head h2 {
+    font-size: 21px;
+  }
+  .detail-head p {
+    font-size: 13px;
+  }
+  .source-rating {
+    padding: 12px;
+    min-width: 0;
+  }
+  .source-rating > span,
+  .source-rating small,
+  .source-rating a {
+    font-size: 12px;
+  }
+  .collection-card {
+    padding: 16px;
+  }
+  .collection-card strong {
+    font-size: 21px;
+  }
+  .collection-card span,
+  .collection-card small {
+    font-size: 10px;
+  }
+  .detail-actions .primary {
+    font-size: 12px;
+  }
+  .pagination button {
+    font-size: 12px;
+  }
+  .insight-panel p {
+    font-size: 14px;
+  }
+  footer a {
+    font-size: 12px;
+    margin-left: 0;
+  }
+}

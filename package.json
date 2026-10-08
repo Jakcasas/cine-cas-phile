@@ -1,6 +1,6 @@
 {
   "name": "cine-cas-phile",
-  "version": "3.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {"build": "node tools/build_netlify.mjs"},
   "engines": {"node": ">=22"},

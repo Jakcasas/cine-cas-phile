@@ -1,0 +1,12 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {runInNewContext} from 'node:vm';
+const context={window:{},crypto:{randomUUID:()=> 'test-profile'},localStorage:{getItem(){throw new Error('blocked');},setItem(){throw new Error('blocked');}},fetch:async(url,options)=>({ok:true,json:async()=>({movies:JSON.parse(options.body).ids.map(movie_id=>({movie_id,title:'Test film'}))})})};
+runInNewContext(readFileSync('web/hosted-adapter.js','utf8'),context);
+const api=context.window.cineHosted;
+const profile=await api.request('/profiles',{method:'POST'});
+await api.request(`/profiles/${profile.profile_id}/watchlist/2571`,{method:'PUT'});
+await api.request(`/profiles/${profile.profile_id}/ratings/2571`,{method:'PUT',body:JSON.stringify({rating:5})});
+const loaded=await api.request(`/profiles/${profile.profile_id}`);
+assert.equal(loaded.watchlist[0],2571);assert.equal(loaded.ratings['2571'],5);assert.equal(loaded.watchlist_movies.length,1);
+console.log('PASS: profile, watchlist and ratings remain usable when localStorage is blocked.');

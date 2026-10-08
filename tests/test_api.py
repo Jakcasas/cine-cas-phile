@@ -27,6 +27,11 @@ def test_models_endpoint(client):
     assert len(data) >= 5
 
 
+def test_search_without_accents(client):
+    data = client.get('/movies', params={'q': ' la mesias '}).json()
+    assert any(movie['title'] == 'La Mesías' for movie in data['movies'])
+
+
 def test_recommendations_endpoint(client):
     response = client.get("/recommendations/1?k=5&model=hybrid")
     assert response.status_code == 200

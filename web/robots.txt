@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cinecasphile.netlify.app/sitemap.xml

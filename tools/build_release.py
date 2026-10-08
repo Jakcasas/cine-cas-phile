@@ -7,7 +7,7 @@ EXCLUDED = {".git", ".venv", ".netlify", "node_modules", ".pytest_cache", "__pyc
 
 
 def main():
-    output = ROOT / "dist" / "Cine_Cas_Phile_v3.zip"
+    output = ROOT / "dist" / "Cine_Cas_Phile_v1.zip"
     output.parent.mkdir(exist_ok=True)
     files = sorted(p for p in ROOT.rglob("*") if p.is_file()
                    and not any(part in EXCLUDED or part.endswith(".egg-info")
@@ -42,9 +42,9 @@ def main():
                 'This bundle is already built; do not run npm ci or npm run build in it. '
                 'The site ID belongs to the original owner. Use your own site ID when deploying into another account. '
                 'Use the CLI with functions; dropping only the static folder omits the recommendation API.\n\n'
-                'Live: https://cinecasphile.netlify.app\nSource: https://github.com/Jakcasas/cine-cas-phile (private).\n'
+                'Live: https://cinecasphile.netlify.app\nSource: https://github.com/Jakcasas/cine-cas-phile (public).\n'
                 'Profiles stay in browser localStorage. Image recognition runs in browser WASM. '
-                'The custom domain www.cinecasphile.com is not activated.\n')
+                'Official address: https://cinecasphile.netlify.app/.\n')
         with ZipFile(hosted) as archive: assert archive.testzip() is None
         print(f'Verified Netlify bundle, {hosted.stat().st_size:,} bytes: {hosted}')
 
