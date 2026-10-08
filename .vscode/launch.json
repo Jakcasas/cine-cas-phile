@@ -1,0 +1,16 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Cine (cas) phile. 1.0 — website",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "src.cli",
+      "args": ["serve", "--host", "127.0.0.1", "--port", "8000"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "preLaunchTask": "Prepare Cine 1.0"
+    }
+  ]
+}

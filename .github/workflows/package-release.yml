@@ -1,0 +1,29 @@
+# Package the complete Cine 1.0 project when a GitHub release is published.
+name: Package Cine 1.0
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Package complete project
+        run: python tools/build_release.py
+
+      - name: Upload project ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: Cine_Cas_Phile_v1
+          path: dist/Cine_Cas_Phile_v1.zip

@@ -26,6 +26,12 @@ python3 -m venv .venv
 .venv/bin/python -m src.cli serve
 ```
 
+## Mở trong Visual Studio Code / Visual Studio
+
+Trên Windows, mở thư mục project trong **Visual Studio Code** bằng `code .` hoặc dùng **File → Open Folder**. Chọn môi trường Python `.venv` nếu editor hỏi. Nhấn **F5** với cấu hình **“Cine (cas) phile. 1.0 — website”** để chuẩn bị môi trường và chạy server tại `http://127.0.0.1:8000`. Dừng server bằng nút Stop trong editor. Mục **Terminal → Run Task** có lệnh kiểm thử Python, đối chiếu thuật toán Python/Netlify và build website. Để chạy hai lệnh kiểm thử, cài thư viện phát triển bằng `.\.venv\Scripts\python.exe -m pip install -e ".[dev]"`; để build website, chạy `npm ci` một lần.
+
+Nếu dùng **Visual Studio** bản đầy đủ, hãy mở cùng thư mục bằng **File → Open → Folder**, cài workload Python development, chọn interpreter `.venv\Scripts\python.exe`, rồi chạy `python -m src.cli serve`. Cấu hình `.vscode/` dành riêng cho Visual Studio Code.
+
 `requirements.lock.txt` ghi lại các phiên bản đã dùng để kiểm thử trên Python 3.12 / Windows. `requirements.txt` là các khoảng phiên bản hỗ trợ. Thư mục `web/` phải nằm cạnh `src/`; đây là một project chạy từ source, không phải wheel chứa toàn bộ dữ liệu.
 
 ## Trải nghiệm
