@@ -1,0 +1,197 @@
+{
+  "movies": {
+    "1000091": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Trại Buôn Người",
+      "media_type": "film",
+      "directors": [
+        "Toni Dương Bảo Anh",
+        "Mèo Bích Trang"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/22/trai-buon-nguoi-500_1790067332155.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-09-25",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+        "checked_at": "2026-10-09"
+      },
+      "cinema_status": {
+        "status": "now",
+        "source": "Galaxy Cinema",
+        "region": "VN",
+        "url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000092": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Án Mạng Xém Hoàn Hảo",
+      "media_type": "film",
+      "directors": [
+        "Đức Nguyễn"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/8/27/an-mang-xem-hoan-hao-500_1787816297996.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-09",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000093": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Quỷ Ăn Tạng 4: Hổ Tinh",
+      "media_type": "film",
+      "directors": [
+        "Chalit Krileadmongkon",
+        "Thanadet Pradit",
+        "Narit Yuvaboon"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/28/tee-yod-4-500_1790580765604.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-16",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000094": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Chị Chị Em Em 3",
+      "media_type": "film",
+      "directors": [
+        "Nguyễn Hữu Hoàng"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/chi-chi-em-em-3/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/7/chi-chi-em-em-3-500_1791359694486.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-30",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/chi-chi-em-em-3/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000095": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Án Mạng Karaoke",
+      "media_type": "film",
+      "directors": [
+        "Hoàng Lê"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/an-mang-karaoke/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/30/an-mang-karaoke-500_1790758221061.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-30",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/an-mang-karaoke/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000035": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Người Mẹ Khác",
+      "media_type": "film",
+      "directors": [
+        "Rob Savage"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/2/other-mommy-2-1790925655118_1790931944641.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-09",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+        "checked_at": "2026-10-09"
+      }
+    },
+    "1000096": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "title_vi": "Quyết Cua Anh Này",
+      "media_type": "film",
+      "directors": [
+        "Mez Tharatorn"
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/24/henrys-first-date-4_1790237311455.jpg",
+          "fallback_url": null
+        }
+      ],
+      "release": {
+        "date": "2026-10-02",
+        "region": "VN",
+        "source": "Galaxy Cinema",
+        "url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+        "checked_at": "2026-10-09"
+      },
+      "cinema_status": {
+        "status": "now",
+        "source": "Galaxy Cinema",
+        "region": "VN",
+        "url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+        "checked_at": "2026-10-09"
+      }
+    }
+  },
+  "updated_at": "2026-10-09"
+}

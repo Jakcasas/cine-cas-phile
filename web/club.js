@@ -51,10 +51,20 @@ window.cineClub = (() => {
     $('#taste-form [name=era]').value=survey.era || '';$('#taste-form [name=mood]').value=survey.mood || '';
     $('#avoid-options').innerHTML=state.stats.genres.map(g=>`<label class="taste-option"><input type="checkbox" name="avoid" value="${escapeHtml(g)}" ${(survey.avoid || []).includes(g)?'checked':''}><span>${escapeHtml(genreLabel(g))}</span></label>`).join('');
     surveySeed=survey.seed_ids?.[0] || null;$('#survey-seed-chosen').dataset.title=survey.seed_title || '';$('#survey-seed-chosen').textContent=survey.seed_title?'Phim bạn thích: '+displayTitle(survey.seed_title):'Chưa chọn phim · không bắt buộc';
+    $('#survey-seed-clear').hidden=!surveySeed;
     $('#survey-seed-results').innerHTML='';$('#survey-seed-search').value='';
   }
-  function survey(form){const d=new FormData(form);return {era:d.get('era'),mood:d.get('mood'),avoid:d.getAll('avoid'),seed_ids:surveySeed?[surveySeed]:[],seed_title:$('#survey-seed-chosen').dataset.title || state.profile.survey?.seed_title || ''};}
-  function renderTaste(){const p=state.profile;$('#taste-summary').textContent=p.genres?.length?'Bạn thích '+p.genres.map(genreLabel).join(', ')+(p.survey?.seed_title?' · Lấy cảm hứng từ '+displayTitle(p.survey.seed_title):''):'Chọn thể loại hoặc làm khảo sát để tìm phim phù hợp.';}
+  function survey(form){const d=new FormData(form);return {era:d.get('era'),mood:d.get('mood'),avoid:d.getAll('avoid'),seed_ids:surveySeed?[surveySeed]:[],seed_title:surveySeed?$('#survey-seed-chosen').dataset.title || '':''};}
+  function renderTaste(){
+    const p=state.profile,s=p.survey || {},parts=[];
+    const moods={gentle:'Nhẹ nhàng, ấm áp',intense:'Hồi hộp, bí ẩn',wonder:'Kỳ thú, khác lạ',thoughtful:'Suy ngẫm, sâu lắng'};
+    if(p.genres?.length)parts.push('Bạn thích '+p.genres.map(genreLabel).join(', '));
+    if(s.era)parts.push('Thời kỳ '+s.era.replace(':','–'));
+    if(moods[s.mood])parts.push(moods[s.mood]);
+    if(s.seed_title)parts.push('Lấy cảm hứng từ '+displayTitle(s.seed_title));
+    if(s.avoid?.length)parts.push('Muốn tránh '+s.avoid.map(genreLabel).join(', '));
+    $('#taste-summary').textContent=parts.length?parts.join(' · '):'Chọn thể loại hoặc làm khảo sát để tìm phim phù hợp.';
+  }
   function renderPosts(posts){return posts.length?posts.map(p=>`<article class="community-post"><div class="post-author"><span class="avatar">${escapeHtml(p.author.slice(0,1))}</span><strong>${escapeHtml(p.author)}</strong><time>${escapeHtml(new Date(p.createdAt).toLocaleDateString('vi-VN'))}</time></div>${p.movieTitle?`<h3><button class="text-button" data-movie="${p.movieId}">${escapeHtml(displayTitle(p.movieTitle))}</button> <span class="review-stars">${'★'.repeat(Math.floor(p.rating || 0))}${p.rating%1?'½':''}</span></h3>`:''}${p.title?`<h3>${escapeHtml(p.title)}</h3>`:''}${p.spoiler?`<details><summary>Có tiết lộ tình tiết · nhấn để đọc</summary><p class="post-content">${escapeHtml(p.content)}</p></details>`:`<p class="post-content">${escapeHtml(p.content)}</p>`}<div class="post-actions"><button type="button" data-like="${p.id}" aria-pressed="${!!p.liked}" ${p.liked?'disabled':''}>♡ ${p.likes || 0}</button><button type="button" data-report="${p.id}">Báo cáo</button>${p.canRemove?`<button type="button" data-remove-post="${p.id}">Gỡ bài của tôi</button>`:''}</div></article>`).join(''):'<div class="community-empty"><h3>Cuộc trò chuyện bắt đầu từ bạn.</h3><p>Chưa có bài viết ở đây. Chia sẻ bộ phim hoặc góc nhìn đầu tiên của bạn.</p></div>';}
   async function feed(){
     $('#chat-form').hidden=communityTab!=='chat';$('#community-status').textContent='Đang tải…';
@@ -88,6 +98,7 @@ window.cineClub = (() => {
     try{await cloud('/auth/delete','POST',{password:$('#account-form [name=password]').value});user=null;window.cineCloudProfile=null;state.profile=await api('/profiles/'+state.profile.profile_id);identity();renderProfile();$('#account-dialog').close();loadView();toast('Đã xóa tài khoản online.');}catch(error){$('#account-status').textContent=error.message;}
   });
   $('#survey-seed-search').addEventListener('input',()=>{clearTimeout(seedTimer);seedTimer=setTimeout(async()=>{const q=$('#survey-seed-search').value.trim();if(q.length<2){$('#survey-seed-results').innerHTML='';return;}try{const d=await api('/movies?q='+encodeURIComponent(q)+'&page_size=6');if(q!==$('#survey-seed-search').value.trim())return;$('#survey-seed-results').innerHTML=d.movies.map(m=>`<button type="button" class="secondary" data-survey-seed="${m.movie_id}" data-title="${escapeHtml(m.title)}">${escapeHtml(displayTitle(m.title))} · ${m.year}</button>`).join('')||'<p>Chưa tìm thấy. Thử tên gốc của phim.</p>';}catch(error){$('#survey-seed-results').textContent=error.message;}},250);});
+  $('#survey-seed-clear').addEventListener('click',()=>{surveySeed=null;$('#survey-seed-chosen').dataset.title='';$('#survey-seed-chosen').textContent='Chưa chọn phim · không bắt buộc';$('#survey-seed-clear').hidden=true;});
   async function submit(form,path,statusId,extra={}){
     const b=form.querySelector('button[type=submit]');b.disabled=true;
     try{if(!user){account();throw new Error('Chọn tài khoản hoặc khách online để chia sẻ với cộng đồng.');}const d=Object.fromEntries(new FormData(form));d.anonymous=Boolean(d.anonymous);d.spoiler=Boolean(d.spoiler);if(d.rating)d.rating=Number(d.rating);await cloud(path,'POST',{...d,...extra});$(statusId).textContent='Đã gửi. Cảm ơn bạn đã chia sẻ!';form.reset();if(path==='/posts')feed();return true;}catch(error){$(statusId).textContent=error.message;return false;}finally{b.disabled=false;}
@@ -104,7 +115,7 @@ window.cineClub = (() => {
     try{
       if(b.dataset.accountTab){tabs(b.dataset.accountTab);return;}
       if(b.dataset.communityTab){communityTab=b.dataset.communityTab;feed();return;}
-      if(b.dataset.surveySeed){surveySeed=Number(b.dataset.surveySeed);$('#survey-seed-chosen').textContent='Phim bạn thích: '+displayTitle(b.dataset.title);$('#survey-seed-chosen').dataset.title=b.dataset.title;$('#survey-seed-results').innerHTML='';return;}
+      if(b.dataset.surveySeed){surveySeed=Number(b.dataset.surveySeed);$('#survey-seed-chosen').textContent='Phim bạn thích: '+displayTitle(b.dataset.title);$('#survey-seed-chosen').dataset.title=b.dataset.title;$('#survey-seed-results').innerHTML='';$('#survey-seed-clear').hidden=false;return;}
       if(b.dataset.seen){const id=Number(b.dataset.seen),seen=(state.profile.seen || []).includes(id);await send('/profiles/'+state.profile.profile_id+'/seen/'+id,seen?'DELETE':'PUT');state.profile.seen=seen?state.profile.seen.filter(mid=>mid!==id):[...new Set([...(state.profile.seen || []),id])];await showDetail(id);if(state.view==='ratings')loadView();toast(seen?'Đã bỏ dấu đã xem':'Đã thêm vào bộ sưu tập đã xem');return;}
       const id=b.dataset.like || b.dataset.report || b.dataset.removePost;if(!id)return;
       if(!user){account();return;}

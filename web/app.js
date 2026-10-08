@@ -129,12 +129,15 @@ document.addEventListener(
   },
   true,
 );
-function displayTitle(title) { return String(title || "").normalize("NFC").replace(/^(.+),\s*(The|A|An|Le|La|Les|El|Il)(\s*\([^)]*\))?$/, "$2 $1$3"); }
+function displayTitle(title) { return window.cineFilms.displayTitle(title); }
 function card(movie) {
-  movie={...movie,title:displayTitle(movie.title),reason:movie.matching_genres?.length?"Hợp thể loại bạn thích: "+movie.matching_genres.map(genreLabel).join(", "):movie.reason};
+  movie={...movie,title:displayTitle(movie.title),my_rating:movie.my_rating ?? state.profile?.ratings[movie.movie_id]};
   const colors = palettes[movie.movie_id % palettes.length];
   const saved = state.profile?.watchlist.includes(movie.movie_id);
-  return `<article class="movie-card"><button class="poster alt-${movie.movie_id % 4}" data-movie="${movie.movie_id}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})" aria-label="Xem chi tiết ${escapeHtml(movie.title)}">${poster(movie)}</button><button class="save-button ${saved ? "saved" : ""}" data-save="${movie.movie_id}" aria-label="${saved ? "Bỏ lưu" : "Lưu"} ${escapeHtml(movie.title)}" aria-pressed="${!!saved}">${saved ? "✓" : "+"}</button><div class="movie-meta"><div class="movie-top"><h3>${escapeHtml(movie.title)}</h3><span class="rating">★ ${movie.rating === null ? "—" : Number(movie.rating).toFixed(1)}</span></div><div class="meta-line">${movie.year ?? "—"} ${movie.media_type === "series" ? " · SERIES" : ""} <span>·</span> ${escapeHtml(movie.genres.split("|").slice(0, 2).map(genreLabel).join(" / "))}</div>${movie.reason ? `<div class="reason">✧ ${escapeHtml(movie.reason)}</div>` : ""}${movie.my_rating ? `<div class="my-rating">${"★".repeat(Math.floor(movie.my_rating))}${movie.my_rating%1?"½":""} · Bạn chấm ${movie.my_rating}/5</div>` : state.profile?.seen?.includes(movie.movie_id)?`<div class="my-rating">✓ Đã xem</div>`:""}</div></article>`;
+  const audience=window.cineFilms.audienceRating(movie);
+  const ratingText=audience?`${Number(audience.value).toFixed(1)} <small>/${audience.scale}</small>`:'—';
+  const ratingSource=audience?`${audience.provider} · ${audience.value}/${audience.scale}`:'Chưa có điểm khán giả đã xác minh';
+  return `<article class="movie-card"><button class="poster alt-${movie.movie_id % 4}" data-movie="${movie.movie_id}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})" aria-label="Xem chi tiết ${escapeHtml(movie.title)}">${poster(movie)}</button><button class="save-button ${saved ? "saved" : ""}" data-save="${movie.movie_id}" aria-label="${saved ? "Bỏ lưu" : "Lưu"} ${escapeHtml(movie.title)}" aria-pressed="${!!saved}">${saved ? "✓" : "+"}</button><div class="movie-meta"><div class="movie-top"><h3>${escapeHtml(movie.title)}</h3><span class="rating" title="${escapeHtml(ratingSource)}">★ ${ratingText}</span></div>${audience && audience.provider!=="MovieLens"?`<div class="rating-source-label">${escapeHtml(audience.provider)} · Điểm khán giả</div>`:""}<div class="meta-line">${movie.year ?? "—"} ${movie.media_type === "series" ? " · SERIES" : ""} <span>·</span> ${escapeHtml(movie.genres.split("|").slice(0, 2).map(genreLabel).join(" / "))}</div>${movie.release?`<div class="release-badge">${escapeHtml(window.cineFilms.releaseLabel(movie,$('#country-filter').value,$('#release-filter').value))}</div>`:""}${movie.reason ? `<div class="reason">✧ ${escapeHtml(movie.reason)}</div>` : ""}${movie.my_rating ? `<div class="my-rating">${"★".repeat(Math.floor(movie.my_rating))}${movie.my_rating%1?"½":""} · Bạn chấm ${movie.my_rating}/5</div>` : state.profile?.seen?.includes(movie.movie_id)?`<div class="my-rating">✓ Đã xem</div>`:""}</div></article>`;
 }
 function empty(title, description) {
   return `<div class="empty" style="grid-column:1/-1"><span class="small-spark">✧</span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p><button class="primary" data-go="discover">Khám phá kho phim ↗</button></div>`;
@@ -152,12 +155,22 @@ function renderChips() {
 }
 function renderProfile() {
   $("#saved-count").textContent = state.profile.watchlist.length;
+  const ratings=Object.values(state.profile.ratings), seen=new Set([...(state.profile.seen || []),...Object.keys(state.profile.ratings).map(Number)]);
+  $("#collection-summary").innerHTML=`<span><strong>${format(seen.size)}</strong> phim đã xem</span><span><strong>${format(ratings.length)}</strong> phim đã chấm sao</span><span><strong>${ratings.length?(ratings.reduce((s,r)=>s+r,0)/ratings.length).toFixed(1):'—'}</strong> / 5 sao của bạn</span>`;
 }
 function years() {
   const value = $("#era").value;
   return value ? value.split(":").map(Number) : [null, null];
 }
 function setView(view) {
+  if(view!==state.view){
+    state.genre='';
+    $('#search').value='';
+    $('#release-filter').value='all';$('#country-filter').value='';
+    $('#era').value=view==='foryou'?state.profile.survey?.era || '':'';
+    $('#sort').value=view==='ratings'?'personal':view==='watchlist'?'title':'popular';
+    renderChips();
+  }
   state.view = view;
   state.page = 1;
   $(".nav.active")?.classList.remove("active");
@@ -172,7 +185,13 @@ function setView(view) {
   $("#grid").hidden = view === "insights";
   $("#toolbar").hidden = view === "insights";
   $("#genre-chips").hidden = view === "insights";
-  $("#sort").disabled = !["discover", "curated"].includes(view);
+  $("#sort").disabled = view==='foryou';
+  $('#sort option[value=personal]').hidden=view!=='ratings';
+  $('#collection-summary').hidden=!['watchlist','ratings'].includes(view);
+  $('#collection-status-label').hidden=view!=='ratings';
+  $('#release-filter-label').hidden=!['discover','foryou'].includes(view);
+  $('#country-filter-label').hidden=!['discover','foryou'].includes(view);
+  $('#search').placeholder=['watchlist','ratings'].includes(view)?'Tìm trong danh sách của bạn…':'Tìm phim…';
   const copy = {
     curated: [
       "THE EDITORIAL SHELF",
@@ -228,8 +247,9 @@ async function loadView() {
       await renderInsights(token);
       return;
     }
-    let movies = [],
+    let movies = [], suggestions=[],
       info = "";
+    $("#search-suggestions").hidden=true;
     const [yearMin, yearMax] = years();
     if (["discover", "curated"].includes(state.view)) {
       const params = new URLSearchParams({
@@ -237,6 +257,7 @@ async function loadView() {
         sort: $("#sort").value,
         page: state.page,
         page_size: 20,
+        release:$("#release-filter").value,release_region:$("#country-filter").value,
       });
       if (state.view === "curated") params.set("source", "editorial");
       if (state.genre) params.set("genre", state.genre);
@@ -246,8 +267,11 @@ async function loadView() {
       }
       const data = await api(`/movies?${params}`);
       movies = data.movies;
+      suggestions=data.suggestions || [];
+      if($("#release-filter").value!=="all" || $("#country-filter").value)$("#status").textContent=$('#release-filter').value==='screening' && $('#country-filter').value && $('#country-filter').value!=='VN' ? 'Chưa có suất chiếu đã xác minh tại quốc gia này. Bạn có thể chọn Đã phát hành hoặc Sắp chiếu để xem lịch IMDb tại đây.' : 'Phân loại theo quốc gia phát hành, không phải quốc gia sản xuất. Lịch IMDb / Galaxy · đối chiếu 09/10/2026. Đã phát hành không xác nhận phim còn ở rạp; kiểm tra liên kết nguồn để biết suất chiếu.';
       state.total = data.total;
       info = `${format(data.total)} bộ phim · Chọn một câu chuyện cho hôm nay`;
+      if($('#country-filter').value || $('#release-filter').value!=='all')info=`${format(data.total)} bộ phim · ${window.cineFilms.regions[$('#country-filter').value] || 'Tất cả quốc gia'} · ${$('#release-filter').selectedOptions[0].textContent}`;
     } else if (state.view === "foryou") {
       const data = await send(window.cineHosted ? "/viewer-discover" : "/discover", "POST", {
         profile_id: state.profile.profile_id,
@@ -259,6 +283,8 @@ async function loadView() {
         k: 20,
         diversity: 0.2,
         seed_ids: state.seed ? [state.seed.movie_id] : state.profile.survey?.seed_ids || [],
+        q:$('#search').value,
+        release:$('#release-filter').value,release_region:$('#country-filter').value,
       });
       movies = data.recommendations;
       info = `${data.count} gợi ý · Hợp thể loại, thời kỳ và cảm xúc của bạn`;
@@ -275,12 +301,10 @@ async function loadView() {
         state.view === "watchlist"
           ? profile.watchlist_movies
           : profile.seen_movies || profile.rated_movies;
-      movies = movies.filter(
-        (m) =>
-          (!state.genre || m.genres.split("|").includes(state.genre)) &&
-          (yearMin === null || (m.year >= yearMin && m.year <= yearMax)),
-      );
-      info = `${movies.length} bộ phim ${state.view === "watchlist" ? "đã lưu" : "đã đánh giá"}`;
+      const fullCount=movies.length;
+      movies = window.cineFilms.collectionMovies(movies,{q:$('#search').value,
+        genre:state.genre,yearMin,yearMax,sort:$('#sort').value,status:state.view==='ratings'?$('#collection-status').value:'all'});
+      info = `${movies.length} / ${fullCount} phim ${state.view === "watchlist" ? "đã lưu" : "trong nhật ký"}`;
     }
     if (token !== state.request) return;
     $("#result-count").textContent = info;
@@ -290,14 +314,18 @@ async function loadView() {
           state.view === "watchlist"
             ? "Danh sách của bạn còn trống"
             : state.view === "ratings"
-              ? "Chưa có đánh giá"
-              : "Không tìm thấy phim phù hợp",
+              ? "Chưa có phim khớp nhật ký của bạn"
+              : $('#release-filter').value==='screening' ? 'Chưa có phim đang chiếu được xác minh' : "Không tìm thấy phim phù hợp",
           state.view === "watchlist"
             ? "Nhấn dấu + trên một phim để lưu vào danh sách."
             : state.view === "ratings"
-              ? "Mở chi tiết một phim và chấm từ 1 đến 5 sao."
-              : "Thử một thể loại hoặc thời kỳ khác.",
+              ? "Đánh dấu phim đã xem hoặc chấm 0,5–5 sao. Nếu đã có phim, thử bỏ bộ lọc."
+              : $('#release-filter').value==='screening' ? 'Chọn Đã phát hành, Mới công chiếu hoặc Sắp chiếu để xem lịch tại quốc gia này.' : "Thử bỏ bộ lọc quốc gia, lịch phim, thể loại hoặc thời kỳ.",
         );
+    if(suggestions.length){
+      $('#search-suggestions').hidden=false;
+      $('#search-suggestions').innerHTML='<p>Có thể bạn đang tìm…</p>'+suggestions.map(m=>`<button class="secondary" type="button" data-search-suggestion="${escapeHtml(m.title)}">${escapeHtml(m.title)} · ${m.year}</button>`).join('');
+    }
     if (["discover", "curated"].includes(state.view) && state.total > 20) {
       $("#pagination").hidden = false;
       $("#page-label").textContent =
@@ -346,8 +374,11 @@ async function showDetail(movieId) {
     if (state.detail !== movieId || !dialog.open) return;
     const colors = palettes[movie.movie_id % palettes.length];
     const rating = Number(state.profile.ratings[movieId] || 0);
+    const audience=window.cineFilms.audienceRating(movie);
+    const releaseNotice=window.cineFilms.releaseEvents(movie).length?'<div class="release-detail">'+window.cineFilms.releaseEvents(movie).map(r=>`<p>${escapeHtml(window.cineFilms.releaseLabel({release:r}))} · <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(r.source)} ↗</a><br><small>Đối chiếu ${escapeHtml(r.checked_at)}</small></p>`).join('')+'<small>Lịch có thể thay đổi; kiểm tra nguồn để biết suất chiếu hiện tại.</small></div>':'';
+    const audienceSummary=audience?`★ ${audience.value} / ${audience.scale} · ${escapeHtml(audience.provider)}${audience.provider==='MovieLens'?' · '+format(movie.rating_count)+' đánh giá lịch sử':''}`:'Chưa có điểm khán giả đã xác minh.';
     $("#movie-detail").innerHTML =
-      `<div class="eyebrow muted">Cine (cas) phile. / COLLECTION</div><div class="detail-head"><div class="poster alt-${movieId % 4}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})">${poster(movie)}</div><div><h2>${escapeHtml(movie.title)}</h2><div class="detail-badges">${movie.year ?? "—"} · ${escapeHtml(movie.genres.split("|").map(genreLabel).join(" / "))}</div><p>★ ${movie.rating ?? "—"} / 5 từ ${format(movie.rating_count)} đánh giá lịch sử MovieLens</p><div class="rating-panel">Đánh giá của bạn <div class="stars" aria-label="Chấm điểm phim">${[.5,1,1.5,2,2.5,3,3.5,4,4.5,5].map((value) => `<button class="${value <= rating ? "rated" : ""}" data-rate="${value}" data-id="${movieId}" aria-label="${value} sao" aria-pressed="${value === rating}">${value%1?"½":"★"}</button>`).join("")}</div>${rating ? `<button class="remove-rating" data-unrate="${movieId}">Xóa đánh giá (${rating} sao)</button>` : ""}</div></div></div>${externalRatings(movie)}<div class="detail-actions"><button class="primary" data-seed="${movieId}">Tìm phim cùng gu ↗</button><button class="secondary save-button-detail" data-save="${movieId}" aria-pressed="${state.profile.watchlist.includes(movieId)}">${state.profile.watchlist.includes(movieId) ? "✓" : "+"} Danh sách xem</button></div><p class="poster-source">${movie.poster_sources?.length ? `Ảnh phim: ${movie.poster_sources.map((source) => `<a href="${escapeHtml(source.page_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a>`).join(" · ")}.` : "Bìa minh họa Cine (cas) phile."} Điểm MovieLens là dữ liệu lịch sử; điểm nguồn bên ngoài hiển thị riêng ở trên.</p><h3 style="font-size:16px;font-weight:500;margin-top:24px">Nếu bạn thích câu chuyện này…</h3><div class="similar-grid">${movie.similar_movies.slice(0, 4).map(card).join("")}</div>`;
+      `<div class="eyebrow muted">Cine (cas) phile. / COLLECTION</div><div class="detail-head"><div class="poster alt-${movieId % 4}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})">${poster(movie)}</div><div><h2>${escapeHtml(movie.title)}</h2><div class="detail-badges">${movie.year ?? "—"} · ${escapeHtml(movie.genres.split("|").map(genreLabel).join(" / "))}</div><p>${audienceSummary}</p>${releaseNotice}<div class="rating-panel">Đánh giá của bạn <div class="stars" aria-label="Chấm điểm phim">${[.5,1,1.5,2,2.5,3,3.5,4,4.5,5].map((value) => `<button class="${value <= rating ? "rated" : ""}" data-rate="${value}" data-id="${movieId}" aria-label="${value} sao" aria-pressed="${value === rating}">${value%1?"½":"★"}</button>`).join("")}</div>${rating ? `<button class="remove-rating" data-unrate="${movieId}">Xóa đánh giá (${rating} sao)</button>` : ""}</div></div></div>${externalRatings(movie)}<div class="detail-actions"><button class="primary" data-seed="${movieId}">Tìm phim cùng gu ↗</button><button class="secondary save-button-detail" data-save="${movieId}" aria-pressed="${state.profile.watchlist.includes(movieId)}">${state.profile.watchlist.includes(movieId) ? "✓" : "+"} Danh sách xem</button></div><p class="poster-source">${movie.poster_sources?.length ? `Ảnh phim: ${movie.poster_sources.map((source) => `<a href="${escapeHtml(source.page_url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a>`).join(" · ")}.` : "Bìa minh họa Cine (cas) phile."} Điểm MovieLens là dữ liệu lịch sử; điểm nguồn bên ngoài hiển thị riêng ở trên.</p><h3 style="font-size:16px;font-weight:500;margin-top:24px">Nếu bạn thích câu chuyện này…</h3><div class="similar-grid">${movie.similar_movies.slice(0, 4).map(card).join("")}</div>`;
     if(window.cineClub) await window.cineClub.decorateDetail(movie);
   } catch (error) {
     if (state.detail === movieId && dialog.open)
@@ -579,10 +610,12 @@ $("#taste-form").addEventListener("submit", async (event) => {
   button.disabled = true;
   try {
     const genres = [...new FormData(event.currentTarget).getAll("genre")];
+    const survey=window.cineClub?.survey(event.currentTarget) || {};
+    if(genres.some(g=>(survey.avoid || []).includes(g)))throw new Error('Bạn đang chọn một thể loại cả yêu thích và muốn tránh. Hãy chỉnh lại trước khi lưu.');
     state.profile = await send(
       `/profiles/${state.profile.profile_id}/preferences`,
       "PUT",
-      { genres, survey:window.cineClub?.survey(event.currentTarget) || {} },
+      { genres, survey },
     );
     $("#era").value=state.profile.survey?.era || "";
     state.genre='';renderChips();
@@ -605,6 +638,14 @@ $("#sort").addEventListener("change", () => {
   loadView();
 });
 $("#minimum-rating").addEventListener("change", loadView);
+$('#country-filter').addEventListener('change',()=>{state.page=1;loadView();});
+$('#release-filter').addEventListener('change',()=>{state.page=1;loadView();});
+$('#search-suggestions').addEventListener('click',event=>{const button=event.target.closest('[data-search-suggestion]');if(button){$('#search').value=button.dataset.searchSuggestion;state.page=1;loadView();}});
+$("#collection-status").addEventListener("change",loadView);
+$("#reset-filters").addEventListener("click",()=>{
+  $('#search').value='';$('#release-filter').value='all';$('#country-filter').value='';$('#era').value='';$('#minimum-rating').value='0';$('#collection-status').value='all';
+  state.genre='';state.page=1;renderChips();loadView();
+});
 $("#refresh").addEventListener("click", loadView);
 $("#previous").addEventListener("click", () => {
   state.page--;
@@ -619,8 +660,7 @@ $("#search").addEventListener("input", () => {
   clearTimeout(searchTimer);
   searchTimer = setTimeout(() => {
     state.page = 1;
-    if (!["discover", "curated"].includes(state.view)) setView("discover");
-    else loadView();
+    loadView();
   }, 250);
 });
 document.addEventListener("keydown", (event) => {

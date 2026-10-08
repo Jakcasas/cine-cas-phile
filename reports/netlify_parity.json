@@ -4,12 +4,12 @@
     {
       "case": "hybrid-known",
       "same_order": true,
-      "max_score_error": 8.238562188012111e-08
+      "max_score_error": 8.046153765484121e-08
     },
     {
       "case": "hybrid-personal",
       "same_order": true,
-      "max_score_error": 2.3647595770448504e-08
+      "max_score_error": 3.060240683083748e-08
     },
     {
       "case": "collaborative-known",
@@ -39,7 +39,7 @@
     {
       "case": "content-personal",
       "same_order": true,
-      "max_score_error": 5.801089142387639e-08
+      "max_score_error": 8.131232209773742e-08
     },
     {
       "case": "popularity-known",

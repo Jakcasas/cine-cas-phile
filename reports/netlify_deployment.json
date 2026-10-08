@@ -1,14 +1,23 @@
 {
   "site_id": "00750758-f294-4229-bdd8-865b45c6382d",
   "site_name": "cinecasphile",
-  "deploy_id": "6ac7df237390b87dfbf16174",
+  "deploy_id": "6ac816738a87c931253373bf",
   "url": "https://cinecasphile.netlify.app",
   "version": "1.0",
-  "catalog_size": 3920,
-  "indexed_movies": 1330,
+  "catalog_size": 4064,
+  "indexed_movies": 1468,
   "mongo_connected": true,
   "google_configured": true,
   "google_login_verified": true,
   "facebook_public": false,
-  "note": "Production context verified after credential rotation. Facebook awaits Meta identity/business verification and publication."
+  "note": "Country release filters, sourced IMDb calendars and Galaxy listings deployed in production context. Version stays 1.0; current showtimes require verified cinema listings. Google login was verified previously; Facebook public access remains pending.",
+  "release_markets": [
+    "VN",
+    "US",
+    "GB",
+    "FR",
+    "JP",
+    "KR"
+  ],
+  "release_snapshot_checked_at": "2026-10-09"
 }

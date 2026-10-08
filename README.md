@@ -31,7 +31,9 @@ Visual Studio bản đầy đủ có thể mở thư mục và chạy `npm run d
 Chỉ có **4 mục chính**: Khám phá, Dành cho bạn, Danh sách xem, Bộ sưu tập.
 
 - **Khảo sát gu phim:** thể loại yêu thích, thời kỳ, cảm xúc, phim gợi cảm hứng và thể loại muốn tránh; giải thích lý do gợi ý. Giao diện không yêu cầu chọn thuật toán hoặc ID MovieLens.
-- **Bộ sưu tập:** đánh dấu đã xem, chấm 0,5–5 sao, lưu danh sách muốn xem và xuất JSON. Khách có biệt danh hoặc tên Ẩn danh; tài khoản đồng bộ MongoDB.
+- **Bộ sưu tập:** đánh dấu đã xem, chấm 0,5–5 sao, lưu danh sách muốn xem và xuất JSON. Tìm kiếm giữ trong nhật ký; lọc đã/chưa chấm, sắp xếp sao cá nhân và xem tổng phim/sao. Khách có biệt danh hoặc tên Ẩn danh; tài khoản đồng bộ MongoDB.
+- **Tìm kiếm:** tên Việt/tên gốc không cần dấu, đạo diễn, năm và mã IMDb; gợi ý tên gần đúng khi không có kết quả. Có nút bỏ bộ lọc. Lựa chọn yêu thích và muốn tránh mâu thuẫn được nhắc trước khi lưu khảo sát.
+- **Lịch phim:** 144 tác phẩm bổ sung từ IMDb/Galaxy trong đợt đối chiếu 09/10/2026. Chọn quốc gia phát hành: Việt Nam, Mỹ, Anh, Pháp, Nhật Bản, Hàn Quốc; lọc đã phát hành, mới công chiếu theo lịch (30 ngày), đang chiếu đã xác minh và sắp chiếu. Cùng phim có thể có ngày phát hành khác nhau ở từng nước; quốc gia phát hành không đồng nghĩa quốc gia sản xuất. Chưa có lịch thì không suy đoán quốc gia. IMDb cung cấp lịch phát hành; suất đang chiếu chỉ hiển thị khi được xác minh, hiện có Galaxy tại Việt Nam. Phim sắp ra mắt không xuất hiện trong gợi ý mặc định, trừ khi người xem chọn lọc sắp chiếu. Trạng thái đang chiếu tại Galaxy là bản chụp có hạn 7 ngày; theo liên kết nguồn để kiểm tra suất thực tế.
 - **Cộng đồng:** phòng chat cập nhật định kỳ, đánh giá theo phim, thích bài, nội dung spoiler được thu gọn, báo cáo và gỡ bài của mình.
 - **Blog:** người dùng đăng công khai, theo lựa chọn mới nhất của chủ website; có báo cáo nội dung. Bản nháp tự lưu trên thiết bị. Không sao chép đánh giá của người dùng Letterboxd.
 - **Tài khoản:** đăng ký email/mật khẩu, đăng nhập Google/Facebook khi đã cấu hình ứng dụng OAuth; session cookie HttpOnly, Secure, SameSite=Lax; mật khẩu scrypt; giới hạn tần suất và kiểm tra quyền trên server. Chế độ khách online có thể tham gia cộng đồng ẩn danh.
@@ -75,7 +77,7 @@ Train tạo `artifacts/engine.npz`, `data/processed/split_manifest.json` và `re
 
 Chia thời gian **theo từng người dùng**, gần tỷ lệ 80/10/10; các nhóm timestamp bằng nhau không bị tách. Kiểm tra cả train→validation, validation→test, train→test và trùng cặp user/movie. Người dùng có lịch sử quá ngắn hoặc một timestamp được giữ trong train; người dùng chỉ có hai nhóm thời gian có thể không có validation.
 
-Train thực tế: **799.898**; validation: **99.791**; test: **100.520** đánh giá. Catalog có **3.920** phim (3.883 MovieLens và 37 tác phẩm bổ sung); **3.706** phim có đánh giá trong dữ liệu; **6.040** người dùng; tổng **1.000.209** đánh giá. Các con số từ báo cáo đã chạy, không phải số liệu mô phỏng.
+Train thực tế: **799.898**; validation: **99.791**; test: **100.520** đánh giá. Catalog có **4.064** phim (3.883 MovieLens và 181 tác phẩm bổ sung); **3.706** phim có đánh giá trong dữ liệu; **6.040** người dùng; tổng **1.000.209** đánh giá. Các con số từ báo cáo đã chạy, không phải số liệu mô phỏng.
 
 Benchmark dùng cùng tập ứng viên **toàn catalog trừ phim train và validation**, phim relevant có test rating ≥4, seed 42, K=10, MMR=0. Lấy mẫu 200 người có ít nhất một phim test relevant và 10.000 cặp test rating. RMSE/MAE chỉ áp dụng cho đầu ra dự đoán rating của Popularity, CF và SVD; Content/Hybrid chưa hiệu chỉnh rating nên không công bố RMSE/MAE cho chúng. Không tối ưu tham số trên test.
 

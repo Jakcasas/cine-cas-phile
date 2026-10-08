@@ -1,0 +1,4922 @@
+{
+  "movies": {
+    "1000035": {
+      "imdb_id": "tt36586020",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36586020/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36586020/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzUwZjA1ODYtZTAzYy00MDgyLWExMTItMzEwMmZiY2Y3ZGJlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_vi": "Người Mẹ Khác",
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36586020/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36586020/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-09",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36586020/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Người Mẹ Khác"
+      ]
+    },
+    "1000038": {
+      "imdb_id": "tt37510326",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37510326/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37510326/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjdlZTgzZDUtMmVjYy00M2EyLWFlNGMtNjVhYjM2ODNmZjEzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_vi": "Phán Xét Sự Thật",
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37510326/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-09",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37510326/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Phán Xét Sự Thật"
+      ]
+    },
+    "1000039": {
+      "imdb_id": "tt35856037",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35856037/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35856037/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZDEwMjk2MjMtMTI3ZS00ODg5LWI2ZDYtOTVkOGZlNzIyYzRjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35856037/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-17",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35856037/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Your Mother Your Mother Your Mother"
+      ]
+    },
+    "1000040": {
+      "imdb_id": "tt29256561",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt29256561/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt29256561/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOTNmMTRlNTItYWExMC00ZDRjLWI1ZWItOGRlNGJhMDE0NTQ0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000041": {
+      "imdb_id": "tt39850240",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39850240/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39850240/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZmJhNjU3ODUtOTI1YS00M2RlLWJiZDEtZGU0NjRhYTBiNWNhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000042": {
+      "imdb_id": "tt33381528",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt33381528/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt33381528/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDg2M2E5NWUtM2FlYS00OGRlLTk3YWEtMWU5MDhlMWIyMDEyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000043": {
+      "imdb_id": "tt34386754",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34386754/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34386754/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDllNjIxZTYtYjIxZi00ZGNmLTliYTAtOTM0NTQ0OThkN2E4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000044": {
+      "imdb_id": "tt29549490",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt29549490/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt29549490/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOWM0ZWNkOTEtNWViNC00MzQ2LThlYjYtMjE3YzVkYmExMjBiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000045": {
+      "imdb_id": "tt31183803",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt31183803/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt31183803/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTlkMmIxMDAtNzlmZS00MzE3LWI1OWQtMWZiNTgzN2E5Njg2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000046": {
+      "imdb_id": "tt36363878",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36363878/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36363878/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNTExZjZlNzEtMTUzMC00MmU1LWI5ZGQtMjYwMGMwNTRjMzQ1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000047": {
+      "imdb_id": "tt39216435",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39216435/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39216435/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDExMjJkMTAtNjYxZC00Y2ZmLTlkMDQtMGRjOTExYmIwNWZhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000048": {
+      "imdb_id": "tt46665146",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-12",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt46665146/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt46665146/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjljNDU1MjItZDdiMy00YzgzLWIzMzctNjg3NjM3MmUxNzljXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000049": {
+      "imdb_id": "tt33318732",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-15",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt33318732/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt33318732/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjUwNzM2MmMtYjZmNS00N2QwLWJhYWUtODFkOTgzM2M2ZTc3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000050": {
+      "imdb_id": "tt45368240",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt45368240/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt45368240/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDkwNGRiNjYtZTQ4MC00MWFhLWI3MjYtNzk1MDY2ZTNiY2Q4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000051": {
+      "imdb_id": "tt13609648",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt13609648/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt13609648/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzNmM2E0OWItZWU2MC00M2I3LWEyZTQtYWIyYmZhOGEyOTY1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000052": {
+      "imdb_id": "tt27419420",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt27419420/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt27419420/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzZiZWMzMWItMzQyNy00MGQ2LWJhNzItMzIwMTVhZWQ4MjkyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_vi": "Phim Street Fighter",
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27419420/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27419420/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27419420/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27419420/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27419420/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Phim Street Fighter"
+      ]
+    },
+    "1000053": {
+      "imdb_id": "tt42192423",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt42192423/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt42192423/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzU1Y2Q5OWQtZWFiZi00YTI2LWEyMDctZWE2MmVmYzI0MDYwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000054": {
+      "imdb_id": "tt32329539",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32329539/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32329539/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjQzNTk0OTUtNGIxMy00YzNmLTk4MTMtOWNhNGIxMDgyZTA1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32329539/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32329539/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Crawlers"
+      ]
+    },
+    "1000055": {
+      "imdb_id": "tt27041231",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt27041231/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt27041231/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzU2ZGE5YjgtMGRiMC00MDIyLTk4N2EtYTk3NTFiYWI4YWFhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000056": {
+      "imdb_id": "tt31456607",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt31456607/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt31456607/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTNlNGU1NmEtMDdkZS00OGUwLWI3MTYtNzk5YWU4ZjFkNWJhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000057": {
+      "imdb_id": "tt38633147",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38633147/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38633147/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTQ0NTQ4ZWQtMzUyMy00Y2IxLTgyNWUtNTZjNTNmYmNmMjhiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000058": {
+      "imdb_id": "tt39233100",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39233100/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39233100/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMWUzMTRiOTgtOWFjZC00NDZkLTk2MzctYzllMWRkOGI5NzcwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000059": {
+      "imdb_id": "tt28773062",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt28773062/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt28773062/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjU3OWNhNGQtNTZiYy00Zjk4LWJjZjQtZjYzYzhmZDhjMWU1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000060": {
+      "imdb_id": "tt32324552",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32324552/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32324552/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjI4MzdhOTctY2Q3Yi00OTJmLTg1N2ItOWJiMjUyMmQxMzE5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000061": {
+      "imdb_id": "tt42004484",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt42004484/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt42004484/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNTIxNjVmNTQtZmQxMC00ZDk3LTliNmYtY2ZmMDFkYmI0ODMxXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000036": {
+      "imdb_id": "tt34890576",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34890576/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34890576/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDU2ZTViMzMtYTdmZC00NTA4LWI5NTctOWE5NzhlMzU2OGJhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34890576/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34890576/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-30",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34890576/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34890576/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34890576/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Clayface"
+      ]
+    },
+    "1000062": {
+      "imdb_id": "tt35410859",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35410859/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35410859/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGQwZTQ0YzgtZjk5Mi00NTg1LTg0MmMtZmNjNGUwYjhjNWJhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000063": {
+      "imdb_id": "tt2056785",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt2056785/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt2056785/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNWI3NWZjNDEtNzRmMS00M2M0LWI3Y2YtNDk3NjY5ZWI4OGYwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt2056785/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt2056785/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Wildwood"
+      ]
+    },
+    "1000064": {
+      "imdb_id": "tt14371256",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt14371256/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt14371256/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNjQ1YzgwMTMtZDRhNC00MDE0LWFmODctM2ZlNjg5MmNiMDI1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt14371256/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt14371256/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Klara and the Sun"
+      ]
+    },
+    "1000065": {
+      "imdb_id": "tt43655467",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43655467/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43655467/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjIyYWYyMzEtMDkwOC00NDk0LWEwYzItNTk1NWYxNWEwMjA5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43655467/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43655467/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ali G: Who Iz I?"
+      ]
+    },
+    "1000066": {
+      "imdb_id": "tt23472798",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt23472798/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt23472798/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzI0OWQxZWMtZTM4MS00OTY5LTk1NDYtMjBmNmMxNzJhNTY2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000067": {
+      "imdb_id": "tt37660509",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37660509/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37660509/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzE3ODQ5NmEtMjE1ZS00OWMxLTgyZDktZjNjNzgzZDA4ZGJhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000068": {
+      "imdb_id": "tt39075417",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39075417/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39075417/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDU4MTQzNjktMDUwZi00NGJmLTk1MTUtNzJmYWI2OTRhNzJkXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000069": {
+      "imdb_id": "tt29611136",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt29611136/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt29611136/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODliMTEzMTUtOGFlZS00NTgxLThjODEtMzcwNTE1OWE5Mzg2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt29611136/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt29611136/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt29611136/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Wicker"
+      ]
+    },
+    "1000070": {
+      "imdb_id": "tt13611778",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt13611778/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt13611778/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDBmN2E2YTQtMWE2Ni00ZjMxLWE4NGItODk2ZDZjZDU0MjdlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000071": {
+      "imdb_id": "tt42588704",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt42588704/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt42588704/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDczMmIwYTItMGFmNC00YmFlLTg5NWUtZTQ0YWJlY2UzMjE5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000072": {
+      "imdb_id": "tt27541205",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt27541205/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt27541205/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNTIxY2M1YjMtNGQ5My00NTZiLTlhOGItNWIxNWY3YmQxNDhmXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000073": {
+      "imdb_id": "tt38691481",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38691481/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38691481/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNmE3ZDdkNzEtMjkyNy00OGUyLWE1YzQtMDM4ZTc3NWI1ZjgwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000074": {
+      "imdb_id": "tt39773403",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39773403/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39773403/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzQ0MTI0MmEtZTVmOS00NzBmLTlkNjEtNWRmOGQzZjE2ZGVhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000075": {
+      "imdb_id": "tt43699387",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43699387/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43699387/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDc4NWMyMzUtMWM0Ni00NDk4LWFiZGEtY2RjZTQ1MjM1YmQ2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000076": {
+      "imdb_id": "tt43622757",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43622757/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43622757/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZDYwNTJmZWUtMTgxMi00NzRhLTkxNWQtNTk4YmIyMjdkYjA2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000077": {
+      "imdb_id": "tt47647390",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt47647390/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt47647390/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjc5MWE4MGQtNzk3My00Mzk3LWExZWMtMWJkM2JhOTRjY2M2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000078": {
+      "imdb_id": "tt47599036",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt47599036/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": []
+    },
+    "1000079": {
+      "imdb_id": "tt36465142",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-31",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36465142/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36465142/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTAzZjgxNzUtZGUwYi00MGRjLWJjNGItODAyNDdmYWExNDE5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000080": {
+      "imdb_id": "tt34375721",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-03",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34375721/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34375721/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzA3NjQ4YmMtMmNlOS00NzJjLTk1YzgtMjYzMDRkMzRhYjNlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000081": {
+      "imdb_id": "tt40210362",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt40210362/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt40210362/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZGU0NTI1YjktNmUxNS00NDdmLWI5MDMtMTlhOTA0NGI2YjY0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000082": {
+      "imdb_id": "tt34446639",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-05",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34446639/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34446639/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjA4ODZjNDUtOWNlNy00MDI1LWIwMjYtOGQ4NDkxOTY3YWExXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000083": {
+      "imdb_id": "tt34384661",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34384661/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34384661/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGZhNmQxZjAtOGNjYi00NGVhLTkzZWItZTM5NThmYjUwYTU1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34384661/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-03",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34384661/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34384661/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34384661/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Godzilla Minus Zero"
+      ]
+    },
+    "1000084": {
+      "imdb_id": "tt15799564",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt15799564/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt15799564/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOTlkOGFlYWYtN2VlNC00NjNhLWIxYmMtNDVhZTQ4YmQ4ZTdiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt15799564/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-04",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt15799564/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt15799564/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Wild Horse Nine"
+      ]
+    },
+    "1000085": {
+      "imdb_id": "tt27988879",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt27988879/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt27988879/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYWE4NWVmZjItN2Y0ZC00YmMzLThhNWEtM2VkZjA3MmFlNjdmXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27988879/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27988879/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ramayana Part 1"
+      ]
+    },
+    "1000086": {
+      "imdb_id": "tt2321555",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt2321555/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt2321555/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZmJhNzk4OGMtOTlmNC00ODAxLWFkYjYtY2RhYWVmNDg5YmViXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt2321555/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt2321555/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Cat in the Hat"
+      ]
+    },
+    "1000087": {
+      "imdb_id": "tt10098420",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt10098420/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt10098420/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjBkOGM3ZjMtYjcxMy00ZDAzLTllYTgtYjMxOTJjNTVjNTM0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000088": {
+      "imdb_id": "tt31179962",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt31179962/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt31179962/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMGU1NTI4MWUtZWZhMi00ZTgwLWJkYTAtY2Q4YWEwZGNlNDgyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000089": {
+      "imdb_id": "tt43658893",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43658893/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43658893/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZGZhZGYzZTYtNDc1Zi00M2Q2LTg1NTYtNGRmZTM3YmRiYTg5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43658893/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=US",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43658893/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Paradise Lost"
+      ]
+    },
+    "1000090": {
+      "imdb_id": "tt37694048",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "US",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37694048/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=US",
+        "checked_at": "2026-10-09"
+      },
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37694048/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMmM3ZDI3ZjQtOTQ1ZC00YTNkLWI1OGUtYmUwNmJmNGU4OWVhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000097": {
+      "imdb_id": "tt39094466",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-08",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39094466/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-08",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39094466/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Rukku bakku"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39094466/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDJlYTdjMGQtYTIyYy00YWNmLWI5NDEtYzRhNzc1Yzk2NTY4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000098": {
+      "imdb_id": "tt1959374",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-08",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt1959374/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-08",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt1959374/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Dresden Sun"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt1959374/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOTZiZTUyMTYtYWZmMS00MDgzLWJjMGItYTNkNGY3OTYzOTJlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000099": {
+      "imdb_id": "tt47597140",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-08",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt47597140/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-08",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt47597140/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Still Shining"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt47597140/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzJjY2EzZjAtZDI2YS00OTllLWEzMDEtNDkyYTlhN2I1NjVjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000100": {
+      "imdb_id": "tt28535715",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt28535715/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt28535715/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt28535715/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt28535715/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt28535715/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Cá Voi Nuốt Chửng"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt28535715/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOWJkMjA4M2MtODRkMi00NzI4LTk4MDQtNDZlODdhNDdkYmM3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000101": {
+      "imdb_id": "tt32192760",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32192760/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32192760/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Pháo Hoa Lúc Bình Minh"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32192760/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODk2MzU1OGQtMjkyNy00MDhkLWExMmQtMDEzZjA0ODQzYmVhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000102": {
+      "imdb_id": "tt28638842",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt28638842/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt28638842/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Borderline"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt28638842/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzcyNTM1NDctYjg5OS00YzRlLTlkOTctNTUyYjkxNTNjOWFhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000103": {
+      "imdb_id": "tt37964027",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37964027/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37964027/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "In-I in Motion"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37964027/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjk0NTdlNzYtNGNkOC00OWExLTk1MDEtYjI2ZDIyYWRhMjgzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000104": {
+      "imdb_id": "tt8080418",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-15",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt8080418/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-15",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt8080418/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Islander"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt8080418/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDQxZmEzMzYtODM5MC00NTFhLTk4NTItMmNmNDhiNTMxMGMyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000105": {
+      "imdb_id": "tt38607788",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-20",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38607788/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-20",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38607788/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-20",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38607788/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-20",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38607788/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Luntik. Obratinaya storona Luni"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38607788/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOTQ3YzBmMDgtMGRhZi00M2FhLTg5ZTctY2NmNTkzOTRmYjA2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000106": {
+      "imdb_id": "tt39143902",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39143902/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39143902/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Bóng Quỷ"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39143902/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjVkZjIxMzItMzYyMi00ODMwLWEwMWQtMjhhMTkwMGI5MWEyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000107": {
+      "imdb_id": "tt43663820",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43663820/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43663820/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Nunduldega eomne"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43663820/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODRmOGYxM2YtYTliNi00ODMzLTg3YmYtMTM5MWZkZjNhYWQ5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000108": {
+      "imdb_id": "tt36592916",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36592916/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36592916/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "ChaO"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36592916/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzIxNDY1NzgtN2U2Yi00YmQ5LThlNDMtNmM3MzY1MGE1MzEyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000109": {
+      "imdb_id": "tt33829458",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt33829458/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt33829458/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Mieruko-chan"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt33829458/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMWIxMjNmMjAtNGI2NC00MTIxLWJlZmYtOWU1OTBhNzVjYjUzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000110": {
+      "imdb_id": "tt5613018",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-22",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt5613018/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-22",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt5613018/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "DarkGame"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt5613018/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmYxYmNhY2UtMmUxNC00NGMwLTk2YzQtZmRmM2FlZWZkNTU1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000111": {
+      "imdb_id": "tt7526136",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt7526136/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt7526136/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Trái Tim Quái Thú"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt7526136/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMDVlMTRhMjgtMjdmZi00NjJhLWExMmYtODExNWJkZGZjNjdhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000112": {
+      "imdb_id": "tt37107071",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37107071/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37107071/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Brunello, il visionario garbato"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37107071/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTEzY2MxMjYtYmFlYi00OTJlLTk1ZjMtMzYxYTFhMjhhZTgwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000113": {
+      "imdb_id": "tt43738759",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43738759/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43738759/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-09",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43738759/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Nanji, boshi no gotoku"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43738759/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjY2OTBkN2QtOWViNS00YjU5LThjYzQtZDUxNjJkNmVkZTU3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000114": {
+      "imdb_id": "tt37799273",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37799273/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37799273/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37799273/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Sanguine"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37799273/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODNmMDQwYTUtMDhjMC00NzAwLWE2ZjYtM2M2YTBjOTNmNmY2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000115": {
+      "imdb_id": "tt6215522",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt6215522/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt6215522/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Bajo tus pies"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt6215522/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzk1NGFlZWMtN2ExOS00NWJjLThhYzEtMjdhZWQ1YTYzZjRjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000116": {
+      "imdb_id": "tt44980509",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "KR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt44980509/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "KR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44980509/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=KR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Final Interview"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt44980509/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODFkZTgyMjQtYWUwOC00ODMzLWFkNjktZDQxNDM2NjNiYmU5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000033": {
+      "imdb_id": "tt31450459",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt31450459/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt31450459/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Digger"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt31450459/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BM2Y4ZTlmZDUtZDcyZC00MTdmLWEyMjctOTc0MDhlNzU3MmRlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000117": {
+      "imdb_id": "tt43691434",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43691434/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43691434/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Doko Yori mo Tooi Basho ni Iru Kimi e"
+      ],
+      "poster_sources": []
+    },
+    "1000118": {
+      "imdb_id": "tt39195693",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39195693/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39195693/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Girls und Panzer das Finale: Part V"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39195693/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOWE4ZTVjYzYtYTA1MS00OTVkLWFkZWUtOTdhMDQxMjQ1ZjkyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000119": {
+      "imdb_id": "tt37108970",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-12",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37108970/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-12",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37108970/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-12",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37108970/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-12",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37108970/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Always Lalisa"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37108970/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzhjMGRmN2ItNjRhYy00MjZlLWJlNDMtMmExOTI0ZDE2ODA5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000120": {
+      "imdb_id": "tt39927807",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39927807/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39927807/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Rascal Does Not Dream of a Dear Friend"
+      ],
+      "poster_sources": []
+    },
+    "1000121": {
+      "imdb_id": "tt42343337",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt42343337/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt42343337/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Mentor"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt42343337/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTZjODQ2MGUtMDEyMi00ODY1LWIwMzgtNmY4NGRkNTFlZWE1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000122": {
+      "imdb_id": "tt39335288",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39335288/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39335288/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "BanG Dream! Ave Mujica: prima aurora"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39335288/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODNlMjI1ZjMtMjg1Ny00ZWU1LWFmNDQtZmU5NWU4ZmFiZmY3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000123": {
+      "imdb_id": "tt36841161",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36841161/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36841161/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36841161/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Shaun the Sheep: ''Quái Lạ'' Ghé Nhà"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36841161/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZTBlYWE2MWUtNWJiYy00MzQ1LWFjZjQtNWUyZDM0YzEwMjY4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000124": {
+      "imdb_id": "tt37803364",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37803364/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37803364/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37803364/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ganeunghan sarang"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37803364/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTk4NjU5NjQtZjQxOS00OGIwLThhM2MtYWU1OTc4Y2M4NGVmXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000125": {
+      "imdb_id": "tt36753615",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36753615/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36753615/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Bad Lieutenant: Tokyo"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36753615/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTdkNzgxYjgtNmFmYi00ZjA3LWI4M2ItMDI1MzZmNzRiMGVjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000126": {
+      "imdb_id": "tt38864557",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38864557/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38864557/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Made in Abyss: Mezameru Shinpi"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38864557/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZTNiZWE0ZGUtZTE0Yy00NzAyLWJjM2EtM2NmZTcyMTE4OWFmXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000127": {
+      "imdb_id": "tt31645750",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt31645750/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt31645750/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Đại Ca Ha Ha Ha"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt31645750/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BM2IzODQ2MGEtNzg0Zi00NTVhLTliYTUtNGI0YzM0MjhiZTU0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000128": {
+      "imdb_id": "tt37093338",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37093338/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37093338/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Jin xing qu"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37093338/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTE0MWZmYWEtOWNlNy00MTVjLTg5YWUtODZmNWNjMmE3ZTJlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000129": {
+      "imdb_id": "tt44766123",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-24",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt44766123/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-24",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44766123/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-12",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44766123/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44766123/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Naza"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt44766123/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzA5YjdhYTYtNmY5ZS00Mzg1LTkyNDItOGQ1YzQ1MDYzNWJlXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000130": {
+      "imdb_id": "tt41782670",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt41782670/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt41782670/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Lầu Chú Hỏa"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt41782670/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjY2N2E2MmYtZjQ5ZC00ZmY5LTlmZDEtMTA1ZjdkNGU2NDVjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000034": {
+      "imdb_id": "tt32261958",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32261958/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32261958/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Bí Mật Bị Chôn Vùi"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32261958/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjEwMGNiZGEtMDM2OS00NzYwLTlhNTQtNzAzNDhkYzYzMzU1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000131": {
+      "imdb_id": "tt35233952",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "JP",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35233952/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "JP",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35233952/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=JP",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Grotesqqque"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35233952/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZDhlYTM3NjEtYjhlOC00ZTEwLTgzNjItN2M0ZDZlODc4YTQyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000132": {
+      "imdb_id": "tt37118301",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37118301/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37118301/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Minotaur"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37118301/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjRjMjUwM2QtMzk1OC00MGU4LTlmZTEtNTJjYWIzNDFlMDZhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000133": {
+      "imdb_id": "tt36639956",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36639956/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36639956/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Le corset"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36639956/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNWMwMWFjNmEtMWEzMC00NDEzLWI2MmUtZTEyNGY3MmE4Y2IxXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000134": {
+      "imdb_id": "tt35518109",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35518109/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35518109/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Les misérables"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35518109/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNTUyNDBmMDMtMmNmMC00OTNlLThkMWQtNGU4ZjQxZTZmNDIyXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000135": {
+      "imdb_id": "tt7081280",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt7081280/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt7081280/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Mochy, le chien le plus moche du monde"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt7081280/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjc1M2FkYmMtMTM3Ny00OTM4LThjMmUtMDIwMGQxYTEwNjMzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000136": {
+      "imdb_id": "tt35485652",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35485652/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35485652/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Solomamma"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35485652/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZGU1NTJmODMtNmIzNC00YjZiLThmN2QtNDVmNWJmM2I3MGI1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000137": {
+      "imdb_id": "tt39368030",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39368030/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39368030/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Geunyeoga doraon nal"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39368030/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTBlMGQwYmYtZWRlZi00ZTMzLThkYjgtMjkwMzczZTllZDg3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000138": {
+      "imdb_id": "tt37333986",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37333986/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37333986/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Qui vit encore"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37333986/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BM2NiYmZiMTQtMWVlOS00M2YyLTg1YWMtY2VmMzg4ODA5ZmMwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000139": {
+      "imdb_id": "tt43676517",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43676517/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43676517/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Il était une fois le printemps"
+      ],
+      "poster_sources": []
+    },
+    "1000140": {
+      "imdb_id": "tt43676472",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-14",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43676472/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43676472/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Petite Casbah"
+      ],
+      "poster_sources": []
+    },
+    "1000141": {
+      "imdb_id": "tt37281055",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-20",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37281055/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-20",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37281055/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Buddy"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37281055/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMWRkNWJhNjYtY2FkZC00YjFlLWFjMjUtZGFhMjc5MGYyODE4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000037": {
+      "imdb_id": "tt36583977",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36583977/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36583977/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36583977/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Hòn Đảo Quên Lãng"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36583977/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMWJlY2JiNTMtYTAwYy00NGFiLTkwYTEtM2VmNDc4MzM5YmJiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000142": {
+      "imdb_id": "tt36107185",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36107185/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36107185/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "La Gradiva"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36107185/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZTRlMjQ0YzAtMTY3MC00YzgzLTlmNGQtYzNkYzhhMDA5NmQ3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000143": {
+      "imdb_id": "tt44842464",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt44842464/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44842464/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Le roi du game"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt44842464/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTJkYmMyN2EtODcyZi00MmMxLTlmMzctN2ExYjk3ZWUzOWVkXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000144": {
+      "imdb_id": "tt35450621",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35450621/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35450621/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Karma"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35450621/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMmUwNjQ4NDMtNTRjOS00MDEwLWI5MzctMTI0NDAxNWVmNzczXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000145": {
+      "imdb_id": "tt43645716",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-21",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43645716/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43645716/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Une femme aujourd'hui"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43645716/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTk2YmRlODgtNjQyMS00ZWFkLTgxODYtOGZmZGVlNWRmYWQ2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000146": {
+      "imdb_id": "tt27369017",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt27369017/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt27369017/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Vùng Tử Địa"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt27369017/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZjE3ZDI0MmItMDIyMC00NzU2LTk2OTQtZTUxYTlkMjlkNmY3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000147": {
+      "imdb_id": "tt36899180",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36899180/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36899180/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Moulin"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36899180/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMGFjM2UxOWQtMzUxNi00NmIwLThlYzItYWZhZmU3M2QzMDI3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000148": {
+      "imdb_id": "tt37740990",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37740990/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37740990/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Le fantôme de l'opéra"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37740990/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGE5ZDE4MzAtMzQ0NC00NmVhLWJmODItYmRhZWIwNjkyNzczXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000149": {
+      "imdb_id": "tt39969491",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39969491/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39969491/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Quelques mots d'amour"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39969491/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzYyMjM4NzctNzJhNS00M2I3LWJiN2YtOGIyMTgwMTk3NjI4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000150": {
+      "imdb_id": "tt35093403",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-28",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35093403/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35093403/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "La gioia"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35093403/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGNkODZiZmYtMjA2Yi00NzE0LWEzZGUtZGJkMWEyNjFmMDNjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000151": {
+      "imdb_id": "tt44112032",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-01",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt44112032/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-01",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44112032/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Always Yours, Never Mine"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt44112032/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZWY1ZWM3ZjMtNWZiOC00MWViLWIwYzktMDAzMjFiZjc0YTY2XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000152": {
+      "imdb_id": "tt38686316",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38686316/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38686316/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38686316/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ghost Soldier"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38686316/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTYyOTY0MmUtNTdiMC00Zjc1LWI2NzEtZjhjZGVmMjJjNWFkXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000153": {
+      "imdb_id": "tt38058097",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38058097/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38058097/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Club Kid"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38058097/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYWUxYjgzMjgtMzgzMC00ZTdlLWJkMjktYmY4YWFiNDg1MWJmXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000154": {
+      "imdb_id": "tt35494574",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35494574/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35494574/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "L'affaire Marie-Claire"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35494574/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMGU5Y2VjNTgtZDM0YS00Y2NkLTg5Y2YtNzg4ZTc0NDc2Nzg1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000155": {
+      "imdb_id": "tt39230003",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt39230003/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt39230003/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Arab"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt39230003/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNTk3ZDMxMGQtMjVkZC00ZjIzLWE5MDMtNTlhZDhiNzI0Yjg0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000156": {
+      "imdb_id": "tt32231102",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32231102/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32231102/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Kwibuka (se souvenir)"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32231102/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTllMDEwYWEtMWIxZS00OGEyLWJiOGMtMmVjMzY2YzUyMDA3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000157": {
+      "imdb_id": "tt35718384",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35718384/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35718384/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Carlo Acutis: Roadmap to Reality"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35718384/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmFiY2EzNjEtYTU4Zi00MWQ4LTk2ZWMtYTY3MzA4ZGFiMGY1XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000158": {
+      "imdb_id": "tt44842724",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt44842724/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt44842724/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Nos âmes libres"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt44842724/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMzM4MDAwOWItMWJjMS00M2FiLWJmMTUtOTljYjg1ZmYxNjcxXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000159": {
+      "imdb_id": "tt43614897",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "FR",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt43614897/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "FR",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt43614897/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=FR",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ma toute petite école"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt43614897/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmUyNWExODAtY2Y2Ni00YTUzLWFmMWItNzRlMzdlOWU0MWEwXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000160": {
+      "imdb_id": "tt36983905",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt36983905/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt36983905/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Uprising"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt36983905/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmNiZjVhOGItZTUxMi00MDUwLWJlNDItYTg2MTViZmQzMmU0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000161": {
+      "imdb_id": "tt5335774",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt5335774/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt5335774/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Yellow Tie"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt5335774/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTA4OTZmYTgtNWM1NS00YmVjLTlmOGUtNWY4NzlhNmM5ZWJjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000162": {
+      "imdb_id": "tt37846373",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-09",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37846373/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37846373/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "De la Comédie-Française"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37846373/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZWM1OGU0YWEtYTExYy00ZThkLWJlNTEtZmRjNGNlZWRjNTJhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000163": {
+      "imdb_id": "tt42643242",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt42643242/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt42643242/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "The Influencer Project"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt42643242/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMGU1NGU3N2ItZjBmNi00MDYxLTgyMTQtYzc0OWVkNjZjZTNiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000164": {
+      "imdb_id": "tt9213874",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt9213874/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt9213874/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Breeder"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt9213874/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmQ0ZjVlNmQtYTAwNS00MTg5LTljNDktZWMwZGY4MzZhZTE0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000165": {
+      "imdb_id": "tt34794183",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34794183/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34794183/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Dossier 137"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34794183/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMGEwNTUwOGUtZWIwOS00ZDcxLWIwMGEtM2VhZmZlZmI2MDAzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000166": {
+      "imdb_id": "tt30235784",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-16",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt30235784/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt30235784/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Winter of the Crow"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt30235784/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYzhkMWY0ZmItODMzYS00M2ZlLThkMmEtMWRkODUyMDJiNGQ5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000167": {
+      "imdb_id": "tt37304295",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt37304295/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt37304295/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Fatherland"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt37304295/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BY2M5ZmVkMWMtOTNjZS00MjM3LTg3ODYtYjJmMDJjMjU0ODU5XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000168": {
+      "imdb_id": "tt40311603",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt40311603/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt40311603/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Ghosts: The Possession of Button House"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt40311603/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNzA2ZGE3NTMtNzkyMS00YTBjLWJkZDctN2I4M2NkMWE4NzI3XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000169": {
+      "imdb_id": "tt38807889",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38807889/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38807889/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Monster Mia"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38807889/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYjA5NzQxZGEtNGJjOS00YTBlLTk2OTUtODJhZGQ1Y2Q0ODI4XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000170": {
+      "imdb_id": "tt32582337",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-23",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt32582337/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt32582337/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Children of the Wicker Man"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt32582337/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGJhNzJjY2ItZmZjZS00MmIyLTk2NzQtMzg0MGY2ZjQ4ODExXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000171": {
+      "imdb_id": "tt34206385",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt34206385/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt34206385/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Primetime"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt34206385/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMTcyZGI2NWQtOTU3NS00NTEyLTliNDItNTQyNmFkMGZmZGQzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000172": {
+      "imdb_id": "tt30827810",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt30827810/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt30827810/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "I Love Boosters"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt30827810/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BODQwZDU4ZmQtOWE4Yy00ZWZmLTgzZjItNWUxOThmMzcxM2FiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000173": {
+      "imdb_id": "tt33995791",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt33995791/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt33995791/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Animol"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt33995791/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BOGE2MmQ2YjItYzNkMy00NDU2LTlhNzEtOGIzZDNmODk2NGNiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000174": {
+      "imdb_id": "tt30458232",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt30458232/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt30458232/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Bad Day at the Office"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt30458232/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZWY5MzFkZTItMTEyYi00YmIxLTk0MmEtZTYzYzJlYzQ3ZjZiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000175": {
+      "imdb_id": "tt10997764",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt10997764/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt10997764/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "In the Shadows"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt10997764/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMjliYWQxMWMtZWQxNS00ZDFiLTg5MDItMjE4MTBjMGEyY2RjXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000176": {
+      "imdb_id": "tt38188218",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-10-30",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38188218/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38188218/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Shen tan zhi hen ji"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38188218/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYmIyMmQ5YjEtMGZjYy00MTUzLWJiNTItYmJhZDA2ZWVhOGQ0XkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000177": {
+      "imdb_id": "tt40564737",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-04",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt40564737/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-04",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt40564737/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "George Michael: The Faith Tour"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt40564737/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BZDdhODczOGItNGRkYi00YTBkLTgzNDMtYWU1YTU1NmI4MzRiXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000178": {
+      "imdb_id": "tt35511966",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt35511966/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt35511966/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "La bola negra"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt35511966/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BYTY5NWVlOGYtYWIyYi00OGMwLTk2ZWItYTRlZWU5NDU0ZWYxXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000179": {
+      "imdb_id": "tt19499670",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt19499670/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt19499670/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Merry Christmas Aubrey Flint"
+      ],
+      "poster_sources": []
+    },
+    "1000180": {
+      "imdb_id": "tt11445200",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt11445200/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt11445200/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Onwards and Sideways"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt11445200/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BNDc4YWJlNTEtNGUyOS00OGI1LTkzMDMtNWM0MWI2ZjhhYTBhXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    },
+    "1000181": {
+      "imdb_id": "tt38345790",
+      "catalog_sources": [
+        "IMDb"
+      ],
+      "media_type": "film",
+      "release": {
+        "date": "2026-11-06",
+        "region": "GB",
+        "source": "IMDb",
+        "url": "https://www.imdb.com/title/tt38345790/",
+        "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+        "checked_at": "2026-10-09"
+      },
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "GB",
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt38345790/",
+          "calendar_url": "https://www.imdb.com/calendar/?region=GB",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "title_aliases": [
+        "Manipulation"
+      ],
+      "poster_sources": [
+        {
+          "name": "IMDb",
+          "page_url": "https://www.imdb.com/title/tt38345790/",
+          "image_url": "https://m.media-amazon.com/images/M/MV5BMmQ5Nzg2ODAtNmU4My00NzYyLWJmZDYtNmYwMWU2OWQzMDQzXkEyXkFqcGc@._V1_QL85_UX600_.jpg",
+          "fallback_url": null
+        }
+      ]
+    }
+  },
+  "updated_at": "2026-10-09"
+}

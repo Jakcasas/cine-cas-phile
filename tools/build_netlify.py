@@ -21,6 +21,8 @@ def main():
         matrix=getattr(engine,prefix)
         for key in ['data','indices','indptr']:model[prefix+'_'+key]=getattr(matrix,key).tolist()
     model['poster_movies']=sum(bool(e['poster_sources']) for e in service.enrichment.movies.values())
+    catalog=ROOT/'data/catalog';catalog.mkdir(parents=True,exist_ok=True)
+    (catalog/'movies.json').write_text(json.dumps(model['movies'],ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
     destination=ROOT/'netlify/functions/data';destination.mkdir(parents=True,exist_ok=True)
     temporary=destination/'model.json.gz.tmp'
     with gzip.open(temporary,'wt',encoding='utf-8') as f:json.dump(model,f,separators=(',',':'),allow_nan=False)

@@ -40,6 +40,7 @@ export function safeProfile(p, engine) {
   if (genres.length > 18 || genres.some(g => !engine.d.genres.includes(g))) throw new ClubError(422, 'Thể loại không hợp lệ.');
   const survey = p.survey || {};
   if(typeof survey!=='object' || Array.isArray(survey) || !Array.isArray(survey.avoid || []) || (survey.avoid || []).some(g=>!engine.d.genres.includes(g)))throw new ClubError(422,'Khảo sát không hợp lệ.');
+  if(genres.some(g=>(survey.avoid || []).includes(g)))throw new ClubError(422,'Một thể loại đang được chọn cả yêu thích và muốn tránh. Hãy điều chỉnh khảo sát.');
   if(!Array.isArray(survey.seed_ids || []) || (survey.seed_ids || []).length>5 || (survey.seed_ids || []).some(id=>!engine.mi.has(id)))throw new ClubError(422,'Phim tham chiếu không hợp lệ.');
   if (JSON.stringify(survey).length > 8000) throw new ClubError(422, 'Khảo sát quá dài.');
   return {watchlist, seen, ratings, genres, survey};

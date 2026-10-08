@@ -29,3 +29,13 @@ form input[type=checkbox]{accent-color:#7b2034}form textarea{resize:vertical;lin
 #account-status,#community-status,#blog-status,#feedback-status,.review-status{color:#7b2034;line-height:1.7;font-size:14px}
 @media(max-width:650px){.header-actions{flex-wrap:wrap}.header-actions #account-open{font-size:12px}.community-bar{gap:12px}.community-bar .text-button{font-size:12px}#identity-label{width:100%;margin:0}.section-heading{gap:16px;flex-wrap:wrap}.form-row{gap:0}.form-row>label{width:100%;flex-basis:100%}.post-author{flex-wrap:wrap}dialog{padding:24px 20px}.recommend-controls{padding:18px}.account-tabs{gap:8px}.account-tabs button{font-size:12px}.stars button{font-size:21px}.site-header nav{justify-content:flex-start}.community-post h3{font-size:18px}}
 @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+.collection-summary{display:flex;gap:30px;flex-wrap:wrap;padding:22px 0;border-bottom:1px solid #e5d6d9;margin-bottom:20px;color:#74495a;font-size:14px}.collection-summary strong{font-size:23px;color:#6c2137;margin-right:6px}
+.rating-source-label{font-size:11px;color:#74495a;margin:7px 0}.rating small{font-size:10px}.account-actions{display:flex;gap:22px;flex-wrap:wrap}.account-actions .text-button{font-size:13px;text-transform:none}#taste-summary{overflow-wrap:anywhere}#reset-filters{font-size:12px;text-transform:none;white-space:nowrap}
+@media(max-width:650px){.collection-summary{gap:14px;font-size:12px}.collection-summary strong{font-size:18px}.filters{flex-wrap:wrap;gap:12px}.toolbar{align-items:flex-start;gap:16px}}
+
+
+.release-badge{font-size:11px;color:#7b2034;line-height:1.6;margin-top:6px}
+.release-detail{background:#f4ecee;padding:12px;line-height:1.6}
+.search-suggestions{padding:16px 0;display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.search-suggestions[hidden]{display:none}
+.search-suggestions p{flex-basis:100%;margin:0;color:#7b2034}

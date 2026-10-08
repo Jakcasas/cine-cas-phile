@@ -1,6 +1,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { gunzipSync } from "node:zlib";
 import { join } from "node:path";
+import films from '../../../web/film-utils.js';
 
 const dot = (a, b) => a.reduce((sum, x, i) => sum + x * b[i], 0);
 const norm = (a) => Math.sqrt(dot(a, a));
@@ -11,13 +12,6 @@ const normalize = (a) => {
 };
 const clamp = (x) => Math.max(1, Math.min(5, x));
 export class ValidationError extends Error {}
-const searchKey = (value) =>
-  String(value)
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/[đĐ]/g, "d")
-    .toLowerCase()
-    .trim();
 export class Engine {
   constructor(data) {
     this.d = data;
@@ -33,6 +27,8 @@ export class Engine {
   validate(p) {
     if (!p || typeof p !== "object" || Array.isArray(p))
       throw new ValidationError("Invalid request");
+    if(p.release!=null && !['all','released','recent','upcoming','screening','vn-now','vn-upcoming'].includes(p.release))throw new ValidationError('Lịch phát hành chưa đúng.');
+    if(p.release_region && !Object.hasOwn(films.regions,p.release_region))throw new ValidationError('Quốc gia phát hành chưa đúng.');
     for (const key of ["preferred_genres", "seed_ids", "exclude_ids"])
       if (p[key] != null && (!Array.isArray(p[key]) || p[key].length > 5000))
         throw new ValidationError("Invalid preferences");
@@ -300,11 +296,10 @@ export class Engine {
     )
       throw new ValidationError("Invalid page");
     this.validate(p);
-    const query = searchKey(p.q || "");
-    let movies = this.d.movies.filter(
+    const day=films.localDay();
+    let candidates = this.d.movies.filter(
       (m) =>
-        (!query ||
-          searchKey(m.full_title + " " + (m.title_vi || "")).includes(query)) &&
+        films.matchesRelease(m,p.release,day,p.release_region) &&
         (!p.genre ||
           m.genres
             .split("|")
@@ -316,6 +311,7 @@ export class Engine {
             (s) => p.source === "editorial" || s === p.source,
           )),
     );
+    let movies=candidates.filter(m=>films.matchesQuery(m,p.q));
     const sort = p.sort || "popular";
     if (sort === "popular")
       movies.sort((a, b) => b.rating_count - a.rating_count);
@@ -323,8 +319,8 @@ export class Engine {
     else if (sort === "rating")
       movies.sort(
         (a, b) =>
-          this.d.popularity[this.mi.get(b.movie_id)] -
-          this.d.popularity[this.mi.get(a.movie_id)],
+          (films.audienceRating(b)?.normalized || 0) -
+          (films.audienceRating(a)?.normalized || 0) || b.rating_count-a.rating_count,
       );
     else if (sort === "title")
       movies.sort((a, b) =>
@@ -336,6 +332,7 @@ export class Engine {
       page,
       page_size: size,
       movies: movies.slice((page - 1) * size, page * size),
+      suggestions: movies.length?[]:films.searchSuggestions(candidates,p.q),
     };
   }
 }

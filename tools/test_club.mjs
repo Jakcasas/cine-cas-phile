@@ -12,7 +12,8 @@ assert.ok(!JSON.stringify(publicUser({id:'1',name:'A',password:hash,email:'priva
 const engine=loadEngine();
 assert.throws(()=>safeProfile({ratings:{1:3.7},genres:[]},engine));
 const recommendations=viewerRecommendations(engine,{preferred_genres:['Sci-Fi'],survey:{avoid:['Horror']},exclude_ids:[2571],minimum_rating:3.5,k:20});
-assert.ok(recommendations.count>0);assert.ok(recommendations.recommendations.every(m=>!m.genres.includes('Horror')&&m.movie_id!==2571&&m.rating>=3.5));
+assert.ok(recommendations.count>0);assert.ok(recommendations.recommendations.every(m=>!m.genres.includes('Horror')&&m.genres.includes('Sci-Fi')&&m.movie_id!==2571&&m.audience_rating.normalized>=3.5));
+assert.throws(()=>safeProfile({ratings:{},genres:['Comedy'],survey:{avoid:['Comedy']}},engine));
 assert.throws(()=>viewerRecommendations(engine,{minimum_rating:6}));
 const empty=viewerRecommendations(engine,{year_min:2199,year_max:2200,k:20});assert.equal(empty.count,0);
 delete process.env.MONGODB_URI;

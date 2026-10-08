@@ -2,7 +2,7 @@
   "seed": 42,
   "ranking_users": 200,
   "rating_pairs": 10000,
-  "dataset_fingerprint": "0be312f3e2536331d46a5da0ba8da03eed01be7f5757f2830bdc1a6681b339f0",
+  "dataset_fingerprint": "455630c8bd903dc4ec7efc998a8963c1da2b52dc5e5a5551c5850d11b6a5cf2b",
   "split": {
     "protocol": "temporal_per_user_atomic_timestamps",
     "train_ratio": 0.8,
@@ -35,12 +35,12 @@
       "recall": 0.025587,
       "ndcg": 0.025584,
       "hit_rate": 0.125,
-      "ild": 0.261642,
+      "ild": 0.26101,
       "rmse": null,
       "mae": null,
-      "coverage": 0.132567,
-      "latency_p50_ms": 7.879,
-      "latency_p95_ms": 10.839
+      "coverage": 0.127953,
+      "latency_p50_ms": 7.475,
+      "latency_p95_ms": 12.354
     },
     {
       "model": "collaborative",
@@ -48,12 +48,12 @@
       "recall": 0.001714,
       "ndcg": 0.001018,
       "hit_rate": 0.01,
-      "ild": 0.701347,
+      "ild": 0.701575,
       "rmse": 0.969718,
       "mae": 0.744412,
-      "coverage": 0.163474,
-      "latency_p50_ms": 7.913,
-      "latency_p95_ms": 11.159
+      "coverage": 0.15748,
+      "latency_p50_ms": 7.633,
+      "latency_p95_ms": 10.191
     },
     {
       "model": "svd",
@@ -61,25 +61,25 @@
       "recall": 0.048841,
       "ndcg": 0.048665,
       "hit_rate": 0.23,
-      "ild": 0.814884,
+      "ild": 0.81477,
       "rmse": 0.936547,
       "mae": 0.731557,
-      "coverage": 0.034227,
-      "latency_p50_ms": 8.612,
-      "latency_p95_ms": 13.013
+      "coverage": 0.032972,
+      "latency_p50_ms": 5.778,
+      "latency_p95_ms": 8.24
     },
     {
       "model": "content",
-      "precision": 0.006,
-      "recall": 0.009771,
-      "ndcg": 0.00681,
-      "hit_rate": 0.055,
-      "ild": 0.08272,
+      "precision": 0.0055,
+      "recall": 0.008104,
+      "ndcg": 0.006069,
+      "hit_rate": 0.05,
+      "ild": 0.082694,
       "rmse": null,
       "mae": null,
-      "coverage": 0.109579,
-      "latency_p50_ms": 8.283,
-      "latency_p95_ms": 13.009
+      "coverage": 0.107283,
+      "latency_p50_ms": 2.637,
+      "latency_p95_ms": 4.67
     },
     {
       "model": "popularity",
@@ -87,12 +87,12 @@
       "recall": 0.029283,
       "ndcg": 0.026677,
       "hit_rate": 0.15,
-      "ild": 0.861187,
+      "ild": 0.86109,
       "rmse": 1.001988,
       "mae": 0.796843,
-      "coverage": 0.011494,
-      "latency_p50_ms": 7.955,
-      "latency_p95_ms": 11.666
+      "coverage": 0.011073,
+      "latency_p50_ms": 2.546,
+      "latency_p95_ms": 3.868
     }
   ]
 }

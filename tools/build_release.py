@@ -35,6 +35,7 @@ def main():
                 if path.is_file(): archive.write(path, 'dist/netlify/' + path.relative_to(bundle).as_posix())
             for path in sorted((ROOT/'netlify/functions').rglob('*')):
                 if path.is_file(): archive.write(path, path.relative_to(ROOT).as_posix())
+            archive.write(ROOT/'web/film-utils.js','web/film-utils.js')
             # Keep a build phase so Netlify applies the production env context.
             archive.writestr('netlify.toml', (ROOT/'netlify.toml').read_text(encoding='utf-8').replace(
                 'command = "npm run build"', 'command = "node tools/verify_prebuilt.mjs"'))
