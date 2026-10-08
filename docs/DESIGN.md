@@ -2,7 +2,7 @@
 
 - Accent: #7B2034; hover: #561426; deep wine: #301019.
 - Paper: #FBFBF8; text: #161616; quiet borders: #DEDEDB.
-- Full-width *In the Mood for Love* still supplied for the hero, with a burgundy overlay and warm amber light.
+- Full-width HD upscale of the supplied *In the Mood for Love* still, with a burgundy overlay and warm amber light.
 - Final avatar: a solid black person on white, two-finger-gun gesture, featureless face, no circular fingertip outlines; Operation Napalm lettering inside the torso. Used in the header and favicon. See BRAND.md.
 - The discovery cards use the supplied *2001: A Space Odyssey* still and an AI-assisted resolution enhancement of the supplied *Love Letter* still; the latter is labeled on the card. Selected contact-sheet panels 2, 3 and 4 remain available for illustrative fallback artwork.
 - Uppercase sans-serif navigation and film titles; serif editorial accents.
