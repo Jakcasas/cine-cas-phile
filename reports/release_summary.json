@@ -1,0 +1,18 @@
+{
+  "catalog_movies": 3915,
+  "supplemental_movies": 32,
+  "movies_with_image_urls": 1045,
+  "poster_sources": {
+    "FshareTV": 801,
+    "PhimMoi": 230,
+    "MUBI": 35,
+    "Letterboxd": 829
+  },
+  "ratings_sources": {
+    "Letterboxd": 829,
+    "IMDb": 822,
+    "Rotten Tomatoes": 10,
+    "Metacritic": 11,
+    "MUBI": 34
+  }
+}

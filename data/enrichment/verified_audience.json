@@ -1,0 +1,8 @@
+{
+  "ratings": [{
+    "title": "The Matrix", "year": 1999,
+    "provider": "Metacritic", "audience": "audience", "value": 8.9, "scale": 10,
+    "count": 1849, "url": "https://www.metacritic.com/movie/the-matrix/",
+    "checked_at": "2026-10-08", "method": "Public primary page checked manually; cached web view"
+  }]
+}

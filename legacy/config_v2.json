@@ -1,0 +1,58 @@
+{
+  "data": {
+    "raw_movies_path": "data/raw/movies.csv",
+    "raw_ratings_path": "data/raw/ratings.csv",
+    "raw_users_path": "data/raw/users.csv",
+    "processed_dir": "data/processed",
+    "min_ratings_per_user": 20,
+    "min_ratings_per_movie": 5,
+    "positive_rating_threshold": 4.0
+  },
+  "split": {
+    "protocol": "temporal_per_user",
+    "train_ratio": 0.8,
+    "val_ratio": 0.1,
+    "test_ratio": 0.1,
+    "random_seed": 42
+  },
+  "models": {
+    "popularity": {
+      "shrinkage_m": 25.0
+    },
+    "content_based": {
+      "genre_weight": 1.0,
+      "max_genres": 20
+    },
+    "svd": {
+      "n_factors": 32,
+      "n_epochs": 15,
+      "lr": 0.005,
+      "reg": 0.02
+    },
+    "neural_mf": {
+      "embedding_dim": 32,
+      "mlp_hidden_dims": [64, 32, 16],
+      "dropout": 0.1,
+      "lr": 0.001,
+      "batch_size": 1024,
+      "epochs": 10,
+      "early_stopping_patience": 3
+    },
+    "hybrid": {
+      "w_svd": 0.50,
+      "w_content": 0.30,
+      "w_pop": 0.20
+    }
+  },
+  "evaluation": {
+    "top_k_list": [5, 10, 20],
+    "relevance_threshold": 4.0,
+    "sample_eval_users": 1000
+  },
+  "api": {
+    "host": "127.0.0.1",
+    "port": 8000,
+    "default_k": 10,
+    "default_model": "hybrid"
+  }
+}

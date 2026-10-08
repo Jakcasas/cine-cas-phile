@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101513"><title>Cine Cas Phile — Chạm đúng gu điện ảnh</title><link rel="icon" href="/static/mark.svg" type="image/svg+xml"><link rel="stylesheet" href="/static/style.css"><script src="/static/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="Cine Cas Phile trang chủ"><span class="brand-mark">c<span>c</span></span><span>CINE CAS<br>PHILE<span class="brand-sub">YOUR PERSONAL FILM CLUB</span></span></a>
+  <div class="nav-label">KHÔNG GIAN ĐIỆN ẢNH</div>
+  <nav aria-label="Điều hướng chính">
+    <button class="nav active" data-view="discover"><span>◈</span> Khám phá <span class="nav-arrow">↗</span></button>
+    <button class="nav" data-view="foryou"><span>✧</span> Dành cho bạn</button>
+    <button class="nav" data-view="watchlist"><span>▤</span> Danh sách xem <span id="saved-count" class="count">0</span></button>
+    <button class="nav" data-view="ratings"><span>☆</span> Đã đánh giá</button>
+    <button class="nav" data-view="insights"><span>▥</span> Phòng dữ liệu</button>
+  </nav>
+  <div class="sidebar-note"><span class="small-spark">✳</span><h3>Gu phim của bạn,<br>một thế giới riêng.</h3><p>Chọn thể loại yêu thích để bắt đầu hành trình khám phá.</p><button id="taste-side" class="text-button">Thiết lập gu phim <span>↗</span></button></div>
+  <div class="sidebar-bottom"><span class="avatar">CP</span><div>Người yêu điện ảnh<small>Hồ sơ cá nhân · lưu trên máy</small></div><span class="online-dot" title="Hồ sơ cục bộ"></span></div>
+</aside>
+<div class="workspace">
+  <header class="topbar"><div class="breadcrumb">Film club <span>/</span> <strong id="crumb">Khám phá</strong></div><label class="search"><span>⌕</span><input id="search" type="search" placeholder="Tìm một bộ phim, tìm một cảm hứng…" aria-label="Tìm phim"><kbd>/</kbd></label><button id="taste-top" class="profile-button" aria-label="Thiết lập gu phim">CP</button></header>
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-copy"><div class="eyebrow"><span class="live-dot"></span> CINE CAS PHILE · VOL. 01</div><h1>Đừng chỉ xem phim.<br>Hãy tìm thấy <em>gu mình.</em></h1><p>Từ những tác phẩm kinh điển đến những viên ngọc ít người biết. Một thế giới điện ảnh được chọn riêng cho bạn.</p><div class="hero-actions"><button id="taste-hero" class="primary">Khám phá gu của tôi <span>↗</span></button><span class="hero-foot">Phim hay. Đúng người. Đúng cảm xúc.</span></div><div class="hero-stats"><div><strong id="catalog-stat">—</strong><small>TÁC PHẨM</small></div><div><strong id="genre-stat">18</strong><small>THỂ LOẠI</small></div><div><strong>∞</strong><small>CẢM HỨNG</small></div></div></div>
+      <div class="hero-art" aria-label="Minh họa điện ảnh trừu tượng"><div class="art-orbit orbit-one"></div><div class="art-orbit orbit-two"></div><div class="art-orbit orbit-three"></div><div class="art-star">✦</div><div class="art-monolith"></div><div class="art-caption">THE ART OF<br><span>GETTING LOST.</span></div><div class="art-bottom"><span>A JOURNEY THROUGH CINEMA</span><span>01 / ∞</span></div></div>
+    </section>
+    <section class="section-heading"><div><div class="eyebrow muted" id="section-kicker">THE DISCOVERY ROOM</div><h2 id="section-title">Một thế giới đáng để khám phá<span class="title-dot">.</span></h2><p id="section-description">Những câu chuyện hay luôn chờ được tìm thấy.</p></div><span class="dataset-badge"><span class="live-dot"></span> MovieLens 1M</span></section>
+    <div id="genre-chips" class="genre-chips" aria-label="Lọc thể loại"></div>
+    <div id="recommend-controls" class="recommend-controls" hidden><label>Thuật toán <select id="model"><option value="hybrid">Hybrid · Đề xuất</option><option value="collaborative">Collaborative filtering</option><option value="svd">SVD · Nhân tố ẩn</option><option value="content">Content · Thể loại</option><option value="popularity">Bayesian popularity</option></select></label><label class="diversity">Độ khám phá <input id="diversity" type="range" min="0" max="0.6" step="0.05" value="0.2"><output id="diversity-value">20%</output></label><label>MovieLens user <input id="demo-user" type="number" min="1" placeholder="Không dùng" aria-label="ID người dùng MovieLens (tùy chọn)"></label><button id="refresh" class="secondary">↻ Gợi ý lại</button><p>Đánh giá cá nhân được cập nhật ngay. SVD dùng lịch sử của ID MovieLens.</p></div>
+    <div id="seed-bar" class="seed-bar" hidden></div>
+    <div id="toolbar" class="toolbar"><div id="result-count">Đang mở kho phim…</div><div class="filters"><label>Năm <select id="era"><option value="">Mọi thời kỳ</option><option value="1990:2000">1990–2000</option><option value="1980:1989">1980–1989</option><option value="1970:1979">1970–1979</option><option value="1900:1969">Trước 1970</option></select></label><label>Sắp xếp <select id="sort"><option value="popular">Được xem nhiều</option><option value="rating">Điểm Bayesian cao</option><option value="year">Năm phát hành</option><option value="title">Tên A–Z</option></select></label></div></div>
+    <div id="status" role="status" aria-live="polite"></div><section id="grid" class="movie-grid" aria-label="Danh sách phim"></section>
+    <div id="pagination" class="pagination" hidden><button id="previous" class="secondary">← Trang trước</button><span id="page-label"></span><button id="next" class="secondary">Trang sau →</button></div>
+    <section id="insights" hidden></section>
+    <footer><span><b>CINE CAS PHILE</b> · For the love of cinema.</span><span>Kho phim lịch sử MovieLens · Không cung cấp phát phim <a href="/docs" target="_blank" rel="noopener">API ↗</a></span></footer>
+  </main>
+</div>
+<dialog id="taste-dialog"><form id="taste-form"><button type="button" class="close" data-close="taste-dialog" aria-label="Đóng">×</button><div class="eyebrow muted">YOUR TASTE, YOUR UNIVERSE</div><h2>Điều gì khiến bạn<br>yêu một bộ phim?</h2><p>Chọn những thể loại bạn thích. Bạn luôn có thể thay đổi lựa chọn này.</p><div id="taste-options" class="taste-options"></div><button type="submit" class="primary">Tìm phim dành cho tôi <span>↗</span></button></form></dialog>
+<dialog id="movie-dialog"><button class="close" data-close="movie-dialog" aria-label="Đóng">×</button><div id="movie-detail"></div></dialog>
+<div id="toast" role="status" aria-live="polite"></div>
+</body></html>

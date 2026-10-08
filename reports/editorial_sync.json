@@ -1,0 +1,9 @@
+{
+  "supplemental_movies": 32,
+  "editorial_movies": 54,
+  "sources": {
+    "MUBI": 35,
+    "Letterboxd": 33
+  },
+  "errors": []
+}

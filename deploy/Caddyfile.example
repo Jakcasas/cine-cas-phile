@@ -1,0 +1,12 @@
+# Copy to your server after registering the domain and configuring DNS.
+# This personal project has no multi-user login. A password gate keeps it private.
+www.cinecasphile.com {
+    basic_auth {
+        {$CINE_ADMIN_USER:cinema} {$CINE_ADMIN_PASSWORD_HASH}
+    }
+    reverse_proxy 127.0.0.1:8000
+}
+
+cinecasphile.com {
+    redir https://www.cinecasphile.com{uri} permanent
+}

@@ -1,0 +1,19 @@
+{
+  "protocol": "temporal_per_user_atomic_timestamps",
+  "train_ratio": 0.8,
+  "val_ratio": 0.1,
+  "test_ratio": 0.1,
+  "random_seed": 42,
+  "n_total": 1000209,
+  "leakage_detected": false,
+  "limitation": "Per-user time split; not a global chronological split. Catalog metadata is assumed available.",
+  "n_train": 799898,
+  "users_in_train": 6040,
+  "items_in_train": 3667,
+  "n_val": 99791,
+  "users_in_val": 5870,
+  "items_in_val": 3372,
+  "n_test": 100520,
+  "users_in_test": 6040,
+  "items_in_test": 3442
+}

@@ -1,0 +1,25 @@
+{
+  "movies": 824,
+  "sources": {
+    "IMDb": 822,
+    "Rotten Tomatoes": 10,
+    "Metacritic": 11
+  },
+  "errors": [
+    {
+      "provider": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/godfather",
+      "error": "No verified title/year rating"
+    },
+    {
+      "provider": "Rotten Tomatoes",
+      "url": "https://www.rottentomatoes.com/m/city_of_god",
+      "error": "No verified title/year rating"
+    },
+    {
+      "provider": "Metacritic",
+      "url": "https://www.metacritic.com/movie/city-of-god/",
+      "error": "No verified title/year rating"
+    }
+  ]
+}

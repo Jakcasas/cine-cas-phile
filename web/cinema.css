@@ -1,0 +1,65 @@
+/* Burgundy cinema edition: warm projection light and editorial contrast. */
+.site-header { flex-wrap: wrap; }
+.site-header nav { overflow-x: auto; }
+.header-actions { margin-left: auto; }
+.external-ratings { margin: 26px 0; }
+.external-ratings h3 { font-size: 18px; font-weight: 500; }
+.rating-grid { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 10px; }
+.source-rating { background: #f0e7e2; border: 1px solid #e1d3cd; padding: 16px; display: flex; flex-direction: column; gap: 8px; }
+.source-rating > span { font-size: 10px; color: #713347; }
+.source-rating strong { font-size: 26px; font-weight: 500; color: #491a2b; }
+.source-rating small, .source-rating a { font-size: 10px; color: #796168; }
+.external-ratings p,.image-notice,.match-score { font-size: 11px; line-height: 1.7; color: #796168; }
+#image-dialog { width: min(940px,95vw); }
+#image-form { display: grid; gap: 18px; margin: 24px 0; }
+.image-upload { display: grid; gap: 12px; background: #f0e7e2; padding: 22px; border: 1px dashed #9d6e7b; font-size: 13px; }
+#scene-preview { max-height: 240px; max-width: 100%; object-fit: contain; justify-self: start; }
+.reference-preview { width: 100%; height: 120px; object-fit: contain; background: #20151b; }
+#image-status { font-size: 13px; line-height: 1.7; }
+@media(max-width:650px) { .rating-grid { grid-template-columns: repeat(2,minmax(0,1fr)); } .header-actions { width: 100%; } }
+.site-header { border-bottom: 2px solid #7b2034; background: #fcfaf6; }
+.brand { color: #401522; }
+.brand-mark { display: block; width: 53px; height: 53px; object-fit: contain; flex-shrink: 0; background: white; }
+.hero-shade { background: linear-gradient(90deg, #2d091cda 0, #280e1f80 48%, #220c1c12 100%), linear-gradient(0deg, #1b07155c, transparent 40%); }
+.hero { background: #24101c; overflow: hidden; }
+.hero:before { content: ''; position: absolute; width: 100%; aspect-ratio: 16/10; top: 50%; transform: translateY(-50%); z-index: -2; background: url('/static/assets/cinema-contact-sheet.png') 100% 0% / 300% 200%; }
+.film-art { position: absolute; inset: 0; z-index: -2; background-image: url('/static/assets/cinema-contact-sheet.png'); background-size: 300% 200%; }
+.movie-poster { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #20151b; z-index: -1; }
+.poster:has(.movie-poster:not([hidden])):after { background: none; }
+.poster:has(.movie-poster:not([hidden])) .poster-title,
+.poster:has(.movie-poster:not([hidden])) .poster-year,
+.poster:has(.movie-poster:not([hidden])) .edition { display: none; }
+.poster-source { font-size: 11px; color: #756269; line-height: 1.8; }
+.poster-source a { color: #7b2034; text-decoration: underline; text-underline-offset: 3px; }
+.poster { aspect-ratio: 16/10; }
+.hero h1 em { font-family: Georgia, 'Times New Roman', serif; font-style: italic; font-weight: 400; letter-spacing: -3px; }
+.hero-copy .eyebrow { color: #e3c6bb; }
+.hero .primary { background: #faf4e7; color: #4c1627; border-color: #faf4e7; box-shadow: 0 0 35px #e8a77516; }
+.hero .primary:hover { background: #ead5c9; border-color: #ead5c9; }
+.hero-bottom { color: #e6d5c5; }
+.club-strip { border-bottom-color: #ddcdc7; }
+.club-strip > p { color: #491a2b; }
+.club-strip em { color: #7b2034; }
+.section-heading h2 { color: #31101b; }
+.poster { box-shadow: 0 2px 10px #39152309; }
+.poster:after { background: linear-gradient(0deg, #1a0919b0, transparent 80%); }
+.collection-card.worlds, .collection-card.hearts { background: #391220; }
+.collection-card.worlds:before, .collection-card.hearts:before { content: ''; position: absolute; inset: 0; z-index: -2; width: auto; height: auto; border: 0; border-radius: 0; box-shadow: none; background-image: url('/static/assets/cinema-contact-sheet.png'); background-size: 300% 200%; }
+.collection-card.worlds:before { background-position: 50% 0%; }
+.collection-card.hearts:before { background-position: 0% 100%; }
+.collection-card:after { content: ''; position: absolute; inset: 0; z-index: -1; background: linear-gradient(0deg, #270b22c9, #270b2225); }
+.collections { border-top-color: #ddcdc7; }
+.footer-brand { color: #491a2b; }
+.cinema-note { background: #391220; color: #f7eadc; padding: 42px 5%; display: flex; align-items: center; justify-content: space-between; gap: 25px; margin: 55px 0 0; position: relative; overflow: hidden; }
+.cinema-note:after { content: ''; width: 230px; height: 230px; border: 1px solid #a6787970; border-radius: 50%; position: absolute; right: 10%; top: -95px; box-shadow: 0 0 0 25px #a6787910, 0 0 0 26px #a6787933; }
+.cinema-note .eyebrow { font-size: 8px; color: #c5a493; letter-spacing: 1.8px; }
+.cinema-note p { font-family: Georgia, serif; font-size: 30px; font-style: italic; margin: 15px 0 0; line-height: 1.25; max-width: 580px; }
+.cinema-note > span { font-size: 10px; font-family: monospace; letter-spacing: 2px; z-index: 1; color: #cdb096; }
+@media (max-width: 650px) {
+    .brand-mark { width: 35px; height: 35px; }
+    .hero:before { width: auto; height: 100%; min-width: 100%; aspect-ratio: 16/10; left: 50%; transform: translate(-50%, -50%); }
+    .hero h1 em { letter-spacing: -2px; }
+    .cinema-note { margin-top: 35px; padding: 30px 22px; }
+    .cinema-note p { font-size: 24px; }
+    .cinema-note > span { display: none; }
+}

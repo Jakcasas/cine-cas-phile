@@ -1,0 +1,20 @@
+{
+  "n_ratings": 1000209,
+  "n_users": 6040,
+  "n_movies": 3706,
+  "density_percent": 4.4684,
+  "sparsity_percent": 95.5316,
+  "min_rating": 1.0,
+  "max_rating": 5.0,
+  "mean_rating": 3.5816,
+  "std_rating": 1.1171,
+  "min_ratings_per_user": 20,
+  "max_ratings_per_user": 2314,
+  "median_ratings_per_user": 96.0,
+  "min_ratings_per_movie": 1,
+  "max_ratings_per_movie": 3428,
+  "median_ratings_per_movie": 123.5,
+  "earliest_timestamp": "2000-04-25T23:05:32",
+  "latest_timestamp": "2003-02-28T17:49:50",
+  "unique_genres_count": 18
+}

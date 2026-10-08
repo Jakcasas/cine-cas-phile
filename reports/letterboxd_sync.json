@@ -1,0 +1,12 @@
+{
+  "attempted": 797,
+  "updated": 796,
+  "letterboxd_movies": 829,
+  "errors": [
+    {
+      "movie_id": 1544,
+      "imdb_id": "tt4955096",
+      "error": "No matching public metadata"
+    }
+  ]
+}

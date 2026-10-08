@@ -1,0 +1,16 @@
+{
+  "site_id": "00750758-f294-4229-bdd8-865b45c6382d",
+  "site_url": "https://cinecasphile.netlify.app",
+  "repository": "https://github.com/Jakcasas/cine-cas-phile",
+  "repository_visibility": "private",
+  "verified_date": "2026-10-08",
+  "public_health_http_status": 200,
+  "catalog_movies": 3915,
+  "algorithms": ["hybrid", "collaborative", "svd", "content", "popularity"],
+  "profile_storage": "browser_localStorage",
+  "image_inference": "browser_ONNX_Runtime_Web_WASM",
+  "known_scene_browser_test": "Matrix, The ranked first",
+  "custom_domain": "www.cinecasphile.com",
+  "custom_domain_active": false,
+  "continuous_deployment_connected": false
+}
