@@ -62,7 +62,12 @@
         "source": {
           "enum": [
             "IMDb",
-            "Galaxy Cinema"
+            "Galaxy Cinema",
+            "Harkins Theatres",
+            "Everyman",
+            "Pathé",
+            "TOHO Cinemas",
+            "Megabox"
           ]
         },
         "url": {
@@ -134,7 +139,12 @@
           "source": {
             "enum": [
               "IMDb",
-              "Galaxy Cinema"
+              "Galaxy Cinema",
+              "Harkins Theatres",
+              "Everyman",
+              "Pathé",
+              "TOHO Cinemas",
+              "Megabox"
             ]
           },
           "url": {
@@ -153,6 +163,73 @@
       "items": {
         "type": "string",
         "maxLength": 200
+      }
+    },
+    "cinema_listings": {
+      "type": "array",
+      "maxItems": 30,
+      "items": {
+        "type": "object",
+        "required": [
+          "status",
+          "region",
+          "source",
+          "url",
+          "listing_url",
+          "checked_at"
+        ],
+        "properties": {
+          "status": {
+            "enum": [
+              "now",
+              "upcoming"
+            ]
+          },
+          "region": {
+            "enum": [
+              "VN",
+              "US",
+              "GB",
+              "FR",
+              "JP",
+              "KR"
+            ]
+          },
+          "source": {
+            "enum": [
+              "Galaxy Cinema",
+              "Harkins Theatres",
+              "Everyman",
+              "Pathé",
+              "TOHO Cinemas",
+              "Megabox"
+            ]
+          },
+          "url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "listing_url": {
+            "type": "string",
+            "format": "uri"
+          },
+          "checked_at": {
+            "type": "string",
+            "format": "date"
+          },
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "show_date": {
+            "type": "string",
+            "format": "date"
+          },
+          "venue": {
+            "type": "string",
+            "maxLength": 160
+          }
+        }
       }
     }
   }

@@ -57,4 +57,42 @@ assert.equal(films.unreleased(multiple,'2026-10-09'),false);
 assert.equal(films.unreleased(multiple,'2026-10-09','JP'),true);
 assert.equal(films.matchesRelease(multiple,'all','2026-10-09','KR'),false);
 assert.throws(()=>searchEngine.catalog({release_region:'ZZ'}),ValidationError);
-console.log('PASS: modern-film audience ratings, honest score sources, genre/era exclusions, survey validation and collection search/sorting.');
+const international={...multiple,cinema_listings:[{status:'now',region:'US',source:'Harkins Theatres',checked_at:'2026-10-09'},{status:'upcoming',region:'JP',source:'TOHO Cinemas',checked_at:'2026-10-09',date:'2026-10-16'}]};
+assert.equal(films.matchesRelease(international,'screening','2026-10-09','US'),true);
+assert.equal(films.matchesRelease(international,'screening','2026-10-09','JP'),false);
+assert.equal(films.matchesRelease(international,'upcoming','2026-10-09','JP'),true);
+assert.equal(films.matchesRelease(international,'upcoming','2026-10-09','US'),false);
+assert.equal(films.matchesRelease(international,'screening','2026-10-17','US'),false);
+const presale={cinema_listings:[{status:'upcoming',region:'KR',source:'Megabox',checked_at:'2026-10-09',date:'2026-10-14'}]};
+assert.equal(films.matchesRelease(presale,'screening','2026-10-09','KR'),false);
+assert.equal(films.matchesRelease(presale,'upcoming','2026-10-09','KR'),true);
+assert.equal(films.matchesRelease(presale,'all','2026-10-09','KR'),true);
+assert.equal(films.unreleased(presale,'2026-10-09','KR'),true);
+const noDate={cinema_listings:[{status:'now',region:'FR',source:'Pathé',checked_at:'2026-10-09'}]};
+assert.equal(films.matchesRelease(noDate,'screening','2026-10-09','FR'),true);
+assert.equal(films.unreleased(noDate,'2026-10-09','FR'),false);
+const futureShowing={cinema_listings:[{status:'now',region:'GB',source:'Everyman',checked_at:'2026-10-09',show_date:'2026-10-10'}]};
+assert.equal(films.matchesRelease(futureShowing,'screening','2026-10-09','GB'),false);
+assert.equal(films.matchesRelease(futureShowing,'screening','2026-10-10','GB'),true);
+const crossMidnight=new Date('2026-10-08T22:30:00Z');
+assert.equal(films.localDay('VN',crossMidnight),'2026-10-09');
+assert.equal(films.localDay('GB',crossMidnight),'2026-10-08');
+assert.equal(films.localDay('JP',crossMidnight),'2026-10-09');
+const reissue={releases:[{date:'2026-10-01',region:'FR',kind:'rerelease'}]};
+assert.equal(films.matchesRelease(reissue,'recent','2026-10-09','FR'),false);
+assert.equal(films.matchesRelease(reissue,'released','2026-10-09','FR'),true);
+assert.equal(films.matchesRelease(reissue,'upcoming','2026-09-29','FR'),true);
+assert.equal(films.releaseSortDate(multiple,'JP','upcoming','2026-10-09'),'2026-10-16');
+assert.equal(films.releaseSortDate(multiple,'US','upcoming','2026-10-09'),'');
+assert.equal(films.cinemaAction(international,'US','screening','2026-10-09').source,'Harkins Theatres');
+assert.equal(films.cinemaAction(international,'JP','upcoming','2026-10-09').source,'TOHO Cinemas');
+assert.equal(films.cinemaAction(international,'JP','upcoming','2026-10-17'),null);
+assert.equal(films.cinemaAction(international,'','all','2026-10-09'),null);
+const dateMovies=[
+ {...rows[0],movie_id:1,releases:[{region:'JP',date:'2099-11-01'},{region:'US',date:'2099-01-01'}]},
+ {...rows[0],movie_id:2,releases:[{region:'JP',date:'2099-10-01'}]},
+ {...rows[0],movie_id:3,cinema_listings:[{region:'JP',status:'upcoming',checked_at:films.localDay(),source:'TOHO Cinemas'}]}
+];
+const dateEngine=new Engine({movies:dateMovies,movie_ids:[1,2,3],user_ids:[],genres:['Sci-Fi']});
+assert.deepEqual(dateEngine.catalog({release_region:'JP',release:'upcoming',sort:'release-date'}).movies.map(m=>m.movie_id),[2,1,3]);
+console.log('PASS: audience ratings, survey, collection search, country release dates, cinema links and opening-date sorting.');

@@ -2,6 +2,7 @@ import { readFileSync, existsSync } from "node:fs";
 import { join } from "node:path";
 import { loadEngine, ValidationError } from "./lib/engine.mjs";
 import { viewerRecommendations } from './lib/viewer.mjs';
+import films from '../../web/film-utils.js';
 
 export async function handler(event) {
   const started = performance.now();
@@ -63,6 +64,7 @@ export async function handler(event) {
         year_min: Math.min(...d.movies.map((m) => m.year)),
         year_max: Math.max(...d.movies.map((m) => m.year)),
         poster_movies: d.poster_movies,
+        cinema_markets: films.cinemaCoverage(d.movies),
       });
     if (path === "/movies" && method === "GET")
       return reply(200, engine.catalog(p));

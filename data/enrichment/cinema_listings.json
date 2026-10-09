@@ -1,0 +1,4702 @@
+{
+  "updated_at": "2026-10-09",
+  "movies": {
+    "1000096": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-02"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/24/henrys-first-date-4_1790237311455.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Quyết Cua Anh Này"
+      ]
+    },
+    "1000091": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-25"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/22/trai-buon-nguoi-500_1790067332155.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Trại Buôn Người"
+      ]
+    },
+    "1000111": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/heart-of-the-beast/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/heart-of-the-beast",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000000085-heart-of-the-beast/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029132",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-25",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/heart-of-the-beast",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-23",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/heart-of-the-beast/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/28/trai-tim-quai-thu-500_1790579239253.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/heart-of-the-beast",
+          "image_url": "https://harkinsposters.imgix.net/HO00016093_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011375/poster/md/2/movie&uuid=A48CA04D-DCB8-460A-A5FF-7373F9EC4495",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029132",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029132/SAKUHIN029132_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Trái Tim Quái Thú",
+        "Heart of the Beast",
+        "Heart Of The Beast",
+        "Heart of the beast",
+        "ハート・オブ・ビースト"
+      ]
+    },
+    "1000037": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/forgotten-island/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/forgotten-island",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/296642-forgotten-island/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/l-ile-des-souvenirs-48057",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-25",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/forgotten-island",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/forgotten-island/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/20/forgotten-island-1_1789889326698.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/forgotten-island",
+          "image_url": "https://harkinsposters.imgix.net/HO00015981_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Hòn Đảo Quên Lãng",
+        "Forgotten Island",
+        "L'île des souvenirs"
+      ]
+    },
+    "1000182": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Pathé",
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/avengers-endgame/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/avengers-endgame-encore",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/avengers-endgame-extended-55176",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029392",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062200",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-23",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/avengers-endgame-extended-55176",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        },
+        {
+          "date": "2026-09-23",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062200",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/avengers-endgame/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/8/27/endgame-encore-500_1787803134128.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/avengers-endgame-encore",
+          "image_url": "https://harkinsposters.imgix.net/HO00016074_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/avengers-endgame-extended-55176",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011740/poster/md/4/movie&uuid=2288DF24-F966-4FB5-A96A-7EA80CFB61DC",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029392",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029392/SAKUHIN029392_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062200",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/26/sigp3XKtEWooXTIKZAQsCUsanDTKgaEP_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Avengers: Hồi Kết",
+        "Avengers Endgame: Encore",
+        "Avengers Endgame Extended",
+        "アベンジャーズ／エンドゲーム：アンコール",
+        "어벤져스: 엔드게임 앙코르"
+      ]
+    },
+    "1000183": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/ut-lan-2/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-25"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-25",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/ut-lan-2/",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/ut-lan-2/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/14/ut-lan-2-500_1789379381801.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Út Lan 2"
+      ],
+      "directors": [
+        "Trần Trọng Dần"
+      ]
+    },
+    "1000184": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/resident-evil/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/resident-evil",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000018854-resident-evil/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000018854-resident-evil/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-08",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/resident-evil-48830",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-16"
+        },
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029219",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-18",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/resident-evil/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/resident-evil",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-16",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/resident-evil-48830",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/resident-evil/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/18/resident-evil-2_1789726548627.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/resident-evil",
+          "image_url": "https://harkinsposters.imgix.net/HO00015689_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/resident-evil-48830",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009913/poster/md/2/movie&uuid=21D33ED4-682C-4D04-9FAD-E91D447087A0",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029219",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029219/SAKUHIN029219_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Vùng Đất Quỷ Dữ",
+        "Resident Evil",
+        "バイオハザード"
+      ],
+      "directors": [
+        "Zach Cregger"
+      ]
+    },
+    "1000092": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/8/27/an-mang-xem-hoan-hao-500_1787816297996.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Án Mạng Xém Hoàn Hảo"
+      ]
+    },
+    "1000119": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/always-lalisa/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/always-lalisa",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029714",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-12"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-14",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/always-lalisa",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-12",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029714",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/always-lalisa/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/16/always-lalisa-2_1789551895566.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/always-lalisa",
+          "image_url": "https://harkinsposters.imgix.net/HO00016181_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029714",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029714/SAKUHIN029714_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Always Lalisa",
+        "ALWAYS LALISA",
+        "ＡＬＷＡＹＳ　ＬＡＬＩＳＡ"
+      ]
+    },
+    "1000035": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/other-mommy",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/malfaisante-49786",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029573",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-20"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-20",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029573",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/2/other-mommy-2-1790925655118_1790931944641.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/other-mommy",
+          "image_url": "https://harkinsposters.imgix.net/HO00015977_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/malfaisante-49786",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010250/poster/md/5/movie&uuid=1FB8A435-1AC6-4853-A0C0-5849FD2424F0",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029573",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029573/SAKUHIN029573_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Người Mẹ Khác",
+        "Other Mommy",
+        "Malfaisante",
+        "アザー・マミー"
+      ]
+    },
+    "1000123": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/shaun-the-sheep-the-beast-of-mossy-bottom/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/shaun-the-sheep-the-beast-of-mossy-bottom",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/shaun-le-mouton-la-beeete-d-halloween-50394",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029311",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/shaun-the-sheep-the-beast-of-mossy-bottom",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029311",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/shaun-the-sheep-the-beast-of-mossy-bottom/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/6/shaun-the-sheep-the-beast-of-mossy-bottom-2_1791253605720.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/shaun-the-sheep-the-beast-of-mossy-bottom",
+          "image_url": "https://harkinsposters.imgix.net/HO00015980_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029311",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029311/SAKUHIN029311_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Shaun The Sheep: \"Quái Lạ\" Ghé Nhà",
+        "Shaun the Sheep: The Beast of Mossy Bottom",
+        "Shaun le Mouton : La Bêêête d'Halloween",
+        "映画　ひつじのショーン　かぼちゃ畑の怪物！"
+      ]
+    },
+    "1000093": {
+      "catalog_sources": [
+        "Galaxy Cinema"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/28/tee-yod-4-500_1790580765604.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Quỷ Ăn Tạng 4: Hổ Tinh"
+      ]
+    },
+    "1000034": {
+      "catalog_sources": [
+        "Galaxy Cinema",
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "VN",
+          "source": "Galaxy Cinema",
+          "url": "https://www.galaxycine.vn/dat-ve/verity/",
+          "listing_url": "https://www.galaxycine.vn/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/verity",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-02"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000015739-verity/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/verity-50815",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-30"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029457",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-02",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/verity",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-30",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/verity-50815",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-06",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029457",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Galaxy Cinema",
+          "page_url": "https://www.galaxycine.vn/dat-ve/verity/",
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/16/verity-2_1789529398456.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/verity",
+          "image_url": "https://harkinsposters.imgix.net/HO00015652_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/verity-50815",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010620/poster/md/2/movie&uuid=6B992457-9EAC-44A4-A7F0-ED1AB51030AF",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029457",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029457/SAKUHIN029457_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Bí Mật Bị Chôn Vùi",
+        "Verity",
+        "ヴェリティ／真実"
+      ]
+    },
+    "1000038": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-social-reckoning",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000026649-the-social-reckoning/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/the-social-reckoning-50113",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-07"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-07",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/the-social-reckoning-50113",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-social-reckoning",
+          "image_url": "https://harkinsposters.imgix.net/HO00015873_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/the-social-reckoning-50113",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010408/poster/md/2/movie&uuid=485932BA-44DF-4663-A747-E9BB587D73DF",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Social Reckoning"
+      ]
+    },
+    "1000033": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/digger",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-02"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/327174-digger/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/digger-51293",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-30"
+        },
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029272",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062300",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-03"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-02",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/digger",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-30",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/digger-51293",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-03",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062300",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/digger",
+          "image_url": "https://harkinsposters.imgix.net/HO00015845_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/digger-51293",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010792/poster/md/5/movie&uuid=6C476184-CF1E-4603-97B1-5647924F40FE",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029272",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029272/SAKUHIN029272_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062300",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/09/a6kKDIjn5hqVJaiieRu1mq7wksYUXKHP_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Digger",
+        "ＤＩＧＧＥＲ／ディガー",
+        "디거"
+      ]
+    },
+    "1000041": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/angel-and-the-badman",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/angel-and-the-badman",
+          "image_url": "https://harkinsposters.imgix.net/HO00015983_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Angel and the Badman"
+      ]
+    },
+    "1000163": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-influencer-project",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-influencer-project",
+          "image_url": "https://harkinsposters.imgix.net/HO00016210_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Influencer Project"
+      ]
+    },
+    "1000185": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/insidious-out-of-the-further",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-08-21"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/insidious-l-invasion-du-lointain-44397",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-08-19"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-08-21",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/insidious-out-of-the-further",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-08-19",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/insidious-l-invasion-du-lointain-44397",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/insidious-out-of-the-further",
+          "image_url": "https://harkinsposters.imgix.net/HO00015556_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/insidious-l-invasion-du-lointain-44397",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009038/poster/md/2/movie&uuid=E3730AAF-7A34-4847-B9C3-37594E083AA7",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Insidious: Out of the Further",
+        "Insidious : L'Invasion du Lointain"
+      ],
+      "directors": [
+        "Jacob Chase"
+      ]
+    },
+    "1000186": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé",
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-odyssey",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-07-17"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/l-odyssee-43836",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-07-15"
+        },
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028976",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-08-05"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-07-17",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-odyssey",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-07-15",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/l-odyssee-43836",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-08-05",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-odyssey",
+          "image_url": "https://harkinsposters.imgix.net/HO00014880_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/l-odyssee-43836",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00008908/poster/md/6/movie&uuid=DDBBD5FA-D3A1-4415-A2E0-A67067FA2F0F",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028976",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028976/SAKUHIN028976_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/07/14/ZmQ2AFTDWOzTK9nTBtdaM3b2evITLQsn_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Odyssey",
+        "L'Odyssée",
+        "オデュッセイア",
+        "오디세이"
+      ],
+      "directors": [
+        "Christopher Nolan"
+      ]
+    },
+    "1000187": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/paw-patrol-the-dino-movie",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-08-14"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/la-pat-patrouille-le-film-mission-dino-48602",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-08-05"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-08-14",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/paw-patrol-the-dino-movie",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-08-05",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/la-pat-patrouille-le-film-mission-dino-48602",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/paw-patrol-the-dino-movie",
+          "image_url": "https://harkinsposters.imgix.net/HO00015916_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/la-pat-patrouille-le-film-mission-dino-48602",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009799/poster/md/2/movie&uuid=992779E9-3304-438C-AF45-E404DDC3B65E",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "PAW Patrol: The Dino Movie",
+        "La Pat' Patrouille : Le film Mission Dino"
+      ],
+      "directors": [
+        "Cal Brunker"
+      ]
+    },
+    "1000188": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/practical-magic-2",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-11"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000004679-practical-magic-2/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-27"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-11",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/practical-magic-2",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-27",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/practical-magic-2",
+          "image_url": "https://harkinsposters.imgix.net/HO00015882_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Practical Magic 2",
+        "プラクティカル・マジック／魔女たちの秘密"
+      ],
+      "directors": [
+        "Susanne Bier"
+      ]
+    },
+    "1000189": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/spider-man-brand-new-day",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-07-31"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/spider-man-brand-new-day-47729",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-07-29"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-07-31",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/spider-man-brand-new-day",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-07-29",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/spider-man-brand-new-day-47729",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/spider-man-brand-new-day",
+          "image_url": "https://harkinsposters.imgix.net/HO00015555_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/spider-man-brand-new-day-47729",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009347/poster/md/4/movie&uuid=24B826FD-0018-4DFA-9DB3-26901F9E5EAB",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Spider-Man: Brand New Day",
+        "Spider-Man : Brand New Day"
+      ],
+      "directors": [
+        "Destin Daniel Cretton"
+      ]
+    },
+    "1000190": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/toy-story-5",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-06-19"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/toy-story-5-38778",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-06-19",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/toy-story-5",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/toy-story-5",
+          "image_url": "https://harkinsposters.imgix.net/HO00015376_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/toy-story-5-38778",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00007612/poster/md/4/movie&uuid=559B6180-9AD1-4AD4-90AD-1842017FC32F",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Toy Story 5"
+      ],
+      "directors": [
+        "Andrew Stanton",
+        "McKenna Harris"
+      ]
+    },
+    "1000160": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-uprising",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-11"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/304756-the-uprising/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-11",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-uprising",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-uprising",
+          "image_url": "https://harkinsposters.imgix.net/HO00015979_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Uprising"
+      ]
+    },
+    "1000191": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-weight",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/les-contrebandiers-53439",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-weight",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-16",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/les-contrebandiers-53439",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-weight",
+          "image_url": "https://harkinsposters.imgix.net/HO00015856_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/les-contrebandiers-53439",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011460/poster/md/3/movie&uuid=3B035E2B-3AE6-4849-9B06-3EF6F9451DEB",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Weight",
+        "Les Contrebandiers"
+      ],
+      "directors": [
+        "Padraic McKinley"
+      ]
+    },
+    "1000039": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/your-mother-your-mother-your-mother",
+          "listing_url": "https://www.harkins.com/movies",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/your-mother-your-mother-your-mother",
+          "image_url": "https://harkinsposters.imgix.net/HO00016002_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Your Mother Your Mother Your Mother"
+      ]
+    },
+    "1000051": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/sense-and-sensibility",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000026622-sense-and-sensibility/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/raison-et-sentiments-50621",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/sense-and-sensibility",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-23",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/raison-et-sentiments-50621",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/sense-and-sensibility",
+          "image_url": "https://harkinsposters.imgix.net/HO00015854_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/raison-et-sentiments-50621",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010569/poster/md/3/movie&uuid=229225B3-C7AC-490F-A415-719AE8333121",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Sense and Sensibility",
+        "Raison et sentiments"
+      ]
+    },
+    "1000100": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/whalefall",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/318791-whalefall/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/englouti-49301",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029271",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/whalefall",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029271",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/whalefall",
+          "image_url": "https://harkinsposters.imgix.net/HO00015817_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/englouti-49301",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010032/poster/md/2/movie&uuid=20BB0557-EAC7-4ABD-AA9D-241769BDFE31",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029271",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029271/SAKUHIN029271_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/10/05/TQFBrPIROg4bmrQ5ZH8pkXyOUmPBlkYR_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Whalefall",
+        "Englouti",
+        "クジラに落ちた男",
+        "웨일폴: 고래에 먹힌 남자"
+      ]
+    },
+    "1000063": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wildwood",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/296439-wildwood/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wildwood",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/wildwood",
+          "image_url": "https://harkinsposters.imgix.net/HO00016243_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Wildwood"
+      ]
+    },
+    "1000069": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wicker",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000053107-members-preview-wicker/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/322884-wicker/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/wicker-54922",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wicker",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/wicker",
+          "image_url": "https://harkinsposters.imgix.net/HO00015993_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Wicker",
+        "Members' Preview: Wicker"
+      ]
+    },
+    "1000052": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/street-fighter",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/street-fighter-doblado-en-espanol",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/314939-street-fighter/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/street-fighter-49553",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029220",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/street-fighter",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/street-fighter-doblado-en-espanol",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029220",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-14",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/street-fighter",
+          "image_url": "https://harkinsposters.imgix.net/HO00015934_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/street-fighter-doblado-en-espanol",
+          "image_url": "https://harkinsposters.imgix.net/HO00016255_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/street-fighter-49553",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010138/poster/md/3/movie&uuid=884A0BF8-1D0B-4441-9149-CB2E9879F570",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029220",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029220/SAKUHIN029220_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/05/11/o2MnGy2jsO4ifomGt0QHRxM3bbQE7oAH_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Street Fighter",
+        "Street Fighter [doblado en Español]",
+        "ストリートファイター／ザ・ムービー",
+        "스트리트 파이터"
+      ]
+    },
+    "1000040": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-beast",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-beast",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-beast",
+          "image_url": "https://harkinsposters.imgix.net/HO00016332_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Beast"
+      ]
+    },
+    "1000129": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/naza-hebrew-subtitled",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/naza-hebrew-subtitled",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/naza-hebrew-subtitled",
+          "image_url": "https://harkinsposters.imgix.net/HO00016331_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "NAZA [Hebrew, subtitled]",
+        "NAZA"
+      ]
+    },
+    "1000045": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/a-prayer-for-the-dying",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/a-prayer-for-the-dying",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/a-prayer-for-the-dying",
+          "image_url": "https://harkinsposters.imgix.net/HO00016333_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "A Prayer for the Dying"
+      ]
+    },
+    "1000042": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/premada-oorali-kannada-subtitled",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-09",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/premada-oorali-kannada-subtitled",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/premada-oorali-kannada-subtitled",
+          "image_url": "https://harkinsposters.imgix.net/HO00016354_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Premada Oorali [Kannada, subtitled]",
+        "Premada Oorali"
+      ]
+    },
+    "1000048": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fresh-meat",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-12"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-12",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fresh-meat",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/fresh-meat",
+          "image_url": "https://harkinsposters.imgix.net/HO00016341_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Fresh Meat"
+      ]
+    },
+    "1000044": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/california-schemin",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/california-schemin",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/california-schemin",
+          "image_url": "https://harkinsposters.imgix.net/HO00016257_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "California Schemin'"
+      ]
+    },
+    "1000054": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/crawlers",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/crawlers",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/crawlers",
+          "image_url": "https://harkinsposters.imgix.net/HO00016248_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Crawlers"
+      ]
+    },
+    "1000061": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/flywheel-ignition-of-the-soul-english-dub",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/flywheel-ignition-of-the-soul-english-dub",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/flywheel-ignition-of-the-soul-english-dub",
+          "image_url": "https://harkinsposters.imgix.net/HO00016178_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Flywheel: Ignition of the Soul [English dub]",
+        "Flywheel: Ignition of the Soul"
+      ]
+    },
+    "1000055": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/musk",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/musk",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/musk",
+          "image_url": "https://harkinsposters.imgix.net/HO00016271_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Musk"
+      ]
+    },
+    "1000056": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/trust-me-im-a-doctor",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/trust-me-im-a-doctor",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/trust-me-im-a-doctor",
+          "image_url": "https://harkinsposters.imgix.net/HO00016348_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Trust Me, I'm a Doctor"
+      ]
+    },
+    "1270": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/back-to-the-future",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/back-to-the-future",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/back-to-the-future",
+          "image_url": "https://harkinsposters.imgix.net/HO00016246_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Back to the Future"
+      ]
+    },
+    "1000065": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/ali-g-who-iz-i",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/ali-g-who-iz-i",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/ali-g-who-iz-i",
+          "image_url": "https://harkinsposters.imgix.net/HO00016198_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Ali G: Who Iz I?"
+      ]
+    },
+    "1000036": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "Pathé",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/clayface",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/clayface-doblado-en-espanol",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000016901-clayface/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/clayface-43763",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029291",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/clayface",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/clayface-doblado-en-espanol",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-10-30",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029291",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/clayface",
+          "image_url": "https://harkinsposters.imgix.net/HO00015590_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/clayface-doblado-en-espanol",
+          "image_url": "https://harkinsposters.imgix.net/HO00016346_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/clayface-43763",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00008866/poster/md/2/movie&uuid=C8C9AB21-8E78-4620-AFF7-5D4C914FBA31",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029291",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029291/SAKUHIN029291_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Clayface",
+        "Clayface [doblado en Español]",
+        "クレイフェイス"
+      ]
+    },
+    "1000064": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/klara-and-the-sun",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/klara-et-le-soleil-52371",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/klara-and-the-sun",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/klara-and-the-sun",
+          "image_url": "https://harkinsposters.imgix.net/HO00015855_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Klara and the Sun",
+        "Klara et le soleil"
+      ]
+    },
+    "1000164": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/breeder",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-28"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-28",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/breeder",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/breeder",
+          "image_url": "https://harkinsposters.imgix.net/HO00016296_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Breeder"
+      ]
+    },
+    "1000073": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/everest-the-other-side",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/everest-the-other-side",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/everest-the-other-side",
+          "image_url": "https://harkinsposters.imgix.net/HO00016264_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Everest: The Other Side"
+      ]
+    },
+    "1000167": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fatherland-german-subtitled",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fatherland-german-subtitled",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/fatherland-german-subtitled",
+          "image_url": "https://harkinsposters.imgix.net/HO00016304_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Fatherland [German, subtitled]",
+        "Fatherland"
+      ]
+    },
+    "1000062": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fjord",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/fjord",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/fjord",
+          "image_url": "https://harkinsposters.imgix.net/HO00016285_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Fjord"
+      ]
+    },
+    "1000076": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/sight-sound-presents-joshua-live",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-30",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/sight-sound-presents-joshua-live",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/sight-sound-presents-joshua-live",
+          "image_url": "https://harkinsposters.imgix.net/HO00016326_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Sight & Sound Presents: JOSHUA Live!"
+      ]
+    },
+    "1252": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/chinatown",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-03"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-03",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/chinatown",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/chinatown",
+          "image_url": "https://harkinsposters.imgix.net/HO00016126_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Chinatown"
+      ]
+    },
+    "1000086": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-cat-in-the-hat",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-25"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/the-cat-in-the-hat",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-12-25",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/the-cat-in-the-hat",
+          "image_url": "https://harkinsposters.imgix.net/HO00015935_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "The Cat in the Hat",
+        "キャット・イン・ザ・ハット"
+      ]
+    },
+    "1000087": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/drummer-boy",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/drummer-boy",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/drummer-boy",
+          "image_url": "https://harkinsposters.imgix.net/HO00015975_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Drummer Boy"
+      ]
+    },
+    "1000083": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/godzilla-minus-zero-japanese-subtitled",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029201",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-03"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/godzilla-minus-zero-japanese-subtitled",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-11-03",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029201",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/godzilla-minus-zero-japanese-subtitled",
+          "image_url": "https://harkinsposters.imgix.net/HO00015903_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029201",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029201/SAKUHIN029201_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Godzilla Minus Zero [Japanese, subtitled]",
+        "Godzilla Minus Zero",
+        "ゴジラ－０．０"
+      ]
+    },
+    "1000084": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wild-horse-nine",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000053033-members-preview-wild-horse-nine/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/wild-horse-nine",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/wild-horse-nine",
+          "image_url": "https://harkinsposters.imgix.net/HO00016104_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Wild Horse Nine",
+        "Members' Preview: Wild Horse Nine"
+      ]
+    },
+    "1704": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/good-will-hunting",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-10"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-10",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/good-will-hunting",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/good-will-hunting",
+          "image_url": "https://harkinsposters.imgix.net/HO00016130_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Good Will Hunting"
+      ]
+    },
+    "1000177": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/george-michael-the-faith-tour",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-11"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000041856-george-michael-the-faith-tour/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-04"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-12-11",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/george-michael-the-faith-tour",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/george-michael-the-faith-tour",
+          "image_url": "https://harkinsposters.imgix.net/HO00016342_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "George Michael: The Faith Tour"
+      ]
+    },
+    "1000192": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/avengers-doomsday",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/avengers-doomsday-doblado-en-espanol",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/269068-avengers-doomsday/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-18"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-12-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/avengers-doomsday",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-12-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/avengers-doomsday-doblado-en-espanol",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-12-18",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/avengers-doomsday",
+          "image_url": "https://harkinsposters.imgix.net/HO00016050_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        },
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/avengers-doomsday-doblado-en-espanol",
+          "image_url": "https://harkinsposters.imgix.net/HO00016053_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Avengers: Doomsday",
+        "Avengers: Doomsday [doblado en Español]",
+        "アベンジャーズ／ドゥームズデイ"
+      ]
+    },
+    "1000193": {
+      "catalog_sources": [
+        "Harkins Theatres",
+        "Everyman",
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/dune-part-three",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/324508-dune-part-three/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-18"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-12-18",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/dune-part-three",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-12-18",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/dune-part-three",
+          "image_url": "https://harkinsposters.imgix.net/HO00015894_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "DUNE: Part Three",
+        "Dune: Part Three",
+        "デューン　砂の惑星　ＰＡＲＴ３"
+      ],
+      "directors": [
+        "Denis Villeneuve"
+      ]
+    },
+    "1307": {
+      "catalog_sources": [
+        "Harkins Theatres"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/when-harry-met-sally",
+          "listing_url": "https://www.harkins.com/movies/coming-soon",
+          "checked_at": "2026-10-09",
+          "date": "2026-12-29"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-12-29",
+          "region": "US",
+          "source": "Harkins Theatres",
+          "url": "https://www.harkins.com/movies/when-harry-met-sally",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Harkins Theatres",
+          "page_url": "https://www.harkins.com/movies/when-harry-met-sally",
+          "image_url": "https://harkinsposters.imgix.net/HO00016137_poster?q=80&auto=format,compress&w=456",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "When Harry Met Sally..."
+      ]
+    },
+    "1000194": {
+      "catalog_sources": [
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000004458-pressure/",
+          "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+          "checked_at": "2026-10-09",
+          "show_date": "2026-10-09",
+          "venue": "The Whiteley, London"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/pressure-51502",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-09"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-09",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/pressure-51502",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/pressure-51502",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010866/poster/md/6/movie&uuid=CBD7AC6D-AEEE-40EE-9B49-8ACBF75A0809",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Pressure"
+      ]
+    },
+    "1000178": {
+      "catalog_sources": [
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000053108-members-preview-la-bola-negra/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Members' Preview: La Bola Negra",
+        "La Bola Negra"
+      ]
+    },
+    "1000171": {
+      "catalog_sources": [
+        "Everyman",
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000013908-primetime/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/primetime-54936",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-23",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/primetime-54936",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/primetime-54936",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011676/poster/md/2/movie&uuid=B91EEA63-53B5-42C2-B97A-CE5892912454",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Primetime"
+      ]
+    },
+    "1000161": {
+      "catalog_sources": [
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/296935-the-yellow-tie/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "The Yellow Tie"
+      ]
+    },
+    "1000168": {
+      "catalog_sources": [
+        "Everyman"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "GB",
+          "source": "Everyman",
+          "url": "https://www.everymancinema.com/film-listing/1000044641-ghosts-the-possession-of-button-house/",
+          "listing_url": "https://www.everymancinema.com/film-listing/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Ghosts: The Possession Of Button House"
+      ]
+    },
+    "1000195": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-07"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-07",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011024/poster/md/4/movie&uuid=38B92356-195F-4190-842D-8D5C6AAB9FF1",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "La maison de nos rêves"
+      ]
+    },
+    "1000196": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-07"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-07",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009418/poster/md/2/movie&uuid=9CDAAF62-A591-4BFE-9430-13BB2644E3EF",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Ducobu et le fantôme de Saint-Potache"
+      ]
+    },
+    "1000197": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/garance-52451",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-23",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/garance-52451",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/garance-52451",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011252/poster/md/3/movie&uuid=CEDE2F13-950B-497D-A6BC-05021D24EFE5",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Garance"
+      ]
+    },
+    "1000198": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/cars",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2006-06-14"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2006-06-14",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/cars",
+          "checked_at": "2026-10-09",
+          "kind": "rerelease"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/cars",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00003877/poster/md/78/movie&uuid=665148FD-67B4-407B-949F-8AA734A2782C",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Cars"
+      ]
+    },
+    "1000199": {
+      "catalog_sources": [
+        "Pathé",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/obsession-50502",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-05-13"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26057700",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-02"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-05-13",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/obsession-50502",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-02",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26057700",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/obsession-50502",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010531/poster/md/3/movie&uuid=D7B50EAD-4C24-4560-BDA8-FC465B1CF478",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26057700",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/08/14/jh6UscZuFLOCGbEN1WsoyMFXAWzPRy7I_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Obsession",
+        "옵세션"
+      ],
+      "directors": [
+        "Curry Barker"
+      ]
+    },
+    "1000200": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/joyeuse-jungle-52912",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-07"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-07",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/joyeuse-jungle-52912",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/joyeuse-jungle-52912",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011399/poster/md/2/movie&uuid=70B297F5-FA09-40D9-8C3D-D4A49F06E8DB",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Joyeuse Jungle !"
+      ]
+    },
+    "1000162": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/de-la-comedie-francaise-51216",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/de-la-comedie-francaise-51216",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010761/poster/md/3/movie&uuid=0A1A98AF-4495-4124-B077-2207AFE04865",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "De la Comédie-Française"
+      ]
+    },
+    "1274": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/akira-9004",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/akira-9004",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00002696/poster/md/103/movie&uuid=827D5B98-DD50-4AEE-9FD4-859AAF68AE12",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Akira"
+      ]
+    },
+    "1000133": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/le-corset-50112",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/le-corset-50112",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010407/poster/md/2/movie&uuid=97142CC0-8D7F-4A84-8CA8-B1715A901C9A",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Le Corset"
+      ]
+    },
+    "1000134": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/les-miserables-48629",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/les-miserables-48629",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009813/poster/md/1/movie&uuid=61F7DC8A-774D-43BA-B717-83D31322DAC3",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Les Misérables"
+      ]
+    },
+    "1000135": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/mochy-51289",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-14"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "Pathé",
+          "page_url": "https://www.pathe.fr/films/mochy-51289",
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010790/poster/md/1/movie&uuid=B738D21F-FBD2-4B0F-80A2-254EDB9FD5A1",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "Mochy"
+      ]
+    },
+    "1000144": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/karma-49700",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Karma"
+      ]
+    },
+    "1000142": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/la-gradiva-52747",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "La Gradiva"
+      ]
+    },
+    "1000143": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/le-roi-du-game-52580",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Le roi du game"
+      ]
+    },
+    "1000145": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/une-femme-aujourd-hui-54512",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Une femme aujourd'hui"
+      ]
+    },
+    "1000149": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/quelques-mots-d-amour-52567",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-28"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Quelques mots d'amour"
+      ]
+    },
+    "1000148": {
+      "catalog_sources": [
+        "Pathé"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "FR",
+          "source": "Pathé",
+          "url": "https://www.pathe.fr/films/le-fantome-de-l-opera-46997",
+          "listing_url": "https://www.pathe.fr/",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-28"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [],
+      "title_aliases": [
+        "Le Fantôme de l'Opéra"
+      ]
+    },
+    "1000113": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029159",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029159",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029159/SAKUHIN029159_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "汝、星のごとく"
+      ]
+    },
+    "1000201": {
+      "catalog_sources": [
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028639",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-07-24"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048500",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-30"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-07-24",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028639",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "date": "2026-09-30",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048500",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028639",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028639/SAKUHIN028639_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048500",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/03/CjeVQroskRoH0gzQhSkGpBG7Sx2qjjk3_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "映画ちいかわ　人魚の島のひみつ",
+        "극장판 치이카와: 인어 섬의 비밀"
+      ]
+    },
+    "1000118": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028478",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028478",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028478/SAKUHIN028478_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ガールズ＆パンツァー　最終章　第５話"
+      ]
+    },
+    "1000117": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029185",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-09"
+        }
+      ],
+      "releases": [],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029185",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029185/SAKUHIN029185_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "どこよりも遠い場所にいる君へ"
+      ]
+    },
+    "1000097": {
+      "catalog_sources": [
+        "TOHO Cinemas",
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029011",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+          "checked_at": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045800",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-08"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-08",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045800",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029011",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029011/SAKUHIN029011_2.jpg",
+          "fallback_url": null
+        },
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045800",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/07/KuqiKbrVUI94sjQeM6sE0VbusktAGQ4H_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ルックバック",
+        "Look Back",
+        "룩백"
+      ]
+    },
+    "1000120": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028579",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028579",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028579",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028579/SAKUHIN028579_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "青春ブタ野郎はディアフレンドの夢を見ない"
+      ]
+    },
+    "1000121": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028959",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028959",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028959",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028959/SAKUHIN028959_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ｍｅｎｔｏｒ"
+      ]
+    },
+    "1000122": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029351",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-16"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-16",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029351",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029351",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029351/SAKUHIN029351_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ＢａｎＧ　Ｄｒｅａｍ！　Ａｖｅ　Ｍｕｊｉｃａ"
+      ]
+    },
+    "1000126": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029186",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029186",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029186",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029186/SAKUHIN029186_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "劇場シリーズ【第一部】メイドインアビス　目覚める神秘"
+      ]
+    },
+    "1000125": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029469",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-23",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029469",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029469",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029469/SAKUHIN029469_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "バッド・ルーテナント：トウキョウ"
+      ]
+    },
+    "1000131": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029188",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029188",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029188",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029188/SAKUHIN029188_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ＧＲＯＴＥＳＱＱＱＵＥ　－グロテスク－"
+      ]
+    },
+    "1000112": {
+      "catalog_sources": [
+        "TOHO Cinemas"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029502",
+          "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "checked_at": "2026-10-09",
+          "date": "2026-11-06"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-11-06",
+          "region": "JP",
+          "source": "TOHO Cinemas",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029502",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "TOHO Cinemas",
+          "page_url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029502",
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029502/SAKUHIN029502_2.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "ブルネロ　静かなる先見者"
+      ]
+    },
+    "1000058": {
+      "catalog_sources": [
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "now",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061100",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-09-23"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-09-23",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061100",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061100",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/03/0zja0gwLfWB9HYfqFkqFyJIF5J72RSiW_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "타짜: 벨제붑의 노래"
+      ]
+    },
+    "1000099": {
+      "catalog_sources": [
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "listing_url": "https://www.megabox.co.kr/movie",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/08/l3OePCPDE7wDQlKsu45GEz2av9okyZSd_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "여전히 찬란하게"
+      ]
+    },
+    "1000107": {
+      "catalog_sources": [
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26064800",
+          "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26064800",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26064800",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/22/s1AGWjiRyBDyR0UXN9FmZh1jROiaB6pq_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "눈 둘 데가 없네"
+      ]
+    },
+    "1000108": {
+      "catalog_sources": [
+        "Megabox"
+      ],
+      "cinema_listings": [
+        {
+          "status": "upcoming",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26066500",
+          "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+          "checked_at": "2026-10-09",
+          "date": "2026-10-21"
+        }
+      ],
+      "releases": [
+        {
+          "date": "2026-10-21",
+          "region": "KR",
+          "source": "Megabox",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26066500",
+          "checked_at": "2026-10-09"
+        }
+      ],
+      "poster_sources": [
+        {
+          "name": "Megabox",
+          "page_url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26066500",
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/10/04/v4eBvJiVbpPnyLiOIgcpAgxR2y0nCVkG_420.jpg",
+          "fallback_url": null
+        }
+      ],
+      "title_aliases": [
+        "차오"
+      ]
+    }
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "reference_images": 1503,
-  "movies": 1468,
+  "reference_images": 1525,
+  "movies": 1490,
   "stills": 35,
   "unavailable_images": 0,
   "method": "CLIP ViT-B/32 INT8, cosine similarity; not an identification probability"

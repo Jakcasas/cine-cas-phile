@@ -21,43 +21,88 @@
     const text=searchKey([displayTitle(movie.title),movie.full_title,movie.title_vi,...(movie.title_aliases || []),movie.year,movie.imdb_id,...(movie.directors || []),...(movie.genres || '').split('|').map(g=>genreNames[g] || g)].join(' '));
     return words.every(word=>text.includes(word));
   }
-  function localDay() { return new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Ho_Chi_Minh',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date()); }
+  const marketZones={VN:'Asia/Ho_Chi_Minh',US:'America/New_York',GB:'Europe/London',FR:'Europe/Paris',JP:'Asia/Tokyo',KR:'Asia/Seoul'};
+  const dayFormatters={};
+  function localDay(region='VN', now=new Date()) {
+    const zone=marketZones[region] || marketZones.VN;
+    dayFormatters[zone] ||= new Intl.DateTimeFormat('en-CA',{timeZone:zone,year:'numeric',month:'2-digit',day:'2-digit'});
+    return dayFormatters[zone].format(now);
+  }
   const regions={VN:'Việt Nam',US:'Mỹ',GB:'Anh',FR:'Pháp',JP:'Nhật Bản',KR:'Hàn Quốc'};
+  const cinemaSources={VN:{name:'Galaxy Cinema',url:'https://www.galaxycine.vn/'},US:{name:'Harkins Theatres',url:'https://www.harkins.com/movies'},GB:{name:'Everyman · The Whiteley, London',url:'https://www.everymancinema.com/film-listing/'},FR:{name:'Pathé',url:'https://www.pathe.fr/'},JP:{name:'TOHO Cinemas',url:'https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do'},KR:{name:'Megabox',url:'https://www.megabox.co.kr/movie'}};
+  function cinemaListings(movie, region='', day) {
+    const rows=movie.cinema_listings || (movie.cinema_status?[movie.cinema_status]:[]);
+    return rows.filter(r=>{
+      const age=(Date.parse(day || localDay())-Date.parse(r.checked_at))/86400000;
+      return (!region || r.region===region) && age>=0 && age<=7;
+    });
+  }
+  function cinemaNow(movie, region='', day) {
+    return cinemaListings(movie,region,day).filter(r=>r.status==='now' && (!r.show_date || r.show_date<=(day || localDay(r.region))) && (!r.date || r.date<=(day || localDay(r.region))));
+  }
+  function cinemaCoverage(movies) {
+    return Object.keys(regions).map(region=>{
+      let screening=0,upcoming=0,checked_at='';
+      for(const movie of movies){
+        const listings=cinemaListings(movie,region);
+        if(cinemaNow(movie,region).length)screening++;
+        if(listings.some(r=>r.status==='upcoming') && matchesRelease(movie,'upcoming',undefined,region))upcoming++;
+        for(const r of listings)if(r.checked_at>checked_at)checked_at=r.checked_at;
+      }
+      return {region,...cinemaSources[region],screening,upcoming,checked_at};
+    });
+  }
   function releaseEvents(movie, region='') {
     const unique=new Map();
     for(const event of [movie.release,...(movie.releases || [])])if(event?.date && (!region || event.region===region))unique.set(event.region+'|'+event.date,event);
     return [...unique.values()];
   }
+  function releaseSortDate(movie, region='', mode='all', day) {
+    const events=[...releaseEvents(movie,region),...cinemaListings(movie,region,day)].filter(r=>r.date);
+    const dates=events.filter(r=>mode==='upcoming'?r.date>=(day || localDay(r.region)):r.date<=(day || localDay(r.region))).map(r=>r.date).sort();
+    return (mode==='upcoming'?dates[0]:dates.at(-1)) || '';
+  }
+  function cinemaAction(movie, region='', mode='all', day) {
+    if(!region)return null;
+    const listings=cinemaListings(movie,region,day);
+    return (mode==='upcoming'?listings.find(r=>r.status==='upcoming' && (!r.date || r.date>=(day || localDay(region)))):cinemaNow(movie,region,day)[0]) || null;
+  }
   function releaseState(movie, day, region='') {
     const event=releaseEvents(movie,region)[0];
     if(!event)return '';
-    day ||= localDay();
+    day ||= localDay(event.region);
     const age=(Date.parse(day)-Date.parse(event.date))/86400000;
-    return age<0?'upcoming':age<=30?'recent':'released';
+    return age<0?'upcoming':event.kind==='rerelease'?'released':age<=30?'recent':'released';
   }
   function matchesRelease(movie, mode, day, region='') {
     if(mode==='vn-now'){mode='screening';region='VN';}
     if(mode==='vn-upcoming'){mode='upcoming';region='VN';}
-    if(mode==='screening'){
-      const age=(Date.parse(day || localDay())-Date.parse(movie.cinema_status?.checked_at))/86400000;
-      return movie.cinema_status?.status==='now' && (!region || movie.cinema_status.region===region) && age>=0 && age<=7;
-    }
+    if(mode==='screening')return cinemaNow(movie,region,day).length>0;
     const events=releaseEvents(movie,region);
-    if(mode==='released')return events.some(event=>Date.parse(event.date)<=Date.parse(day || localDay())) && !matchesRelease(movie,'screening',day,region);
-    if(mode==='recent' || mode==='upcoming')return events.some(event=>releaseState({release:event},day)===mode);
-    return (!mode || mode==='all') && (!region || events.length>0);
+    if(mode==='released')return events.some(event=>event.date<=(day || localDay(event.region))) && !matchesRelease(movie,'screening',day,region);
+    if(mode==='recent')return events.some(event=>releaseState({release:event},day)==='recent');
+    if(mode==='upcoming'){
+      const now=cinemaNow(movie,region,day),listings=cinemaListings(movie,region,day);
+      const isNow=r=>now.some(n=>n.region===r.region);
+      return listings.some(r=>r.status==='upcoming' && !isNow(r) && (!r.date || r.date>=(day || localDay(r.region)))) || events.some(event=>!isNow(event) && releaseState({release:event},day)==='upcoming');
+    }
+    return (!mode || mode==='all') && (!region || events.length>0 || cinemaListings(movie,region,day).length>0);
   }
   function unreleased(movie, day, region='') {
     const events=releaseEvents(movie,region);
-    return events.length>0 && events.every(event=>releaseState({release:event},day)==='upcoming');
+    if(cinemaNow(movie,region,day).length)return false;
+    return matchesRelease(movie,'upcoming',day,region) && (!events.length || events.every(event=>releaseState({release:event},day)==='upcoming'));
   }
   function releaseLabel(movie, region='', mode='all') {
-    if((!region || region==='VN') && mode!=='released' && matchesRelease(movie,'screening'))return 'Đang chiếu · Việt Nam · Galaxy · '+movie.cinema_status.checked_at.split('-').reverse().join('/');
+    const cinema=cinemaNow(movie,region)[0];
+    if(cinema && mode!=='released' && mode!=='upcoming')return `Đang chiếu · ${regions[cinema.region]} · ${cinema.source}`;
     const events=releaseEvents(movie,region);
-    const event=(mode==='released'?events.find(r=>Date.parse(r.date)<=Date.parse(localDay())):['recent','upcoming'].includes(mode)?events.find(r=>releaseState({release:r})===mode):null) || events[0];
+    const event=(mode==='released'?events.find(r=>r.date<=localDay(r.region)):['recent','upcoming'].includes(mode)?events.find(r=>releaseState({release:r})===mode):null) || events[0];
+    const upcoming=cinemaListings(movie,region).find(r=>r.status==='upcoming');
+    if(upcoming && (!event || mode==='upcoming'))return `Sắp chiếu · ${upcoming.date?upcoming.date.split('-').reverse().join('/'):'Chưa có ngày cụ thể'} · ${regions[upcoming.region]} · ${upcoming.source}`;
     if(!event)return '';
     const status=releaseState({release:event}),date=event.date.split('-').reverse().join('/');
-    return `${status==='upcoming'?'Sắp chiếu · dự kiến':mode==='recent'?'Mới công chiếu · theo lịch':'Đã phát hành'} ${date} · ${regions[event.region] || event.region}`;
+    return `${status==='upcoming'?'Sắp chiếu · dự kiến':event.kind==='rerelease'?'Tái chiếu':mode==='recent'?'Mới công chiếu · theo lịch':'Đã phát hành'} ${date} · ${regions[event.region] || event.region}`;
   }
   function searchSuggestions(movies, query) {
     const words=searchKey(query).split(' ').filter(Boolean);
@@ -82,5 +127,5 @@
     const sort=options.sort || 'title';
     return filtered.sort((a,b)=>(sort==='personal'?(b.my_rating || 0)-(a.my_rating || 0):sort==='rating'?(audienceRating(b)?.normalized || 0)-(audienceRating(a)?.normalized || 0):sort==='year'?(b.year || 0)-(a.year || 0):sort==='popular'?(b.rating_count || 0)-(a.rating_count || 0):0) || title(a,b));
   }
-  return {genreNames,searchKey,displayTitle,audienceRating,matchesQuery,collectionMovies,searchSuggestions,releaseState,matchesRelease,releaseLabel,localDay,regions,releaseEvents,unreleased};
+  return {genreNames,searchKey,displayTitle,audienceRating,matchesQuery,collectionMovies,searchSuggestions,releaseState,matchesRelease,releaseLabel,localDay,regions,releaseEvents,releaseSortDate,cinemaAction,unreleased,cinemaListings,cinemaNow,cinemaSources,cinemaCoverage};
 });

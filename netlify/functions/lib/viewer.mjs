@@ -32,7 +32,7 @@ export function viewerRecommendations(engine, p) {
   if(!Number.isFinite(minimum)||minimum<0||minimum>5)throw new ValidationError('Mức sao cần từ 0 đến 5.');
   const chosen=p.genre?genre(p.genre):null;
   const rows=[];
-  const day=films.localDay();
+  const day=undefined; // Compare releases in the selected market's timezone.
   for (const movie of engine.d.movies) {
     const genres=movie.genres.split('|'), matching=genres.filter(g=>preferred.has(g));
     const audience=films.audienceRating(movie);

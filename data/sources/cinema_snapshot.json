@@ -1,0 +1,4613 @@
+{
+  "checked_at": "2026-10-09",
+  "method": "Public cinema-chain pages and film-detail pages, manually checked. Presales excluded from now-playing. Everyman now-playing is scoped to The Whiteley, London, 8–9 October. Unverified identities and event programmes excluded. Not national coverage.",
+  "identity_sources": [
+    "https://www.festival-cannes.com/en/f/garance/",
+    "https://ugcdistribution.fr/film/ducobu-et-le-fantome-de-saint-potache/",
+    "https://www.imdb.com/fr/title/tt40571629",
+    "https://chiikawa.toho-movie.jp/",
+    "https://www.focusfeatures.com/obsession",
+    "https://www.rottentomatoes.com/m/obsession_2025",
+    "https://www.galaxycine.vn/phim/ut-lan-2/"
+  ],
+  "markets": [
+    {
+      "region": "VN",
+      "source": "Galaxy Cinema",
+      "listing_url": "https://www.galaxycine.vn/",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "Quyết Cua Anh Này",
+          "aliases": [
+            "Quyết Cua Anh Này"
+          ],
+          "movie_id": 1000096,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/24/henrys-first-date-4_1790237311455.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.galaxycine.vn/dat-ve/henrys-first-date/",
+          "date": "2026-10-02"
+        },
+        {
+          "status": "now",
+          "source_title": "Trại Buôn Người",
+          "aliases": [
+            "Trại Buôn Người"
+          ],
+          "movie_id": 1000091,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/22/trai-buon-nguoi-500_1790067332155.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.galaxycine.vn/dat-ve/trai-buon-nguoi/",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "now",
+          "source_title": "Trái Tim Quái Thú",
+          "aliases": [
+            "Trái Tim Quái Thú"
+          ],
+          "movie_id": 1000111,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/28/trai-tim-quai-thu-500_1790579239253.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/heart-of-the-beast/"
+        },
+        {
+          "status": "now",
+          "source_title": "Hòn Đảo Quên Lãng",
+          "aliases": [
+            "Hòn Đảo Quên Lãng"
+          ],
+          "movie_id": 1000037,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/20/forgotten-island-1_1789889326698.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/forgotten-island/"
+        },
+        {
+          "status": "now",
+          "source_title": "Avengers: Hồi Kết",
+          "aliases": [
+            "Avengers: Hồi Kết"
+          ],
+          "title": "Avengers: Endgame",
+          "year": 2019,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://cdn.galaxycine.vn/media/2026/8/27/endgame-encore-500_1787803134128.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/avengers-endgame/",
+          "rerelease": true
+        },
+        {
+          "status": "now",
+          "source_title": "Út Lan 2",
+          "aliases": [
+            "Út Lan 2"
+          ],
+          "title": "Út Lan 2",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Trần Trọng Dần"
+          ],
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/14/ut-lan-2-500_1789379381801.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/ut-lan-2/",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "now",
+          "source_title": "Vùng Đất Quỷ Dữ",
+          "aliases": [
+            "Vùng Đất Quỷ Dữ"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/18/resident-evil-2_1789726548627.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/resident-evil/",
+          "date": "2026-09-18"
+        }
+      ]
+    },
+    {
+      "region": "VN",
+      "source": "Galaxy Cinema",
+      "listing_url": "https://www.galaxycine.vn/",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "Án Mạng Xém Hoàn Hảo",
+          "aliases": [
+            "Án Mạng Xém Hoàn Hảo"
+          ],
+          "movie_id": 1000092,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/8/27/an-mang-xem-hoan-hao-500_1787816297996.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.galaxycine.vn/dat-ve/an-mang-xem-hoan-hao/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Always Lalisa",
+          "aliases": [
+            "Always Lalisa"
+          ],
+          "movie_id": 1000119,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/16/always-lalisa-2_1789551895566.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/always-lalisa/"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Người Mẹ Khác",
+          "aliases": [
+            "Người Mẹ Khác"
+          ],
+          "movie_id": 1000035,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/2/other-mommy-2-1790925655118_1790931944641.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.galaxycine.vn/dat-ve/other-mommy/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Shaun The Sheep: \"Quái Lạ\" Ghé Nhà",
+          "aliases": [
+            "Shaun The Sheep: \"Quái Lạ\" Ghé Nhà"
+          ],
+          "movie_id": 1000123,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/10/6/shaun-the-sheep-the-beast-of-mossy-bottom-2_1791253605720.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/shaun-the-sheep-the-beast-of-mossy-bottom/"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Quỷ Ăn Tạng 4: Hổ Tinh",
+          "aliases": [
+            "Quỷ Ăn Tạng 4: Hổ Tinh"
+          ],
+          "movie_id": 1000093,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/28/tee-yod-4-500_1790580765604.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.galaxycine.vn/dat-ve/death-whisperer-saming-the-werebeast/",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Bí Mật Bị Chôn Vùi",
+          "aliases": [
+            "Bí Mật Bị Chôn Vùi"
+          ],
+          "movie_id": 1000034,
+          "image_url": "https://cdn.galaxycine.vn/media/2026/9/16/verity-2_1789529398456.jpg",
+          "url": "https://www.galaxycine.vn/dat-ve/verity/"
+        }
+      ]
+    },
+    {
+      "region": "US",
+      "source": "Harkins Theatres",
+      "listing_url": "https://www.harkins.com/movies",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "Other Mommy",
+          "aliases": [
+            "Other Mommy"
+          ],
+          "movie_id": 1000035,
+          "image_url": "https://harkinsposters.imgix.net/HO00015977_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/other-mommy",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36586020/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "The Social Reckoning",
+          "aliases": [
+            "The Social Reckoning"
+          ],
+          "movie_id": 1000038,
+          "image_url": "https://harkinsposters.imgix.net/HO00015873_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-social-reckoning",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt37510326/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Verity",
+          "aliases": [
+            "Verity"
+          ],
+          "movie_id": 1000034,
+          "image_url": "https://harkinsposters.imgix.net/HO00015652_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/verity",
+          "date": "2026-10-02"
+        },
+        {
+          "status": "now",
+          "source_title": "Digger",
+          "aliases": [
+            "Digger"
+          ],
+          "movie_id": 1000033,
+          "image_url": "https://harkinsposters.imgix.net/HO00015845_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/digger",
+          "date": "2026-10-02"
+        },
+        {
+          "status": "now",
+          "source_title": "Angel and the Badman",
+          "aliases": [
+            "Angel and the Badman"
+          ],
+          "movie_id": 1000041,
+          "image_url": "https://harkinsposters.imgix.net/HO00015983_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/angel-and-the-badman",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt39850240/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Avengers Endgame: Encore",
+          "aliases": [
+            "Avengers Endgame: Encore"
+          ],
+          "title": "Avengers: Endgame",
+          "year": 2019,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://harkinsposters.imgix.net/HO00016074_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/avengers-endgame-encore",
+          "rerelease": true
+        },
+        {
+          "status": "now",
+          "source_title": "Forgotten Island",
+          "aliases": [
+            "Forgotten Island"
+          ],
+          "movie_id": 1000037,
+          "image_url": "https://harkinsposters.imgix.net/HO00015981_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/forgotten-island",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "now",
+          "source_title": "Heart of the Beast",
+          "aliases": [
+            "Heart of the Beast"
+          ],
+          "movie_id": 1000111,
+          "image_url": "https://harkinsposters.imgix.net/HO00016093_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/heart-of-the-beast",
+          "date": "2026-09-25"
+        },
+        {
+          "status": "now",
+          "source_title": "The Influencer Project",
+          "aliases": [
+            "The Influencer Project"
+          ],
+          "movie_id": 1000163,
+          "image_url": "https://harkinsposters.imgix.net/HO00016210_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-influencer-project"
+        },
+        {
+          "status": "now",
+          "source_title": "Insidious: Out of the Further",
+          "aliases": [
+            "Insidious: Out of the Further"
+          ],
+          "title": "Insidious: Out of the Further",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Jacob Chase"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015556_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/insidious-out-of-the-further",
+          "date": "2026-08-21"
+        },
+        {
+          "status": "now",
+          "source_title": "The Odyssey",
+          "aliases": [
+            "The Odyssey"
+          ],
+          "title": "The Odyssey",
+          "year": 2026,
+          "genres": [
+            "Adventure",
+            "Fantasy"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00014880_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-odyssey",
+          "date": "2026-07-17"
+        },
+        {
+          "status": "now",
+          "source_title": "PAW Patrol: The Dino Movie",
+          "aliases": [
+            "PAW Patrol: The Dino Movie"
+          ],
+          "title": "PAW Patrol: The Dino Movie",
+          "year": 2026,
+          "genres": [
+            "Animation",
+            "Children's",
+            "Adventure"
+          ],
+          "directors": [
+            "Cal Brunker"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015916_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/paw-patrol-the-dino-movie",
+          "date": "2026-08-14"
+        },
+        {
+          "status": "now",
+          "source_title": "Practical Magic 2",
+          "aliases": [
+            "Practical Magic 2"
+          ],
+          "title": "Practical Magic 2",
+          "year": 2026,
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "directors": [
+            "Susanne Bier"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015882_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/practical-magic-2",
+          "date": "2026-09-11"
+        },
+        {
+          "status": "now",
+          "source_title": "Resident Evil",
+          "aliases": [
+            "Resident Evil"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015689_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/resident-evil",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "source_title": "Shaun the Sheep: The Beast of Mossy Bottom",
+          "aliases": [
+            "Shaun the Sheep: The Beast of Mossy Bottom"
+          ],
+          "movie_id": 1000123,
+          "image_url": "https://harkinsposters.imgix.net/HO00015980_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/shaun-the-sheep-the-beast-of-mossy-bottom",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "source_title": "Spider-Man: Brand New Day",
+          "aliases": [
+            "Spider-Man: Brand New Day"
+          ],
+          "title": "Spider-Man: Brand New Day",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [
+            "Destin Daniel Cretton"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015555_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/spider-man-brand-new-day",
+          "date": "2026-07-31"
+        },
+        {
+          "status": "now",
+          "source_title": "Toy Story 5",
+          "aliases": [
+            "Toy Story 5"
+          ],
+          "title": "Toy Story 5",
+          "year": 2026,
+          "genres": [
+            "Animation",
+            "Children's",
+            "Comedy"
+          ],
+          "directors": [
+            "Andrew Stanton",
+            "McKenna Harris"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015376_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/toy-story-5",
+          "date": "2026-06-19"
+        },
+        {
+          "status": "now",
+          "source_title": "The Uprising",
+          "aliases": [
+            "The Uprising"
+          ],
+          "movie_id": 1000160,
+          "image_url": "https://harkinsposters.imgix.net/HO00015979_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-uprising",
+          "date": "2026-09-11"
+        },
+        {
+          "status": "now",
+          "source_title": "The Weight",
+          "aliases": [
+            "The Weight"
+          ],
+          "title": "The Weight",
+          "year": 2026,
+          "genres": [
+            "Thriller",
+            "Drama",
+            "Crime"
+          ],
+          "directors": [
+            "Padraic McKinley"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015856_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-weight",
+          "date": "2026-09-18"
+        },
+        {
+          "status": "now",
+          "source_title": "Your Mother Your Mother Your Mother",
+          "aliases": [
+            "Your Mother Your Mother Your Mother"
+          ],
+          "movie_id": 1000039,
+          "image_url": "https://harkinsposters.imgix.net/HO00016002_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/your-mother-your-mother-your-mother",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt35856037/",
+          "date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "region": "US",
+      "source": "Harkins Theatres",
+      "listing_url": "https://www.harkins.com/movies/coming-soon",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "Sense and Sensibility",
+          "aliases": [
+            "Sense and Sensibility"
+          ],
+          "movie_id": 1000051,
+          "image_url": "https://harkinsposters.imgix.net/HO00015854_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/sense-and-sensibility",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Whalefall",
+          "aliases": [
+            "Whalefall"
+          ],
+          "movie_id": 1000100,
+          "image_url": "https://harkinsposters.imgix.net/HO00015817_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/whalefall",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wildwood",
+          "aliases": [
+            "Wildwood"
+          ],
+          "movie_id": 1000063,
+          "image_url": "https://harkinsposters.imgix.net/HO00016243_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/wildwood",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wicker",
+          "aliases": [
+            "Wicker"
+          ],
+          "movie_id": 1000069,
+          "image_url": "https://harkinsposters.imgix.net/HO00015993_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/wicker",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Street Fighter",
+          "aliases": [
+            "Street Fighter"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://harkinsposters.imgix.net/HO00015934_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/street-fighter",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "The Beast",
+          "aliases": [
+            "The Beast"
+          ],
+          "movie_id": 1000040,
+          "image_url": "https://harkinsposters.imgix.net/HO00016332_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-beast",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "NAZA [Hebrew, subtitled]",
+          "aliases": [
+            "NAZA"
+          ],
+          "movie_id": 1000129,
+          "image_url": "https://harkinsposters.imgix.net/HO00016331_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/naza-hebrew-subtitled",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "A Prayer for the Dying",
+          "aliases": [
+            "A Prayer for the Dying"
+          ],
+          "movie_id": 1000045,
+          "image_url": "https://harkinsposters.imgix.net/HO00016333_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/a-prayer-for-the-dying",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Premada Oorali [Kannada, subtitled]",
+          "aliases": [
+            "Premada Oorali"
+          ],
+          "movie_id": 1000042,
+          "image_url": "https://harkinsposters.imgix.net/HO00016354_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/premada-oorali-kannada-subtitled",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Fresh Meat",
+          "aliases": [
+            "Fresh Meat"
+          ],
+          "movie_id": 1000048,
+          "image_url": "https://harkinsposters.imgix.net/HO00016341_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/fresh-meat",
+          "date": "2026-10-12"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ALWAYS LALISA",
+          "aliases": [
+            "ALWAYS LALISA"
+          ],
+          "movie_id": 1000119,
+          "image_url": "https://harkinsposters.imgix.net/HO00016181_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/always-lalisa",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "California Schemin'",
+          "aliases": [
+            "California Schemin'"
+          ],
+          "movie_id": 1000044,
+          "image_url": "https://harkinsposters.imgix.net/HO00016257_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/california-schemin",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Crawlers",
+          "aliases": [
+            "Crawlers"
+          ],
+          "movie_id": 1000054,
+          "image_url": "https://harkinsposters.imgix.net/HO00016248_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/crawlers",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Flywheel: Ignition of the Soul [English dub]",
+          "aliases": [
+            "Flywheel: Ignition of the Soul"
+          ],
+          "movie_id": 1000061,
+          "image_url": "https://harkinsposters.imgix.net/HO00016178_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/flywheel-ignition-of-the-soul-english-dub",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Musk",
+          "aliases": [
+            "Musk"
+          ],
+          "movie_id": 1000055,
+          "image_url": "https://harkinsposters.imgix.net/HO00016271_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/musk",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Street Fighter [doblado en Español]",
+          "aliases": [
+            "Street Fighter"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://harkinsposters.imgix.net/HO00016255_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/street-fighter-doblado-en-espanol",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Trust Me, I'm a Doctor",
+          "aliases": [
+            "Trust Me, I'm a Doctor"
+          ],
+          "movie_id": 1000056,
+          "image_url": "https://harkinsposters.imgix.net/HO00016348_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/trust-me-im-a-doctor",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Back to the Future",
+          "aliases": [
+            "Back to the Future"
+          ],
+          "movie_id": 1270,
+          "image_url": "https://harkinsposters.imgix.net/HO00016246_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/back-to-the-future",
+          "date": "2026-10-21",
+          "rerelease": true
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Ali G: Who Iz I?",
+          "aliases": [
+            "Ali G: Who Iz I?"
+          ],
+          "movie_id": 1000065,
+          "image_url": "https://harkinsposters.imgix.net/HO00016198_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/ali-g-who-iz-i",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Clayface",
+          "aliases": [
+            "Clayface"
+          ],
+          "movie_id": 1000036,
+          "image_url": "https://harkinsposters.imgix.net/HO00015590_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/clayface",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Clayface [doblado en Español]",
+          "aliases": [
+            "Clayface"
+          ],
+          "movie_id": 1000036,
+          "image_url": "https://harkinsposters.imgix.net/HO00016346_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/clayface-doblado-en-espanol",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Klara and the Sun",
+          "aliases": [
+            "Klara and the Sun"
+          ],
+          "movie_id": 1000064,
+          "image_url": "https://harkinsposters.imgix.net/HO00015855_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/klara-and-the-sun",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Breeder",
+          "aliases": [
+            "Breeder"
+          ],
+          "movie_id": 1000164,
+          "image_url": "https://harkinsposters.imgix.net/HO00016296_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/breeder",
+          "date": "2026-10-28"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Everest: The Other Side",
+          "aliases": [
+            "Everest: The Other Side"
+          ],
+          "movie_id": 1000073,
+          "image_url": "https://harkinsposters.imgix.net/HO00016264_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/everest-the-other-side",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Fatherland [German, subtitled]",
+          "aliases": [
+            "Fatherland"
+          ],
+          "movie_id": 1000167,
+          "image_url": "https://harkinsposters.imgix.net/HO00016304_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/fatherland-german-subtitled",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Fjord",
+          "aliases": [
+            "Fjord"
+          ],
+          "movie_id": 1000062,
+          "image_url": "https://harkinsposters.imgix.net/HO00016285_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/fjord",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Sight & Sound Presents: JOSHUA Live!",
+          "aliases": [
+            "Sight & Sound Presents: JOSHUA Live!"
+          ],
+          "movie_id": 1000076,
+          "image_url": "https://harkinsposters.imgix.net/HO00016326_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/sight-sound-presents-joshua-live",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Chinatown",
+          "aliases": [
+            "Chinatown"
+          ],
+          "movie_id": 1252,
+          "image_url": "https://harkinsposters.imgix.net/HO00016126_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/chinatown",
+          "date": "2026-11-03",
+          "rerelease": true
+        },
+        {
+          "status": "upcoming",
+          "source_title": "The Cat in the Hat",
+          "aliases": [
+            "The Cat in the Hat"
+          ],
+          "movie_id": 1000086,
+          "image_url": "https://harkinsposters.imgix.net/HO00015935_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/the-cat-in-the-hat",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Drummer Boy",
+          "aliases": [
+            "Drummer Boy"
+          ],
+          "movie_id": 1000087,
+          "image_url": "https://harkinsposters.imgix.net/HO00015975_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/drummer-boy",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Godzilla Minus Zero [Japanese, subtitled]",
+          "aliases": [
+            "Godzilla Minus Zero"
+          ],
+          "movie_id": 1000083,
+          "image_url": "https://harkinsposters.imgix.net/HO00015903_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/godzilla-minus-zero-japanese-subtitled",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wild Horse Nine",
+          "aliases": [
+            "Wild Horse Nine"
+          ],
+          "movie_id": 1000084,
+          "image_url": "https://harkinsposters.imgix.net/HO00016104_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/wild-horse-nine",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Good Will Hunting",
+          "aliases": [
+            "Good Will Hunting"
+          ],
+          "movie_id": 1704,
+          "image_url": "https://harkinsposters.imgix.net/HO00016130_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/good-will-hunting",
+          "date": "2026-11-10",
+          "rerelease": true
+        },
+        {
+          "status": "upcoming",
+          "source_title": "George Michael: The Faith Tour",
+          "aliases": [
+            "George Michael: The Faith Tour"
+          ],
+          "movie_id": 1000177,
+          "image_url": "https://harkinsposters.imgix.net/HO00016342_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/george-michael-the-faith-tour",
+          "date": "2026-12-11"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Avengers: Doomsday",
+          "aliases": [
+            "Avengers: Doomsday"
+          ],
+          "title": "Avengers: Doomsday",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://harkinsposters.imgix.net/HO00016050_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/avengers-doomsday",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Avengers: Doomsday [doblado en Español]",
+          "aliases": [
+            "Avengers: Doomsday"
+          ],
+          "title": "Avengers: Doomsday",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://harkinsposters.imgix.net/HO00016053_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/avengers-doomsday-doblado-en-espanol",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "DUNE: Part Three",
+          "aliases": [
+            "DUNE: Part Three"
+          ],
+          "title": "Dune: Part Three",
+          "year": 2026,
+          "genres": [
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Denis Villeneuve"
+          ],
+          "image_url": "https://harkinsposters.imgix.net/HO00015894_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/dune-part-three",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "When Harry Met Sally...",
+          "aliases": [
+            "When Harry Met Sally..."
+          ],
+          "movie_id": 1307,
+          "image_url": "https://harkinsposters.imgix.net/HO00016137_poster?q=80&auto=format,compress&w=456",
+          "url": "https://www.harkins.com/movies/when-harry-met-sally",
+          "date": "2026-12-29",
+          "rerelease": true
+        }
+      ]
+    },
+    {
+      "region": "GB",
+      "source": "Everyman",
+      "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "The Social Reckoning",
+          "aliases": [
+            "The Social Reckoning"
+          ],
+          "movie_id": 1000038,
+          "url": "https://www.everymancinema.com/film-listing/1000026649-the-social-reckoning/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt37510326/",
+          "date": "2026-10-09",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Verity",
+          "aliases": [
+            "Verity"
+          ],
+          "movie_id": 1000034,
+          "url": "https://www.everymancinema.com/film-listing/1000015739-verity/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Digger",
+          "aliases": [
+            "Digger"
+          ],
+          "movie_id": 1000033,
+          "url": "https://www.everymancinema.com/film-listing/327174-digger/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "The Uprising",
+          "aliases": [
+            "The Uprising"
+          ],
+          "movie_id": 1000160,
+          "url": "https://www.everymancinema.com/film-listing/304756-the-uprising/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36983905/",
+          "date": "2026-10-09",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Sense and Sensibility",
+          "aliases": [
+            "Sense and Sensibility"
+          ],
+          "movie_id": 1000051,
+          "url": "https://www.everymancinema.com/film-listing/1000026622-sense-and-sensibility/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Heart Of The Beast",
+          "aliases": [
+            "Heart Of The Beast"
+          ],
+          "movie_id": 1000111,
+          "url": "https://www.everymancinema.com/film-listing/1000000085-heart-of-the-beast/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Pressure",
+          "aliases": [
+            "Pressure"
+          ],
+          "title": "Pressure",
+          "year": 2026,
+          "genres": [
+            "Thriller"
+          ],
+          "directors": [],
+          "url": "https://www.everymancinema.com/film-listing/1000004458-pressure/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Practical Magic 2",
+          "aliases": [
+            "Practical Magic 2"
+          ],
+          "title": "Practical Magic 2",
+          "year": 2026,
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "directors": [
+            "Susanne Bier"
+          ],
+          "url": "https://www.everymancinema.com/film-listing/1000004679-practical-magic-2/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Resident Evil",
+          "aliases": [
+            "Resident Evil"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "url": "https://www.everymancinema.com/film-listing/1000018854-resident-evil/",
+          "show_date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "Resident Evil",
+          "aliases": [
+            "Resident Evil"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "url": "https://www.everymancinema.com/film-listing/1000018854-resident-evil/",
+          "show_date": "2026-10-08"
+        }
+      ],
+      "venue": "The Whiteley, London"
+    },
+    {
+      "region": "GB",
+      "source": "Everyman",
+      "listing_url": "https://www.everymancinema.com/film-listing/",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "Members' Preview: Wicker",
+          "aliases": [
+            "Wicker"
+          ],
+          "movie_id": 1000069,
+          "url": "https://www.everymancinema.com/film-listing/1000053107-members-preview-wicker/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt29611136/",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Members' Preview: La Bola Negra",
+          "aliases": [
+            "La Bola Negra"
+          ],
+          "movie_id": 1000178,
+          "url": "https://www.everymancinema.com/film-listing/1000053108-members-preview-la-bola-negra/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt35511966/",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Members' Preview: Wild Horse Nine",
+          "aliases": [
+            "Wild Horse Nine"
+          ],
+          "movie_id": 1000084,
+          "url": "https://www.everymancinema.com/film-listing/1000053033-members-preview-wild-horse-nine/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt15799564/",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Street Fighter",
+          "aliases": [
+            "Street Fighter"
+          ],
+          "movie_id": 1000052,
+          "url": "https://www.everymancinema.com/film-listing/314939-street-fighter/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt27419420/",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Whalefall",
+          "aliases": [
+            "Whalefall"
+          ],
+          "movie_id": 1000100,
+          "url": "https://www.everymancinema.com/film-listing/318791-whalefall/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt28535715/",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Primetime",
+          "aliases": [
+            "Primetime"
+          ],
+          "movie_id": 1000171,
+          "url": "https://www.everymancinema.com/film-listing/1000013908-primetime/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt34206385/",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Clayface",
+          "aliases": [
+            "Clayface"
+          ],
+          "movie_id": 1000036,
+          "url": "https://www.everymancinema.com/film-listing/1000016901-clayface/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt34890576/",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Forgotten Island",
+          "aliases": [
+            "Forgotten Island"
+          ],
+          "movie_id": 1000037,
+          "url": "https://www.everymancinema.com/film-listing/296642-forgotten-island/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36583977/",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wildwood",
+          "aliases": [
+            "Wildwood"
+          ],
+          "movie_id": 1000063,
+          "url": "https://www.everymancinema.com/film-listing/296439-wildwood/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt2056785/",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Dune: Part Three",
+          "aliases": [
+            "Dune: Part Three"
+          ],
+          "title": "Dune: Part Three",
+          "year": 2026,
+          "genres": [
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Denis Villeneuve"
+          ],
+          "url": "https://www.everymancinema.com/film-listing/324508-dune-part-three/"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Avengers: Doomsday",
+          "aliases": [
+            "Avengers: Doomsday"
+          ],
+          "title": "Avengers: Doomsday",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "url": "https://www.everymancinema.com/film-listing/269068-avengers-doomsday/"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "The Yellow Tie",
+          "aliases": [
+            "The Yellow Tie"
+          ],
+          "movie_id": 1000161,
+          "url": "https://www.everymancinema.com/film-listing/296935-the-yellow-tie/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt5335774/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "George Michael: The Faith Tour",
+          "aliases": [
+            "George Michael: The Faith Tour"
+          ],
+          "movie_id": 1000177,
+          "url": "https://www.everymancinema.com/film-listing/1000041856-george-michael-the-faith-tour/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt40564737/",
+          "date": "2026-11-04"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Ghosts: The Possession Of Button House",
+          "aliases": [
+            "Ghosts: The Possession Of Button House"
+          ],
+          "movie_id": 1000168,
+          "url": "https://www.everymancinema.com/film-listing/1000044641-ghosts-the-possession-of-button-house/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt40311603/",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wicker",
+          "aliases": [
+            "Wicker"
+          ],
+          "movie_id": 1000069,
+          "url": "https://www.everymancinema.com/film-listing/322884-wicker/",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt29611136/",
+          "date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "region": "FR",
+      "source": "Pathé",
+      "listing_url": "https://www.pathe.fr/",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "Heart of the beast",
+          "aliases": [
+            "Heart of the beast"
+          ],
+          "movie_id": 1000111,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011375/poster/md/2/movie&uuid=A48CA04D-DCB8-460A-A5FF-7373F9EC4495",
+          "url": "https://www.pathe.fr/films/heart-of-the-beast-52822",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "source_title": "Digger",
+          "aliases": [
+            "Digger"
+          ],
+          "movie_id": 1000033,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010792/poster/md/5/movie&uuid=6C476184-CF1E-4603-97B1-5647924F40FE",
+          "url": "https://www.pathe.fr/films/digger-51293",
+          "date": "2026-09-30"
+        },
+        {
+          "status": "now",
+          "source_title": "Verity",
+          "aliases": [
+            "Verity"
+          ],
+          "movie_id": 1000034,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010620/poster/md/2/movie&uuid=6B992457-9EAC-44A4-A7F0-ED1AB51030AF",
+          "url": "https://www.pathe.fr/films/verity-50815",
+          "date": "2026-09-30"
+        },
+        {
+          "status": "now",
+          "source_title": "La maison de nos rêves",
+          "aliases": [
+            "La maison de nos rêves"
+          ],
+          "title": "La maison de nos rêves",
+          "year": 2026,
+          "genres": [
+            "Comedy"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011024/poster/md/4/movie&uuid=38B92356-195F-4190-842D-8D5C6AAB9FF1",
+          "url": "https://www.pathe.fr/films/la-maison-de-nos-reves-51866",
+          "date": "2026-10-07"
+        },
+        {
+          "status": "now",
+          "source_title": "Resident Evil",
+          "aliases": [
+            "Resident Evil"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009913/poster/md/2/movie&uuid=21D33ED4-682C-4D04-9FAD-E91D447087A0",
+          "url": "https://www.pathe.fr/films/resident-evil-48830",
+          "date": "2026-09-16"
+        },
+        {
+          "status": "now",
+          "source_title": "Ducobu et le fantôme de Saint-Potache",
+          "aliases": [
+            "Ducobu et le fantôme de Saint-Potache"
+          ],
+          "title": "Ducobu et le fantôme de Saint-Potache",
+          "year": 2026,
+          "genres": [
+            "Comedy"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009418/poster/md/2/movie&uuid=9CDAAF62-A591-4BFE-9430-13BB2644E3EF",
+          "url": "https://www.pathe.fr/films/ducobu-et-le-fantome-de-saint-potache-47832",
+          "date": "2026-10-07"
+        },
+        {
+          "status": "now",
+          "source_title": "Garance",
+          "aliases": [
+            "Garance"
+          ],
+          "title": "Garance",
+          "year": 2026,
+          "genres": [
+            "Drama"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011252/poster/md/3/movie&uuid=CEDE2F13-950B-497D-A6BC-05021D24EFE5",
+          "url": "https://www.pathe.fr/films/garance-52451",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "source_title": "The Social Reckoning",
+          "aliases": [
+            "The Social Reckoning"
+          ],
+          "movie_id": 1000038,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010408/poster/md/2/movie&uuid=485932BA-44DF-4663-A747-E9BB587D73DF",
+          "url": "https://www.pathe.fr/films/the-social-reckoning-50113",
+          "date": "2026-10-07"
+        },
+        {
+          "status": "now",
+          "source_title": "Avengers Endgame Extended",
+          "aliases": [
+            "Avengers Endgame Extended"
+          ],
+          "title": "Avengers: Endgame",
+          "year": 2019,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011740/poster/md/4/movie&uuid=2288DF24-F966-4FB5-A96A-7EA80CFB61DC",
+          "url": "https://www.pathe.fr/films/avengers-endgame-extended-55176",
+          "date": "2026-09-23",
+          "rerelease": true
+        },
+        {
+          "status": "now",
+          "source_title": "Cars",
+          "aliases": [
+            "Cars"
+          ],
+          "title": "Cars",
+          "year": 2006,
+          "genres": [
+            "Animation",
+            "Comedy"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00003877/poster/md/78/movie&uuid=665148FD-67B4-407B-949F-8AA734A2782C",
+          "url": "https://www.pathe.fr/films/cars",
+          "date": "2006-06-14",
+          "rerelease": true
+        },
+        {
+          "status": "now",
+          "source_title": "Spider-Man : Brand New Day",
+          "aliases": [
+            "Spider-Man : Brand New Day"
+          ],
+          "title": "Spider-Man: Brand New Day",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [
+            "Destin Daniel Cretton"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009347/poster/md/4/movie&uuid=24B826FD-0018-4DFA-9DB3-26901F9E5EAB",
+          "url": "https://www.pathe.fr/films/spider-man-brand-new-day-47729",
+          "date": "2026-07-29"
+        },
+        {
+          "status": "now",
+          "source_title": "L'Odyssée",
+          "aliases": [
+            "L'Odyssée"
+          ],
+          "title": "The Odyssey",
+          "year": 2026,
+          "genres": [
+            "Adventure",
+            "Fantasy"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00008908/poster/md/6/movie&uuid=DDBBD5FA-D3A1-4415-A2E0-A67067FA2F0F",
+          "url": "https://www.pathe.fr/films/l-odyssee-43836",
+          "date": "2026-07-15"
+        },
+        {
+          "status": "now",
+          "source_title": "Primetime",
+          "aliases": [
+            "Primetime"
+          ],
+          "movie_id": 1000171,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011676/poster/md/2/movie&uuid=B91EEA63-53B5-42C2-B97A-CE5892912454",
+          "url": "https://www.pathe.fr/films/primetime-54936",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "source_title": "Raison et sentiments",
+          "aliases": [
+            "Raison et sentiments"
+          ],
+          "movie_id": 1000051,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010569/poster/md/3/movie&uuid=229225B3-C7AC-490F-A415-719AE8333121",
+          "url": "https://www.pathe.fr/films/raison-et-sentiments-50621",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "now",
+          "source_title": "Obsession",
+          "aliases": [
+            "Obsession"
+          ],
+          "title": "Obsession",
+          "year": 2025,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Curry Barker"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010531/poster/md/3/movie&uuid=D7B50EAD-4C24-4560-BDA8-FC465B1CF478",
+          "url": "https://www.pathe.fr/films/obsession-50502",
+          "date": "2026-05-13"
+        },
+        {
+          "status": "now",
+          "source_title": "Insidious : L'Invasion du Lointain",
+          "aliases": [
+            "Insidious : L'Invasion du Lointain"
+          ],
+          "title": "Insidious: Out of the Further",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Jacob Chase"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009038/poster/md/2/movie&uuid=E3730AAF-7A34-4847-B9C3-37594E083AA7",
+          "url": "https://www.pathe.fr/films/insidious-l-invasion-du-lointain-44397",
+          "date": "2026-08-19"
+        },
+        {
+          "status": "now",
+          "source_title": "Joyeuse Jungle !",
+          "aliases": [
+            "Joyeuse Jungle !"
+          ],
+          "title": "Joyeuse Jungle !",
+          "year": 2026,
+          "genres": [
+            "Animation"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011399/poster/md/2/movie&uuid=70B297F5-FA09-40D9-8C3D-D4A49F06E8DB",
+          "url": "https://www.pathe.fr/films/joyeuse-jungle-52912",
+          "date": "2026-10-07"
+        },
+        {
+          "status": "now",
+          "source_title": "Pressure",
+          "aliases": [
+            "Pressure"
+          ],
+          "title": "Pressure",
+          "year": 2026,
+          "genres": [
+            "Thriller"
+          ],
+          "directors": [],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010866/poster/md/6/movie&uuid=CBD7AC6D-AEEE-40EE-9B49-8ACBF75A0809",
+          "url": "https://www.pathe.fr/films/pressure-51502",
+          "date": "2026-09-09"
+        },
+        {
+          "status": "now",
+          "source_title": "La Pat' Patrouille : Le film Mission Dino",
+          "aliases": [
+            "La Pat' Patrouille : Le film Mission Dino"
+          ],
+          "title": "PAW Patrol: The Dino Movie",
+          "year": 2026,
+          "genres": [
+            "Animation",
+            "Children's",
+            "Adventure"
+          ],
+          "directors": [
+            "Cal Brunker"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009799/poster/md/2/movie&uuid=992779E9-3304-438C-AF45-E404DDC3B65E",
+          "url": "https://www.pathe.fr/films/la-pat-patrouille-le-film-mission-dino-48602",
+          "date": "2026-08-05"
+        },
+        {
+          "status": "now",
+          "source_title": "Les Contrebandiers",
+          "aliases": [
+            "Les Contrebandiers"
+          ],
+          "title": "The Weight",
+          "year": 2026,
+          "genres": [
+            "Thriller",
+            "Drama",
+            "Crime"
+          ],
+          "directors": [
+            "Padraic McKinley"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00011460/poster/md/3/movie&uuid=3B035E2B-3AE6-4849-9B06-3EF6F9451DEB",
+          "url": "https://www.pathe.fr/films/les-contrebandiers-53439",
+          "date": "2026-09-16"
+        },
+        {
+          "status": "now",
+          "source_title": "Toy Story 5",
+          "aliases": [
+            "Toy Story 5"
+          ],
+          "title": "Toy Story 5",
+          "year": 2026,
+          "genres": [
+            "Animation",
+            "Children's",
+            "Comedy"
+          ],
+          "directors": [
+            "Andrew Stanton",
+            "McKenna Harris"
+          ],
+          "image_url": "https://media.pathe.fr/movie/alex/HO00007612/poster/md/4/movie&uuid=559B6180-9AD1-4AD4-90AD-1842017FC32F",
+          "url": "https://www.pathe.fr/films/toy-story-5-38778"
+        },
+        {
+          "status": "now",
+          "source_title": "De la Comédie-Française",
+          "aliases": [
+            "De la Comédie-Française"
+          ],
+          "movie_id": 1000162,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010761/poster/md/3/movie&uuid=0A1A98AF-4495-4124-B077-2207AFE04865",
+          "url": "https://www.pathe.fr/films/de-la-comedie-francaise-51216"
+        },
+        {
+          "status": "now",
+          "source_title": "Akira",
+          "aliases": [
+            "Akira"
+          ],
+          "movie_id": 1274,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00002696/poster/md/103/movie&uuid=827D5B98-DD50-4AEE-9FD4-859AAF68AE12",
+          "url": "https://www.pathe.fr/films/akira-9004",
+          "rerelease": true
+        }
+      ]
+    },
+    {
+      "region": "FR",
+      "source": "Pathé",
+      "listing_url": "https://www.pathe.fr/",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "Englouti",
+          "aliases": [
+            "Englouti"
+          ],
+          "movie_id": 1000100,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010032/poster/md/2/movie&uuid=20BB0557-EAC7-4ABD-AA9D-241769BDFE31",
+          "url": "https://www.pathe.fr/films/englouti-49301",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt28535715/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Le Corset",
+          "aliases": [
+            "Le Corset"
+          ],
+          "movie_id": 1000133,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010407/poster/md/2/movie&uuid=97142CC0-8D7F-4A84-8CA8-B1715A901C9A",
+          "url": "https://www.pathe.fr/films/le-corset-50112",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36639956/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Les Misérables",
+          "aliases": [
+            "Les Misérables"
+          ],
+          "movie_id": 1000134,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00009813/poster/md/1/movie&uuid=61F7DC8A-774D-43BA-B717-83D31322DAC3",
+          "url": "https://www.pathe.fr/films/les-miserables-48629",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt35518109/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Malfaisante",
+          "aliases": [
+            "Malfaisante"
+          ],
+          "movie_id": 1000035,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010250/poster/md/5/movie&uuid=1FB8A435-1AC6-4853-A0C0-5849FD2424F0",
+          "url": "https://www.pathe.fr/films/malfaisante-49786",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36586020/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Mochy",
+          "aliases": [
+            "Mochy"
+          ],
+          "movie_id": 1000135,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010790/poster/md/1/movie&uuid=B738D21F-FBD2-4B0F-80A2-254EDB9FD5A1",
+          "url": "https://www.pathe.fr/films/mochy-51289",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt7081280/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Street Fighter",
+          "aliases": [
+            "Street Fighter"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00010138/poster/md/3/movie&uuid=884A0BF8-1D0B-4441-9149-CB2E9879F570",
+          "url": "https://www.pathe.fr/films/street-fighter-49553",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt27419420/",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Clayface",
+          "aliases": [
+            "Clayface"
+          ],
+          "movie_id": 1000036,
+          "image_url": "https://media.pathe.fr/movie/alex/HO00008866/poster/md/2/movie&uuid=C8C9AB21-8E78-4620-AFF7-5D4C914FBA31",
+          "url": "https://www.pathe.fr/films/clayface-43763",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt34890576/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Karma",
+          "aliases": [
+            "Karma"
+          ],
+          "movie_id": 1000144,
+          "url": "https://www.pathe.fr/films/karma-49700",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt35450621/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Klara et le soleil",
+          "aliases": [
+            "Klara et le soleil"
+          ],
+          "movie_id": 1000064,
+          "url": "https://www.pathe.fr/films/klara-et-le-soleil-52371"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "La Gradiva",
+          "aliases": [
+            "La Gradiva"
+          ],
+          "movie_id": 1000142,
+          "url": "https://www.pathe.fr/films/la-gradiva-52747",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36107185/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Le roi du game",
+          "aliases": [
+            "Le roi du game"
+          ],
+          "movie_id": 1000143,
+          "url": "https://www.pathe.fr/films/le-roi-du-game-52580",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt44842464/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "L'île des souvenirs",
+          "aliases": [
+            "L'île des souvenirs"
+          ],
+          "movie_id": 1000037,
+          "url": "https://www.pathe.fr/films/l-ile-des-souvenirs-48057",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36583977/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Shaun le Mouton : La Bêêête d'Halloween",
+          "aliases": [
+            "Shaun le Mouton : La Bêêête d'Halloween"
+          ],
+          "movie_id": 1000123,
+          "url": "https://www.pathe.fr/films/shaun-le-mouton-la-beeete-d-halloween-50394",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt36841161/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Une femme aujourd'hui",
+          "aliases": [
+            "Une femme aujourd'hui"
+          ],
+          "movie_id": 1000145,
+          "url": "https://www.pathe.fr/films/une-femme-aujourd-hui-54512",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt43645716/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Wicker",
+          "aliases": [
+            "Wicker"
+          ],
+          "movie_id": 1000069,
+          "url": "https://www.pathe.fr/films/wicker-54922",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt29611136/",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Quelques mots d'amour",
+          "aliases": [
+            "Quelques mots d'amour"
+          ],
+          "movie_id": 1000149,
+          "url": "https://www.pathe.fr/films/quelques-mots-d-amour-52567",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt39969491/",
+          "date": "2026-10-28"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "Le Fantôme de l'Opéra",
+          "aliases": [
+            "Le Fantôme de l'Opéra"
+          ],
+          "movie_id": 1000148,
+          "url": "https://www.pathe.fr/films/le-fantome-de-l-opera-46997",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt37740990/",
+          "date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "source": "TOHO Cinemas",
+      "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "バイオハザード",
+          "aliases": [
+            "バイオハザード"
+          ],
+          "title": "Resident Evil",
+          "year": 2026,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Zach Cregger"
+          ],
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029219/SAKUHIN029219_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029219"
+        },
+        {
+          "status": "now",
+          "source_title": "汝、星のごとく",
+          "aliases": [
+            "汝、星のごとく"
+          ],
+          "movie_id": 1000113,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029159/SAKUHIN029159_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029159",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt43738759/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "ＤＩＧＧＥＲ／ディガー",
+          "aliases": [
+            "ＤＩＧＧＥＲ／ディガー"
+          ],
+          "movie_id": 1000033,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029272/SAKUHIN029272_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029272",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt31450459/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "映画ちいかわ　人魚の島のひみつ",
+          "aliases": [
+            "映画ちいかわ　人魚の島のひみつ"
+          ],
+          "title": "Chiikawa the Movie: The Secret of the Mermaid Island",
+          "year": 2026,
+          "genres": [
+            "Animation"
+          ],
+          "directors": [],
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028639/SAKUHIN028639_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028639",
+          "date": "2026-07-24"
+        },
+        {
+          "status": "now",
+          "source_title": "ガールズ＆パンツァー　最終章　第５話",
+          "aliases": [
+            "ガールズ＆パンツァー　最終章　第５話"
+          ],
+          "movie_id": 1000118,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028478/SAKUHIN028478_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028478",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt39195693/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "ハート・オブ・ビースト",
+          "aliases": [
+            "ハート・オブ・ビースト"
+          ],
+          "movie_id": 1000111,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029132/SAKUHIN029132_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029132"
+        },
+        {
+          "status": "now",
+          "source_title": "どこよりも遠い場所にいる君へ",
+          "aliases": [
+            "どこよりも遠い場所にいる君へ"
+          ],
+          "movie_id": 1000117,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029185/SAKUHIN029185_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029185",
+          "date_basis": "calendar",
+          "date_reference": "https://www.imdb.com/title/tt43691434/",
+          "date": "2026-10-09"
+        },
+        {
+          "status": "now",
+          "source_title": "アベンジャーズ／エンドゲーム：アンコール",
+          "aliases": [
+            "アベンジャーズ／エンドゲーム：アンコール"
+          ],
+          "title": "Avengers: Endgame",
+          "year": 2019,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029392/SAKUHIN029392_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029392",
+          "rerelease": true
+        },
+        {
+          "status": "now",
+          "source_title": "オデュッセイア",
+          "aliases": [
+            "オデュッセイア"
+          ],
+          "title": "The Odyssey",
+          "year": 2026,
+          "genres": [
+            "Adventure",
+            "Fantasy"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028976/SAKUHIN028976_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028976"
+        },
+        {
+          "status": "now",
+          "source_title": "ルックバック",
+          "aliases": [
+            "ルックバック",
+            "Look Back"
+          ],
+          "movie_id": 1000097,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029011/SAKUHIN029011_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029011"
+        }
+      ]
+    },
+    {
+      "region": "JP",
+      "source": "TOHO Cinemas",
+      "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "ＡＬＷＡＹＳ　ＬＡＬＩＳＡ",
+          "aliases": [
+            "ＡＬＷＡＹＳ　ＬＡＬＩＳＡ"
+          ],
+          "movie_id": 1000119,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029714/SAKUHIN029714_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029714",
+          "date": "2026-10-12"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "青春ブタ野郎はディアフレンドの夢を見ない",
+          "aliases": [
+            "青春ブタ野郎はディアフレンドの夢を見ない"
+          ],
+          "movie_id": 1000120,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028579/SAKUHIN028579_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028579",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ｍｅｎｔｏｒ",
+          "aliases": [
+            "ｍｅｎｔｏｒ"
+          ],
+          "movie_id": 1000121,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/028959/SAKUHIN028959_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=028959",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ストリートファイター／ザ・ムービー",
+          "aliases": [
+            "ストリートファイター／ザ・ムービー"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029220/SAKUHIN029220_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029220",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "クジラに落ちた男",
+          "aliases": [
+            "クジラに落ちた男"
+          ],
+          "movie_id": 1000100,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029271/SAKUHIN029271_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029271",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ＢａｎＧ　Ｄｒｅａｍ！　Ａｖｅ　Ｍｕｊｉｃａ",
+          "aliases": [
+            "ＢａｎＧ　Ｄｒｅａｍ！　Ａｖｅ　Ｍｕｊｉｃａ"
+          ],
+          "movie_id": 1000122,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029351/SAKUHIN029351_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029351",
+          "date": "2026-10-16"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "劇場シリーズ【第一部】メイドインアビス　目覚める神秘",
+          "aliases": [
+            "劇場シリーズ【第一部】メイドインアビス　目覚める神秘"
+          ],
+          "movie_id": 1000126,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029186/SAKUHIN029186_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029186",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "映画　ひつじのショーン　かぼちゃ畑の怪物！",
+          "aliases": [
+            "映画　ひつじのショーン　かぼちゃ畑の怪物！"
+          ],
+          "movie_id": 1000123,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029311/SAKUHIN029311_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029311",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "バッド・ルーテナント：トウキョウ",
+          "aliases": [
+            "バッド・ルーテナント：トウキョウ"
+          ],
+          "movie_id": 1000125,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029469/SAKUHIN029469_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029469",
+          "date": "2026-10-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "クレイフェイス",
+          "aliases": [
+            "クレイフェイス"
+          ],
+          "movie_id": 1000036,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029291/SAKUHIN029291_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029291",
+          "date": "2026-10-30"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ゴジラ－０．０",
+          "aliases": [
+            "ゴジラ－０．０"
+          ],
+          "movie_id": 1000083,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029201/SAKUHIN029201_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029201",
+          "date": "2026-11-03"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ＧＲＯＴＥＳＱＱＱＵＥ　－グロテスク－",
+          "aliases": [
+            "ＧＲＯＴＥＳＱＱＱＵＥ　－グロテスク－"
+          ],
+          "movie_id": 1000131,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029188/SAKUHIN029188_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029188",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ヴェリティ／真実",
+          "aliases": [
+            "ヴェリティ／真実"
+          ],
+          "movie_id": 1000034,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029457/SAKUHIN029457_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029457",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "ブルネロ　静かなる先見者",
+          "aliases": [
+            "ブルネロ　静かなる先見者"
+          ],
+          "movie_id": 1000112,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029502/SAKUHIN029502_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029502",
+          "date": "2026-11-06"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "アザー・マミー",
+          "aliases": [
+            "アザー・マミー"
+          ],
+          "movie_id": 1000035,
+          "image_url": "https://www.tohotheater.jp/images_net/movie/029573/SAKUHIN029573_2.jpg",
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3060J01.do?sakuhin_cd=029573",
+          "date": "2026-11-20"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "プラクティカル・マジック／魔女たちの秘密",
+          "aliases": [
+            "プラクティカル・マジック／魔女たちの秘密"
+          ],
+          "title": "Practical Magic 2",
+          "year": 2026,
+          "genres": [
+            "Fantasy",
+            "Romance"
+          ],
+          "directors": [
+            "Susanne Bier"
+          ],
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "date": "2026-11-27"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "デューン　砂の惑星　ＰＡＲＴ３",
+          "aliases": [
+            "デューン　砂の惑星　ＰＡＲＴ３"
+          ],
+          "title": "Dune: Part Three",
+          "year": 2026,
+          "genres": [
+            "Sci-Fi"
+          ],
+          "directors": [
+            "Denis Villeneuve"
+          ],
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "アベンジャーズ／ドゥームズデイ",
+          "aliases": [
+            "アベンジャーズ／ドゥームズデイ"
+          ],
+          "title": "Avengers: Doomsday",
+          "year": 2026,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "date": "2026-12-18"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "キャット・イン・ザ・ハット",
+          "aliases": [
+            "キャット・イン・ザ・ハット"
+          ],
+          "movie_id": 1000086,
+          "url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+          "date": "2026-12-25"
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "source": "Megabox",
+      "listing_url": "https://www.megabox.co.kr/movie",
+      "movies": [
+        {
+          "status": "now",
+          "source_title": "극장판 치이카와: 인어 섬의 비밀",
+          "aliases": [
+            "극장판 치이카와: 인어 섬의 비밀"
+          ],
+          "title": "Chiikawa the Movie: The Secret of the Mermaid Island",
+          "year": 2026,
+          "genres": [
+            "Animation"
+          ],
+          "directors": [],
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/03/CjeVQroskRoH0gzQhSkGpBG7Sx2qjjk3_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26048500",
+          "date": "2026-09-30"
+        },
+        {
+          "status": "now",
+          "source_title": "룩백",
+          "aliases": [
+            "룩백",
+            "Look Back"
+          ],
+          "movie_id": 1000097,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/07/KuqiKbrVUI94sjQeM6sE0VbusktAGQ4H_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26045800",
+          "date": "2026-10-08"
+        },
+        {
+          "status": "now",
+          "source_title": "타짜: 벨제붑의 노래",
+          "aliases": [
+            "타짜: 벨제붑의 노래"
+          ],
+          "movie_id": 1000058,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/03/0zja0gwLfWB9HYfqFkqFyJIF5J72RSiW_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061100",
+          "date": "2026-09-23"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "웨일폴: 고래에 먹힌 남자",
+          "aliases": [
+            "웨일폴: 고래에 먹힌 남자"
+          ],
+          "movie_id": 1000100,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/10/05/TQFBrPIROg4bmrQ5ZH8pkXyOUmPBlkYR_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "스트리트 파이터",
+          "aliases": [
+            "스트리트 파이터"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/05/11/o2MnGy2jsO4ifomGt0QHRxM3bbQE7oAH_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "now",
+          "source_title": "오디세이",
+          "aliases": [
+            "오디세이"
+          ],
+          "title": "The Odyssey",
+          "year": 2026,
+          "genres": [
+            "Adventure",
+            "Fantasy"
+          ],
+          "directors": [
+            "Christopher Nolan"
+          ],
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/07/14/ZmQ2AFTDWOzTK9nTBtdaM3b2evITLQsn_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26018900",
+          "date": "2026-08-05"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "여전히 찬란하게",
+          "aliases": [
+            "여전히 찬란하게"
+          ],
+          "movie_id": 1000099,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/08/l3OePCPDE7wDQlKsu45GEz2av9okyZSd_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "now",
+          "source_title": "옵세션",
+          "aliases": [
+            "옵세션"
+          ],
+          "title": "Obsession",
+          "year": 2025,
+          "genres": [
+            "Horror"
+          ],
+          "directors": [
+            "Curry Barker"
+          ],
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/08/14/jh6UscZuFLOCGbEN1WsoyMFXAWzPRy7I_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26057700",
+          "date": "2026-09-02"
+        },
+        {
+          "status": "now",
+          "source_title": "디거",
+          "aliases": [
+            "디거"
+          ],
+          "movie_id": 1000033,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/09/a6kKDIjn5hqVJaiieRu1mq7wksYUXKHP_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062300",
+          "date": "2026-10-03"
+        },
+        {
+          "status": "now",
+          "source_title": "어벤져스: 엔드게임 앙코르",
+          "aliases": [
+            "어벤져스: 엔드게임 앙코르"
+          ],
+          "title": "Avengers: Endgame",
+          "year": 2019,
+          "genres": [
+            "Action",
+            "Adventure"
+          ],
+          "directors": [],
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/26/sigp3XKtEWooXTIKZAQsCUsanDTKgaEP_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26062200",
+          "date": "2026-09-23",
+          "rerelease": true
+        }
+      ]
+    },
+    {
+      "region": "KR",
+      "source": "Megabox",
+      "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+      "movies": [
+        {
+          "status": "upcoming",
+          "source_title": "웨일폴: 고래에 먹힌 남자",
+          "aliases": [
+            "웨일폴: 고래에 먹힌 남자"
+          ],
+          "movie_id": 1000100,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/10/05/TQFBrPIROg4bmrQ5ZH8pkXyOUmPBlkYR_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26065100",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "스트리트 파이터",
+          "aliases": [
+            "스트리트 파이터"
+          ],
+          "movie_id": 1000052,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/05/11/o2MnGy2jsO4ifomGt0QHRxM3bbQE7oAH_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26028400",
+          "date": "2026-10-14"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "여전히 찬란하게",
+          "aliases": [
+            "여전히 찬란하게"
+          ],
+          "movie_id": 1000099,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/08/l3OePCPDE7wDQlKsu45GEz2av9okyZSd_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26061600",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "눈 둘 데가 없네",
+          "aliases": [
+            "눈 둘 데가 없네"
+          ],
+          "movie_id": 1000107,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/09/22/s1AGWjiRyBDyR0UXN9FmZh1jROiaB6pq_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26064800",
+          "date": "2026-10-21"
+        },
+        {
+          "status": "upcoming",
+          "source_title": "차오",
+          "aliases": [
+            "차오"
+          ],
+          "movie_id": 1000108,
+          "image_url": "https://img.megabox.co.kr/SharedImg/2026/10/04/v4eBvJiVbpPnyLiOIgcpAgxR2y0nCVkG_420.jpg",
+          "url": "https://www.megabox.co.kr/movie-detail?rpstMovieNo=26066500",
+          "date": "2026-10-21"
+        }
+      ]
+    }
+  ],
+  "unmatched_cards": [
+    {
+      "region": "VN",
+      "status": "now",
+      "title": "Scotty: Giải Cứu Hoàng Thượng",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "VN",
+      "status": "upcoming",
+      "title": "BTS World Tour 'Arirang' In Buenos Aires: Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "VN",
+      "status": "upcoming",
+      "title": "BTS World Tour 'Arirang' In São Paulo: Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Acharya [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Anbil Avan [Tamil. subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "April X",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Avaraachan & Sons [Malayalam, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Baththa [Tamil, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Beware Boiúna",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Buddy The Sing-Along Version",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Coyote vs. ACME",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The Craft - 30th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Daniel and the Fiery Furnace",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Don't Trouble the Trouble [Malayalam, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Don't Trouble the Trouble [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Drishyam: The Conclusion [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The History of Concrete",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The Incomer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "JAMES BOND DAY: Casino Royale - 20th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Jhingedaau 2 [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Journey",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "On-Screen Captions: Verity",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Orion",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Other Mommy - Fan Event Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Prem Keetanu [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Queen Budapest",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Resident evil: Noche cero [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Rolling Loud: The Movie",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Runner",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "SB19 Wakas at Simula in Cinemas",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Sigma [Tamil, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Thella Kaagitham [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "You Had to Be There",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "9 to 5",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Big Girls Don't Cry",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Brother Joseph Again",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Brotherhood: A Cinematic Musical",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Comrade Kalyan [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Falling",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Corpse Bride",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Texas Chain Saw Massacre",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hanuman Ansh [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: The Ballad of Songbirds and Snakes",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Madre siniestra [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Never After Dark [Japanese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Once Upon a Time in the Middle East [Mandarin]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Pension Patta [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Portrait of an Artist: Stephen Curry",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Scout",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "V [Cantonese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Castle in the Sky - 40th Anniversary [English]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: The Hunger Games",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "North by Northwest - An Eva Marie Saint Tribute",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Digger",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Trust Me, I'm a Doctor - Early Access Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "WWE Money in the Bank",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Castle in the Sky - 40th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: October 12th",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Friday the 13th (1980)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Sense and Sensibility - Early Access",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Street Fighter: Bonus Round Fan Event",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Street Fighter: Bonus Round Fan Event [Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "California Schemin' - Member Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Cha Maya Chapakkai 2 [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: A Nightmare on Elm Street (1984)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Casper",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Catching Fire",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ken Russell's The Devils",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Hocus Pocus",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Scream (1996)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Mockingjay – Part 1",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Sense and Sensibility",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Mockingjay – Part 2",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wildwood - Fan First Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Yuri!!! on ICE 10th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Lost Boys",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Fallen Angels by Noël Coward",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ali G: Who Iz I? - Mad Respek Screening!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Exorcist: Director's Cut (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Exorcist (Director's Cut)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Nightmare Before Christmas",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Addams Family (1991)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Zombieland",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Peaking: Psychedelics and the Pursuit of Happiness",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "A Talent for Murder",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Udta Teer [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HYBE CHEERING PARTY (3D)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Klara and the Sun",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "UFC 333: Volkanovski vs. Evloev",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Marie Antoinette - 20th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "An American Werewolf in London - 45th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ozzy & Black Sabbath: Back to the Beginning",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Beetlejuice",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Halloween (1978)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Coco",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Halloween (1978)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wild at Heart - Unrated",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wild Horse Nine - Early Access Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Irregular at Magic High School THE MOVIE [dub]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: November 2nd",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Godzilla Minus Zero - Godzilla Day IMAX Early Show",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Rammstein - Live in Mexico City",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: How to Lose a Guy in 10 Days",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Terminator",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ramayana [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Summer Holidays [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Sensory Friendly: The Cat in the Hat",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: November 9th",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ebenezer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "God with Us",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "How to Rob a Bank",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "I Play Rocky",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Terminator 2: Judgment Day",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Victorian Psycho",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Festive Fun with Peppa Cinema Experience",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "League of Legends Worlds 26 | Finals in Theater",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Iron Giant",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Princess Mononoke [English dub]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Princess Mononoke [Japanese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Fifth Element",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hunger Games: Sunrise on the Reaping -Early Access",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Juegos del hambre: Amanecer en la cosecha[Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Knives Out",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Planes, Trains and Automobiles",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Paper Tiger",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Planes, Trains and Automobiles",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Elsinore",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Focker-In-Law",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hershey",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hexed",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hexed: Spellbound Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Polar Express",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Gremlins (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Violent Night 2",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Spirited Away - 25th Anniversary [English]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Spirited Away - 25th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Elf",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Zero A.D.: The Birth of Christ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "DUNE: Part Three - Insider Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "How the Grinch Stole Christmas (2000)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "DUNA: Parte Tres [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Avengers: Doomsday",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "National Lampoon's Christmas Vacation",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "All of a Sudden [French, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Mr. Irrelevant",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Werwulf",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: DUNE: Part Three",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Cameron Winter at Carnegie Hall (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "now",
+      "title": "Toddler Club: Pip and Posy and Friends",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Ken Russell's The Devils",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Doctor Who Day: The Satan Pit",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Dracula (4K Restoration)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Her Private Hell + Recorded Intro",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Cellar Door x ThoughtBubble presents: Terminator 2: Judgment Day",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Unrestricted View Horror Film Festival 2026: Opening Night",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Ozzy & Black Sabbath: Back To The Beginning",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "André Rieu's 2026 Christmas Concert: Let it snow!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Fallen Angels by Noel Coward",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "GIANT - The Play",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: Golden Boy",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: Hay Fever",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: The Motive and the Cue",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Exhibition On Screen: Renoir & Love",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Exhibition On Screen: Monet",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet & Opera - The Metropolitan Opera 2026-27: Macbeth",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Manon",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Carmen",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: The Nutcracker",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Samson et Dalila",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: La Fanciulla del West",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Götterdämmerung",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Così fan tutte",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Silent Night",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Alice’s Adventures in Wonderland",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Manon",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Swan Lake",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Otello",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Tosca",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Romeo and Juliet",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Parsifal",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Ni vue, ni connue",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Kraken",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Tombé du ciel",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Fausse note",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Séance Ciné Hits : Hunger Games",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Les Vendredis de l'Horreur : Malfaisante",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Justin le Juste",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Notre salut",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Leviticus",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Si tu penses bien",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Ma mini-séance : Sam le pompier",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'Invitation",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Doraemon et le château sous-marin",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Mémoire de fille",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La vie d'une femme",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Butterfly Jam",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Maharaja (version Tamoule)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Les éléphants dans la brume",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'espèce explosive",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'Odyssée : Projection IMAX 70mm",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "La Séance Ciné Hits : Hunger Games - L'Embrasement",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Macbeth (MET)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "La Séance Ciné Hits : Hunger Games - La Révolte, Partie 1",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "HYBE CHEERING PARTY",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "MYLÈNE FARMER – ÉGRÉGORE – L’AVANT-PREMIÈRE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Hope",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Le Mystère Lucy Lost",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Les Rendez-vous de l'anime : Si tu tends l'oreille",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Ma Mini-Séance : Un amour d'épouvantail",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ママがもうこの世界にいなくても　私の命の日記",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "踊る大捜査線　Ｎ．Ｅ．Ｗ．　メトロポリスを駆け抜けろ！",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ディスクロージャー・デイ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "我々は宇宙人",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ハードボイルド",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "機動警察パトレイバー　劇場版　〈「劇場公開版音声」＆４Ｋ版〉",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "無明の橋",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "あぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "踊る大捜査線　ＴＨＥ　ＭＯＶＩＥ２",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "クイーン：ブダペスト",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "時給三〇〇円の死神",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ファーストボイス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "沖晴くんの涙を殺して",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "本当にあった話（の話）",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "カードファイト！！　ヴァンガード　Ｄｉｖｉｎｅｚ　運命星戦編",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "シャドウワーク",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ナギダイアリー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "マッチング　ＴＲＵＥ　ＬＯＶＥ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "縁の手紙",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "しびれ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画名探偵プリキュア！　不思議な庭と２人の秘密",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "さとこはいつも",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "八つ墓村",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ワンオペレーション",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "『超かぐや姫！』特別フォーマット版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "最終楽章　響け！ユーフォニアム　後編",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "白鳥とコウモリ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "戦場０地点",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "バックルームズ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "劇場版　魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "平行と垂直",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "私はあなたを知らない、",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ドラマなふたり",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ミニオンズ＆モンスターズ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "あの星が降る丘で、君とまた出会いたい。",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ブルーロック",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "キングダム　魂の決戦",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "急に具合が悪くなる",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "Ｍｉｃｈａｅｌ／マイケル",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "新劇場版　銀魂　－吉原大炎上－",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画　ヒプノシスマイク",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "午前十時の映画祭１６「用心棒」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ナショナル・シアター・ライヴ『危険な関係』",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "わたしの知らない子どもたち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ミッション　４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "パリに咲くエトワール",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "太陽を盗んだ男　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "踊る大捜査線　ＴＨＥ　ＭＯＶＩＥ３　ヤツらを解放せよ！",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "椎名林檎　党大会　令和八年列島巡回",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "耳をすませば　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "昨夜は殺れたかも",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "うるわしの宵の月",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＢＯＳＳ／ボス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "映画「ＳＡＮＤ　ＬＡＮＤ」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "借りぐらしのアリエッティ　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "踊る大捜査線　ＴＨＥ　ＦＩＮＡＬ　新たなる希望",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「恋人たちの予感」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「ラブ・アクチュアリー」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ヤマトよ永遠に　ＲＥＢＥＬ３１９９　第七章　虹色の輪廻",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＲＹＵＪＩ　竜二",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　ザ・ラストレッドショルダー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　ペールゼン・ファイルズ劇場版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "恒星の向こう側",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『ＣＯＷＢＯＹ　ＢＥＢＯＰ　天国の扉』４Ｋ　ＲＥＭＡＳＴＥＲ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "韓国ミュージカル　ＯＮ　ＳＣＲＥＥＮ『フランケンシュタイン』",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『交渉人　真下正義』４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『容疑者　室井慎次』４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "室井慎次　敗れざる者",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "室井慎次　生き続ける者",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "仮面ライダーカブト２０ｔｈ　天を継ぐもの",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "４アウト　─もう一度、プレイボール─",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ダビデ　王になった少年",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "３ミリの恋",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "男ともだち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "星の教室",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "楽園追放　心のレゾナンス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "すべて真夜中の恋人たち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "負けへんで",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "クリスマス・キャロル／３人のゴーストたち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "呪いのスマホ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "トキシック・アベンジャー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場先行版「風を継ぐもの　－はじまり－」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "南極料理人　４Ｋリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ないものねだりの君に光の花束を",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "魔法使いの夜",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　灰色の魔女【第１作】",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "月がみている",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "Ｃｒｅｅｐｙ　Ｎｕｔｓ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場版　遊☆戯☆王　リバイバル上映",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「ガス人間第１号」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「マタンゴ」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ワンダンス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "君の話",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "このごにおよんで愛など",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "またまたあぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ピリオン",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ビリーと魔法のはじまり",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "お姉ちゃんの翠くん",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "バイオレント・ナイト２",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場版　薬屋のひとりごと　亡妃の秘宝",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＥＮＲＯＵＴＥ／エンルート",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "薔薇の鎖",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "風林火山",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "もっともあぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "人生を変えたコント",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＨＡＷＫＳ　ＴＨＥ　ＭＯＶＩＥ　２０２６",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「オペラ座の怪人」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「レ・ミゼラブル」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＢＹＥ　ＢＹＥ　ＬＯＶＥ　探偵はＢＡＲにいる",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＳＵＫＩＹＡＫＩ　上を向いて歩こう",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "きみに贈る最強のうた",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "グラッツィア　大統領　最後の散歩",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "암살자(들)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "전자오락수호대",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "입에 대한 앙케트",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "퓨리어스",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "부활남: 더 레드",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "디지몬 어드벤처 : 운명적 만남 & 우리들의 워 게임!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "MECHATU-A 1st LIVE “Over Drive!” Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "[2026 NT Live] 인터 알리아",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "인턴",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "MECHATU-A 1st LIVE “Over Drive!” Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "Kenmochi Toya Real Solo Live 【KOKU FES.】 Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "Kuzuha One Man Live＂Bloody Alexandrite＂Live Viewing  ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "전자오락수호대",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "헤븐 노우즈 왓",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "쉘위런",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "[2026 NT Live] 워렌 부인의 직업",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "레위기",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "스틸레이",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "흐르는 여정",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "퍼플 스왈로우",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "더 프린세스 : 도둑맞은 공주",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "킬링타임",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "7데이즈 7피플",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    }
+  ]
+}

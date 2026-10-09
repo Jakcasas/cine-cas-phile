@@ -1,13 +1,20 @@
 {
-  "catalog_movies": 3920,
-  "supplemental_movies": 37,
-  "movies_with_image_urls": 1330,
-  "movies_without_verified_posters": 2590,
+  "version": "1.0",
+  "catalog_movies": 4084,
+  "supplemental_movies": 201,
+  "movies_with_image_urls": 1490,
+  "movies_without_verified_posters": 2594,
   "poster_sources": {
     "Letterboxd": 1113,
     "MUBI": 35,
     "PhimMoi": 230,
-    "FshareTV": 804
+    "FshareTV": 804,
+    "Harkins Theatres": 58,
+    "Pathé": 30,
+    "IMDb": 137,
+    "TOHO Cinemas": 25,
+    "Megabox": 12,
+    "Galaxy Cinema": 20
   },
   "ratings_sources": {
     "MUBI": 34,
@@ -15,5 +22,7 @@
     "IMDb": 822,
     "Rotten Tomatoes": 20,
     "Metacritic": 12
-  }
+  },
+  "cinema_matched_films": 98,
+  "cinema_listings": 180
 }

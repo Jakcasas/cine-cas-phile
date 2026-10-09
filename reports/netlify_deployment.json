@@ -1,16 +1,16 @@
 {
   "site_id": "00750758-f294-4229-bdd8-865b45c6382d",
   "site_name": "cinecasphile",
-  "deploy_id": "6ac816738a87c931253373bf",
+  "deploy_id": "6ac85393c03208966ed16e9a",
   "url": "https://cinecasphile.netlify.app",
   "version": "1.0",
-  "catalog_size": 4064,
-  "indexed_movies": 1468,
+  "catalog_size": 4084,
+  "indexed_movies": 1490,
   "mongo_connected": true,
   "google_configured": true,
   "google_login_verified": true,
   "facebook_public": false,
-  "note": "Country release filters, sourced IMDb calendars and Galaxy listings deployed in production context. Version stays 1.0; current showtimes require verified cinema listings. Google login was verified previously; Facebook public access remains pending.",
+  "note": "Verified cinema snapshots for six markets deployed in production context; current listings expire after seven days. Everyman current screenings scoped to The Whiteley, London. Original film years and reissue dates remain separate. Version stays 1.0; no automatic refresh configured.",
   "release_markets": [
     "VN",
     "US",
@@ -19,5 +19,60 @@
     "JP",
     "KR"
   ],
-  "release_snapshot_checked_at": "2026-10-09"
+  "release_snapshot_checked_at": "2026-10-09",
+  "cinema_matched_films": 98,
+  "cinema_listings": 180,
+  "cinema_markets": [
+    {
+      "region": "VN",
+      "name": "Galaxy Cinema",
+      "url": "https://www.galaxycine.vn/",
+      "screening": 7,
+      "upcoming": 6,
+      "checked_at": "2026-10-09"
+    },
+    {
+      "region": "US",
+      "name": "Harkins Theatres",
+      "url": "https://www.harkins.com/movies",
+      "screening": 16,
+      "upcoming": 35,
+      "checked_at": "2026-10-09"
+    },
+    {
+      "region": "GB",
+      "name": "Everyman · The Whiteley, London",
+      "url": "https://www.everymancinema.com/film-listing/",
+      "screening": 9,
+      "upcoming": 14,
+      "checked_at": "2026-10-09"
+    },
+    {
+      "region": "FR",
+      "name": "Pathé",
+      "url": "https://www.pathe.fr/",
+      "screening": 23,
+      "upcoming": 17,
+      "checked_at": "2026-10-09"
+    },
+    {
+      "region": "JP",
+      "name": "TOHO Cinemas",
+      "url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+      "screening": 10,
+      "upcoming": 19,
+      "checked_at": "2026-10-09"
+    },
+    {
+      "region": "KR",
+      "name": "Megabox",
+      "url": "https://www.megabox.co.kr/movie",
+      "screening": 7,
+      "upcoming": 5,
+      "checked_at": "2026-10-09"
+    }
+  ],
+  "production_filters_verified": true,
+  "opening_date_sort_verified": true,
+  "cinema_card_links": true
 }

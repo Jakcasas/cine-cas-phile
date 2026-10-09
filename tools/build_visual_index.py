@@ -29,7 +29,7 @@ def main():
     for mid,entry in enrichment.movies.items():
         for url in entry.get('still_urls',[]):references.append((mid,'still',[url]))
         priority={'Letterboxd':0,'MUBI':1,'Galaxy Cinema':2,'IMDb':3,'PhimMoi':4,'FshareTV':5}
-        sources=sorted(entry['poster_sources'],key=lambda s:priority[s['name']])
+        sources=sorted(entry['poster_sources'],key=lambda s:priority.get(s['name'],3))
         urls=list(dict.fromkeys(url for source in sources for url in [source['image_url'],source['fallback_url']] if url))
         if urls:references.append((mid,'poster',urls))
     cache=settings.ROOT/'runtime'/'reference-images';cache.mkdir(parents=True,exist_ok=True)

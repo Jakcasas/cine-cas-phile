@@ -46,7 +46,7 @@ def main():
                 "console.log('Prebuilt website and functions verified.');\n")
             archive.write(ROOT/'package.json','package.json')
             archive.write(ROOT/'package-lock.json','package-lock.json')
-            archive.writestr('DEPLOY.md', '# Cine (cas) phile. â€” prebuilt Netlify bundle\n\n'
+            archive.writestr('DEPLOY.md', '# Cine (cas) phile. — prebuilt Netlify bundle\n\n'
                 'Extract this ZIP, run npm ci --omit=dev in its root, then sign in with Netlify CLI.\n\n'
                 '```bash\nnetlify login\nnetlify deploy --prod --build --context production --site 00750758-f294-4229-bdd8-865b45c6382d --dir dist/netlify --functions netlify/functions\n```\n\n'
                 'This bundle is already built; the Netlify build command only verifies packaged files. Do not run npm run build in it. Install function dependencies with npm ci --omit=dev. '

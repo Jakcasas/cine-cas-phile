@@ -296,7 +296,7 @@ export class Engine {
     )
       throw new ValidationError("Invalid page");
     this.validate(p);
-    const day=films.localDay();
+    const day=undefined; // Shared helpers use the selected market's local calendar day.
     let candidates = this.d.movies.filter(
       (m) =>
         films.matchesRelease(m,p.release,day,p.release_region) &&
@@ -322,6 +322,14 @@ export class Engine {
           (films.audienceRating(b)?.normalized || 0) -
           (films.audienceRating(a)?.normalized || 0) || b.rating_count-a.rating_count,
       );
+    else if (sort === "release-date") {
+      const dates=new Map(movies.map(m=>[m.movie_id,films.releaseSortDate(m,p.release_region,p.release)]));
+      movies.sort((a,b)=>{
+        const left=dates.get(a.movie_id),right=dates.get(b.movie_id);
+        if(!left || !right)return (left?0:1)-(right?0:1) || b.rating_count-a.rating_count;
+        return (p.release==='upcoming'?left.localeCompare(right):right.localeCompare(left)) || b.rating_count-a.rating_count;
+      });
+    }
     else if (sort === "title")
       movies.sort((a, b) =>
         a.title.toLowerCase().localeCompare(b.title.toLowerCase(), "en"),

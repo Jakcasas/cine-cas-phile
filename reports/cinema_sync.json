@@ -1,0 +1,2277 @@
+{
+  "checked_at": "2026-10-09",
+  "cinema_films": 98,
+  "cinema_listings": 180,
+  "added_films": [
+    "Avengers: Endgame (2019)",
+    "Út Lan 2 (2026)",
+    "Resident Evil (2026)",
+    "Insidious: Out of the Further (2026)",
+    "The Odyssey (2026)",
+    "PAW Patrol: The Dino Movie (2026)",
+    "Practical Magic 2 (2026)",
+    "Spider-Man: Brand New Day (2026)",
+    "Toy Story 5 (2026)",
+    "The Weight (2026)",
+    "Avengers: Doomsday (2026)",
+    "Dune: Part Three (2026)",
+    "Pressure (2026)",
+    "La maison de nos rêves (2026)",
+    "Ducobu et le fantôme de Saint-Potache (2026)",
+    "Garance (2026)",
+    "Cars (2006)",
+    "Obsession (2025)",
+    "Joyeuse Jungle ! (2026)",
+    "Chiikawa the Movie: The Secret of the Mermaid Island (2026)"
+  ],
+  "added_films_this_import": [],
+  "markets": [
+    {
+      "region": "VN",
+      "source": "Galaxy Cinema",
+      "listing_url": "https://www.galaxycine.vn/",
+      "venue": null,
+      "reviewed_cards": 7
+    },
+    {
+      "region": "VN",
+      "source": "Galaxy Cinema",
+      "listing_url": "https://www.galaxycine.vn/",
+      "venue": null,
+      "reviewed_cards": 6
+    },
+    {
+      "region": "US",
+      "source": "Harkins Theatres",
+      "listing_url": "https://www.harkins.com/movies",
+      "venue": null,
+      "reviewed_cards": 20
+    },
+    {
+      "region": "US",
+      "source": "Harkins Theatres",
+      "listing_url": "https://www.harkins.com/movies/coming-soon",
+      "venue": null,
+      "reviewed_cards": 38
+    },
+    {
+      "region": "GB",
+      "source": "Everyman",
+      "listing_url": "https://www.everymancinema.com/film-listing/?date=2026-10-09",
+      "venue": "The Whiteley, London",
+      "reviewed_cards": 10
+    },
+    {
+      "region": "GB",
+      "source": "Everyman",
+      "listing_url": "https://www.everymancinema.com/film-listing/",
+      "venue": null,
+      "reviewed_cards": 15
+    },
+    {
+      "region": "FR",
+      "source": "Pathé",
+      "listing_url": "https://www.pathe.fr/",
+      "venue": null,
+      "reviewed_cards": 23
+    },
+    {
+      "region": "FR",
+      "source": "Pathé",
+      "listing_url": "https://www.pathe.fr/",
+      "venue": null,
+      "reviewed_cards": 17
+    },
+    {
+      "region": "JP",
+      "source": "TOHO Cinemas",
+      "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3090J01.do",
+      "venue": null,
+      "reviewed_cards": 10
+    },
+    {
+      "region": "JP",
+      "source": "TOHO Cinemas",
+      "listing_url": "https://hlo.tohotheater.jp/net/movie/TNPI3080J01.do",
+      "venue": null,
+      "reviewed_cards": 19
+    },
+    {
+      "region": "KR",
+      "source": "Megabox",
+      "listing_url": "https://www.megabox.co.kr/movie",
+      "venue": null,
+      "reviewed_cards": 10
+    },
+    {
+      "region": "KR",
+      "source": "Megabox",
+      "listing_url": "https://www.megabox.co.kr/movie/comingsoon",
+      "venue": null,
+      "reviewed_cards": 5
+    }
+  ],
+  "unmatched_cards": [
+    {
+      "region": "VN",
+      "status": "now",
+      "title": "Scotty: Giải Cứu Hoàng Thượng",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "VN",
+      "status": "upcoming",
+      "title": "BTS World Tour 'Arirang' In Buenos Aires: Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "VN",
+      "status": "upcoming",
+      "title": "BTS World Tour 'Arirang' In São Paulo: Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Acharya [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Anbil Avan [Tamil. subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "April X",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Avaraachan & Sons [Malayalam, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Baththa [Tamil, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Beware Boiúna",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Buddy The Sing-Along Version",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Coyote vs. ACME",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The Craft - 30th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Daniel and the Fiery Furnace",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Don't Trouble the Trouble [Malayalam, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Don't Trouble the Trouble [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Drishyam: The Conclusion [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The History of Concrete",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "The Incomer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "JAMES BOND DAY: Casino Royale - 20th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Jhingedaau 2 [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Journey",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "On-Screen Captions: Verity",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Orion",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Other Mommy - Fan Event Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Prem Keetanu [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Queen Budapest",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Resident evil: Noche cero [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Rolling Loud: The Movie",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Runner",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "SB19 Wakas at Simula in Cinemas",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Sigma [Tamil, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "Thella Kaagitham [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "now",
+      "title": "You Had to Be There",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "9 to 5",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Big Girls Don't Cry",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Brother Joseph Again",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Brotherhood: A Cinematic Musical",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Comrade Kalyan [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Falling",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Corpse Bride",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Texas Chain Saw Massacre",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hanuman Ansh [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: The Ballad of Songbirds and Snakes",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Madre siniestra [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Never After Dark [Japanese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Once Upon a Time in the Middle East [Mandarin]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Pension Patta [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Portrait of an Artist: Stephen Curry",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Scout",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "V [Cantonese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Castle in the Sky - 40th Anniversary [English]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: The Hunger Games",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "North by Northwest - An Eva Marie Saint Tribute",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Digger",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Trust Me, I'm a Doctor - Early Access Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "WWE Money in the Bank",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Castle in the Sky - 40th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: October 12th",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Friday the 13th (1980)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Sense and Sensibility - Early Access",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Street Fighter: Bonus Round Fan Event",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Street Fighter: Bonus Round Fan Event [Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "California Schemin' - Member Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Cha Maya Chapakkai 2 [Nepali, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: A Nightmare on Elm Street (1984)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Casper",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Catching Fire",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ken Russell's The Devils",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Hocus Pocus",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Scream (1996)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Mockingjay – Part 1",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Sense and Sensibility",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HUNGER GAMES: Mockingjay – Part 2",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wildwood - Fan First Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Yuri!!! on ICE 10th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Lost Boys",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Fallen Angels by Noël Coward",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ali G: Who Iz I? - Mad Respek Screening!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Exorcist: Director's Cut (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Exorcist (Director's Cut)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: The Nightmare Before Christmas",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Addams Family (1991)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Zombieland",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Peaking: Psychedelics and the Pursuit of Happiness",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "A Talent for Murder",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Udta Teer [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "HYBE CHEERING PARTY (3D)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Klara and the Sun",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "UFC 333: Volkanovski vs. Evloev",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Marie Antoinette - 20th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "An American Werewolf in London - 45th Anniversary",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ozzy & Black Sabbath: Back to the Beginning",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN SÃO PAULO: LIVE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Beetlejuice",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "FRIGHT NIGHTS: Halloween (1978)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Coco",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Halloween (1978)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wild at Heart - Unrated",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Wild Horse Nine - Early Access Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Irregular at Magic High School THE MOVIE [dub]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: November 2nd",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Godzilla Minus Zero - Godzilla Day IMAX Early Show",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Rammstein - Live in Mexico City",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: How to Lose a Guy in 10 Days",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Terminator",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ramayana [Hindi, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Summer Holidays [Telugu, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Sensory Friendly: The Cat in the Hat",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Stray Kids World Tour <RUN IT> LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "SECRET CINEMA: November 9th",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Ebenezer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "God with Us",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "How to Rob a Bank",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "I Play Rocky",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Terminator 2: Judgment Day",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Victorian Psycho",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Festive Fun with Peppa Cinema Experience",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "League of Legends Worlds 26 | Finals in Theater",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: The Iron Giant",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Princess Mononoke [English dub]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Princess Mononoke [Japanese, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Fifth Element",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hunger Games: Sunrise on the Reaping -Early Access",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Hunger Games: Sunrise on the Reaping",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Juegos del hambre: Amanecer en la cosecha[Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Knives Out",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "MOONLIGHT: Planes, Trains and Automobiles",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Paper Tiger",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Planes, Trains and Automobiles",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Elsinore",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Focker-In-Law",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hershey",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hexed",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Hexed: Spellbound Screening",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "The Polar Express",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Gremlins (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Violent Night 2",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Spirited Away - 25th Anniversary [English]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Spirited Away - 25th Anniversary [Japanese]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Elf",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Zero A.D.: The Birth of Christ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "DUNE: Part Three - Insider Screenings",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "How the Grinch Stole Christmas (2000)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "DUNA: Parte Tres [doblado en Español]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: Avengers: Doomsday",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "National Lampoon's Christmas Vacation",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "All of a Sudden [French, subtitled]",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Mr. Irrelevant",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Werwulf",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "On-Screen Captions: DUNE: Part Three",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "US",
+      "status": "upcoming",
+      "title": "Cameron Winter at Carnegie Hall (35mm)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "now",
+      "title": "Toddler Club: Pip and Posy and Friends",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Ken Russell's The Devils",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Doctor Who Day: The Satan Pit",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Dracula (4K Restoration)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Her Private Hell + Recorded Intro",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Cellar Door x ThoughtBubble presents: Terminator 2: Judgment Day",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Unrestricted View Horror Film Festival 2026: Opening Night",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Ozzy & Black Sabbath: Back To The Beginning",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "André Rieu's 2026 Christmas Concert: Let it snow!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Fallen Angels by Noel Coward",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "GIANT - The Play",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: Golden Boy",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: Hay Fever",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "National Theatre Live: The Motive and the Cue",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Exhibition On Screen: Renoir & Love",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Exhibition On Screen: Monet",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet & Opera - The Metropolitan Opera 2026-27: Macbeth",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Manon",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Carmen",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: The Nutcracker",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Samson et Dalila",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: La Fanciulla del West",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Götterdämmerung",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Così fan tutte",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Silent Night",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Alice’s Adventures in Wonderland",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Manon",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "RBO Cinema Season 2026-27: Swan Lake",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Otello",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Tosca",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Royal Ballet and Opera: Romeo and Juliet",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "GB",
+      "status": "upcoming",
+      "title": "Met Opera 2026-27: Parsifal",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Ni vue, ni connue",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Kraken",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Tombé du ciel",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Fausse note",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Séance Ciné Hits : Hunger Games",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Les Vendredis de l'Horreur : Malfaisante",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Justin le Juste",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Notre salut",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Bataille de Gaulle - Partie 2 : J’écris ton nom",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La Bataille de Gaulle - Partie 1 : L’âge de fer",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Leviticus",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Si tu penses bien",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Ma mini-séance : Sam le pompier",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'Invitation",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Doraemon et le château sous-marin",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Mémoire de fille",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "La vie d'une femme",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Butterfly Jam",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Maharaja (version Tamoule)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "Les éléphants dans la brume",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'espèce explosive",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "now",
+      "title": "L'Odyssée : Projection IMAX 70mm",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "La Séance Ciné Hits : Hunger Games - L'Embrasement",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Macbeth (MET)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "La Séance Ciné Hits : Hunger Games - La Révolte, Partie 1",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "HYBE CHEERING PARTY",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "SEVENTEEN WORLD TOUR 'NEW_'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "ENHYPEN WORLD TOUR 'BLOOD SAGA'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "MYLÈNE FARMER – ÉGRÉGORE – L’AVANT-PREMIÈRE",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "TOMORROW X TOGETHER WORLD TOUR 'ACT : TOMORROW'",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Hope",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Le Mystère Lucy Lost",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Les Rendez-vous de l'anime : Si tu tends l'oreille",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "FR",
+      "status": "upcoming",
+      "title": "Ma Mini-Séance : Un amour d'épouvantail",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ママがもうこの世界にいなくても　私の命の日記",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "踊る大捜査線　Ｎ．Ｅ．Ｗ．　メトロポリスを駆け抜けろ！",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ディスクロージャー・デイ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "我々は宇宙人",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ハードボイルド",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "機動警察パトレイバー　劇場版　〈「劇場公開版音声」＆４Ｋ版〉",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "無明の橋",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "あぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "踊る大捜査線　ＴＨＥ　ＭＯＶＩＥ２",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "クイーン：ブダペスト",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "時給三〇〇円の死神",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ファーストボイス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "沖晴くんの涙を殺して",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "本当にあった話（の話）",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "カードファイト！！　ヴァンガード　Ｄｉｖｉｎｅｚ　運命星戦編",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "シャドウワーク",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ナギダイアリー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "マッチング　ＴＲＵＥ　ＬＯＶＥ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "縁の手紙",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "しびれ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画名探偵プリキュア！　不思議な庭と２人の秘密",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "さとこはいつも",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "八つ墓村",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ワンオペレーション",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "『超かぐや姫！』特別フォーマット版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "最終楽章　響け！ユーフォニアム　後編",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "白鳥とコウモリ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "戦場０地点",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "バックルームズ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "劇場版　魔法少女まどか☆マギカ〈ワルプルギスの廻天〉",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "平行と垂直",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "私はあなたを知らない、",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ドラマなふたり",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ミニオンズ＆モンスターズ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "あの星が降る丘で、君とまた出会いたい。",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "ブルーロック",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画クレヨンしんちゃん　奇々怪々！オラの妖怪バケ～ション",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "キングダム　魂の決戦",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "急に具合が悪くなる",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "Ｍｉｃｈａｅｌ／マイケル",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "新劇場版　銀魂　－吉原大炎上－",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "映画　ヒプノシスマイク",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "now",
+      "title": "午前十時の映画祭１６「用心棒」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ナショナル・シアター・ライヴ『危険な関係』",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "わたしの知らない子どもたち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ミッション　４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "パリに咲くエトワール",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "太陽を盗んだ男　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "踊る大捜査線　ＴＨＥ　ＭＯＶＩＥ３　ヤツらを解放せよ！",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "椎名林檎　党大会　令和八年列島巡回",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "耳をすませば　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "昨夜は殺れたかも",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "うるわしの宵の月",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＢＯＳＳ／ボス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "映画「ＳＡＮＤ　ＬＡＮＤ」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "借りぐらしのアリエッティ　４Ｋデジタルリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "踊る大捜査線　ＴＨＥ　ＦＩＮＡＬ　新たなる希望",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「恋人たちの予感」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「ラブ・アクチュアリー」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ヤマトよ永遠に　ＲＥＢＥＬ３１９９　第七章　虹色の輪廻",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＲＹＵＪＩ　竜二",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　ザ・ラストレッドショルダー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　ペールゼン・ファイルズ劇場版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "恒星の向こう側",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『ＣＯＷＢＯＹ　ＢＥＢＯＰ　天国の扉』４Ｋ　ＲＥＭＡＳＴＥＲ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "韓国ミュージカル　ＯＮ　ＳＣＲＥＥＮ『フランケンシュタイン』",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『交渉人　真下正義』４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "『容疑者　室井慎次』４Ｋデジタルリマスター版",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "室井慎次　敗れざる者",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "室井慎次　生き続ける者",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "仮面ライダーカブト２０ｔｈ　天を継ぐもの",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "４アウト　─もう一度、プレイボール─",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ダビデ　王になった少年",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "３ミリの恋",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "男ともだち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "星の教室",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "楽園追放　心のレゾナンス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "すべて真夜中の恋人たち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "負けへんで",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "クリスマス・キャロル／３人のゴーストたち",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "呪いのスマホ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "トキシック・アベンジャー",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場先行版「風を継ぐもの　－はじまり－」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "南極料理人　４Ｋリマスター",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ないものねだりの君に光の花束を",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "魔法使いの夜",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "装甲騎兵ボトムズ　灰色の魔女【第１作】",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "月がみている",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "Ｃｒｅｅｐｙ　Ｎｕｔｓ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場版　遊☆戯☆王　リバイバル上映",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「ガス人間第１号」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「マタンゴ」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ワンダンス",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "君の話",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "このごにおよんで愛など",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "またまたあぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ピリオン",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ビリーと魔法のはじまり",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "お姉ちゃんの翠くん",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "バイオレント・ナイト２",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "劇場版　薬屋のひとりごと　亡妃の秘宝",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＥＮＲＯＵＴＥ／エンルート",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "薔薇の鎖",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "風林火山",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "もっともあぶない刑事",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "人生を変えたコント",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＨＡＷＫＳ　ＴＨＥ　ＭＯＶＩＥ　２０２６",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「オペラ座の怪人」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "午前十時の映画祭１６「レ・ミゼラブル」",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＢＹＥ　ＢＹＥ　ＬＯＶＥ　探偵はＢＡＲにいる",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "ＳＵＫＩＹＡＫＩ　上を向いて歩こう",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "きみに贈る最強のうた",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "JP",
+      "status": "upcoming",
+      "title": "グラッツィア　大統領　最後の散歩",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "암살자(들)",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "전자오락수호대",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "입에 대한 앙케트",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "퓨리어스",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "부활남: 더 레드",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "디지몬 어드벤처 : 운명적 만남 & 우리들의 워 게임!",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "MECHATU-A 1st LIVE “Over Drive!” Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "[2026 NT Live] 인터 알리아",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "now",
+      "title": "인턴",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "MECHATU-A 1st LIVE “Over Drive!” Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "Kenmochi Toya Real Solo Live 【KOKU FES.】 Live Viewing",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "Kuzuha One Man Live＂Bloody Alexandrite＂Live Viewing  ",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "전자오락수호대",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "헤븐 노우즈 왓",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "쉘위런",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "[2026 NT Live] 워렌 부인의 직업",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "레위기",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "스틸레이",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "BTS WORLD TOUR 'ARIRANG' IN BUENOS AIRES & SÃO PAULO: LIVE VIEWING",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "흐르는 여정",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "퍼플 스왈로우",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "더 프린세스 : 도둑맞은 공주",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "킬링타임",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    },
+    {
+      "region": "KR",
+      "status": "upcoming",
+      "title": "7데이즈 7피플",
+      "reason": "Event, reissue or identity/original-year not verified; not imported."
+    }
+  ],
+  "limits": "Reviewed cinema-chain snapshot, not complete national coverage or live showtimes. Presales are upcoming; now listings expire after seven days. IMDb calendars supplement dates."
+}
