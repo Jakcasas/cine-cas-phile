@@ -141,8 +141,35 @@ function card(movie) {
   const ratingSource=audience?`${audience.provider} · ${audience.value}/${audience.scale}`:'Chưa có điểm khán giả đã xác minh';
   return `<article class="movie-card"><button class="poster alt-${movie.movie_id % 4}" data-movie="${movie.movie_id}" style="--cover-bg:linear-gradient(145deg,${colors[0]},${colors[1]})" aria-label="Xem chi tiết ${escapeHtml(movie.title)}">${poster(movie)}</button><button class="save-button ${saved ? "saved" : ""}" data-save="${movie.movie_id}" aria-label="${saved ? "Bỏ lưu" : "Lưu"} ${escapeHtml(movie.title)}" aria-pressed="${!!saved}">${saved ? "✓" : "+"}</button><div class="movie-meta"><div class="movie-top"><h3>${escapeHtml(movie.title)}</h3><span class="rating" title="${escapeHtml(ratingSource)}">★ ${ratingText}</span></div>${audience && audience.provider!=="MovieLens"?`<div class="rating-source-label">${escapeHtml(audience.provider)} · Điểm khán giả</div>`:""}<div class="meta-line">${movie.year ?? "—"} ${movie.media_type === "series" ? " · SERIES" : ""} <span>·</span> ${escapeHtml(movie.genres.split("|").slice(0, 2).map(genreLabel).join(" / "))}</div>${movie.release || movie.cinema_listings?.length?`<div class="release-badge">${escapeHtml(window.cineFilms.releaseLabel(movie,$('#country-filter').value,$('#release-filter').value))}</div>`:""}${cinemaLink}${movie.reason ? `<div class="reason">✧ ${escapeHtml(movie.reason)}</div>` : ""}${movie.my_rating ? `<div class="my-rating">${"★".repeat(Math.floor(movie.my_rating))}${movie.my_rating%1?"½":""} · Bạn chấm ${movie.my_rating}/5</div>` : state.profile?.seen?.includes(movie.movie_id)?`<div class="my-rating">✓ Đã xem</div>`:""}</div></article>`;
 }
+function activeFilters() {
+  const filters=[];
+  const add=(key,label)=>filters.push({key,label});
+  if($('#search').value.trim())add('search','Tìm: '+$('#search').value.trim());
+  if(state.genre)add('genre',genreLabel(state.genre));
+  if($('#era').value)add('era',$('#era').selectedOptions[0].textContent);
+  if(['discover','foryou'].includes(state.view)){
+    if($('#country-filter').value)add('country-filter',window.cineFilms.regions[$('#country-filter').value]);
+    if($('#release-filter').value!=='all')add('release-filter',$('#release-filter').selectedOptions[0].textContent);
+  }
+  if(state.view==='foryou' && Number($('#minimum-rating').value))add('minimum-rating','Từ '+$('#minimum-rating').value+' / 5 sao');
+  if(state.view==='ratings' && $('#collection-status').value!=='all')add('collection-status',$('#collection-status').selectedOptions[0].textContent);
+  return filters;
+}
+function renderActiveFilters() {
+  const items=activeFilters(),panel=$('#active-filters');
+  panel.hidden=!items.length;
+  panel.innerHTML='<span>Đang lọc:</span>'+items.map(f=>`<button type="button" class="filter-pill" data-remove-filter="${f.key}" aria-label="Bỏ bộ lọc ${escapeHtml(f.label)}">${escapeHtml(f.label)} <span aria-hidden="true">×</span></button>`).join('');
+}
+function clearFilter(key) {
+  clearTimeout(searchTimer);
+  if(key==='genre')state.genre='';
+  else $('#'+key).value=({'release-filter':'all','minimum-rating':'0','collection-status':'all'})[key] || '';
+  if(key==='search' && $('#sort').value==='relevance')$('#sort').value='popular';
+  state.page=1;renderChips();loadView();
+  $('#result-count').focus({preventScroll:true});
+}
 function empty(title, description) {
-  return `<div class="empty" style="grid-column:1/-1"><span class="small-spark">✧</span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p><button class="primary" data-go="discover">Khám phá kho phim ↗</button></div>`;
+  return `<div class="empty" style="grid-column:1/-1"><span class="small-spark">✧</span><h3>${escapeHtml(title)}</h3><p>${escapeHtml(description)}</p>${activeFilters().length?'<button class="primary" data-reset-filters>Bỏ bộ lọc và thử lại ↺</button>':'<button class="primary" data-go="discover">Khám phá kho phim ↗</button>'}</div>`;
 }
 function renderChips() {
   $("#genre-chips").innerHTML = [
@@ -189,6 +216,7 @@ function setView(view) {
   $("#genre-chips").hidden = view === "insights";
   $("#sort").disabled = view==='foryou';
   $('#sort option[value=personal]').hidden=view!=='ratings';
+  $('#sort option[value=relevance]').hidden=!['discover','curated'].includes(view);
   $('#sort option[value="release-date"]').hidden=!['discover','curated'].includes(view);
   $('#collection-summary').hidden=!['watchlist','ratings'].includes(view);
   $('#collection-status-label').hidden=view!=='ratings';
@@ -246,6 +274,8 @@ async function loadView() {
   const token = ++state.request;
   $("#status").textContent = "";
   renderCinemaGuide();
+  renderActiveFilters();
+  $("#grid").setAttribute("aria-busy","true");
   $("#pagination").hidden = true;
   $("#seed-bar").hidden = !(state.view === "foryou" && state.seed);
   if (state.seed)
@@ -325,12 +355,12 @@ async function loadView() {
       ? movies.map(card).join("")
       : empty(
           state.view === "watchlist"
-            ? "Danh sách của bạn còn trống"
+            ? activeFilters().length ? "Chưa có phim đã lưu khớp bộ lọc" : "Danh sách của bạn còn trống"
             : state.view === "ratings"
               ? "Chưa có phim khớp nhật ký của bạn"
               : $('#release-filter').value==='screening' ? 'Chưa có phim đang chiếu được xác minh' : "Không tìm thấy phim phù hợp",
           state.view === "watchlist"
-            ? "Nhấn dấu + trên một phim để lưu vào danh sách."
+            ? activeFilters().length ? "Phim đã lưu vẫn còn trong danh sách. Bỏ một điều kiện phía trên hoặc đặt lại bộ lọc." : "Nhấn dấu + trên một phim để lưu vào danh sách."
             : state.view === "ratings"
               ? "Đánh dấu phim đã xem hoặc chấm 0,5–5 sao. Nếu đã có phim, thử bỏ bộ lọc."
               : $('#release-filter').value==='screening' ? 'Chọn Đã phát hành, Mới công chiếu hoặc Sắp chiếu để xem lịch tại quốc gia này.' : "Thử bỏ bộ lọc quốc gia, lịch phim, thể loại hoặc thời kỳ.",
@@ -351,9 +381,18 @@ async function loadView() {
     $("#grid").innerHTML = "";
     $("#status").textContent = `Không thể tải phim: ${error.message}`;
     $("#result-count").textContent = "Hãy thử lại";
+    $("#grid").innerHTML='<div class="empty"><button class="primary" data-retry-load>Tải lại danh sách ↻</button></div>';
+  } finally {
+    if(token===state.request)$("#grid").setAttribute("aria-busy","false");
   }
 }
+const pendingSaves=new Set();
 async function toggleSave(movieId) {
+  if(pendingSaves.has(movieId))return;
+  pendingSaves.add(movieId);
+  const buttons=()=>document.querySelectorAll(`[data-save="${movieId}"]`);
+  buttons().forEach(button=>{button.disabled=true;button.setAttribute('aria-busy','true');});
+  try {
   const saved = state.profile.watchlist.includes(movieId);
   await send(
     `/profiles/${state.profile.profile_id}/watchlist/${movieId}`,
@@ -375,6 +414,10 @@ async function toggleSave(movieId) {
   });
   toast(saved ? "Đã bỏ phim khỏi danh sách" : "Đã thêm vào danh sách xem");
   if (state.view === "watchlist") loadView();
+  } finally {
+    pendingSaves.delete(movieId);
+    buttons().forEach(button=>{button.disabled=false;button.removeAttribute('aria-busy');});
+  }
 }
 async function showDetail(movieId) {
   state.detail = movieId;
@@ -545,6 +588,9 @@ document.addEventListener("click", async (event) => {
       });
       return;
     }
+    if(target.dataset.removeFilter){clearFilter(target.dataset.removeFilter);return;}
+    if(target.hasAttribute('data-reset-filters')){$('#reset-filters').click();return;}
+    if(target.hasAttribute('data-retry-load')){loadView();return;}
     if (target.dataset.go) {
       setView(target.dataset.go);
       return;
@@ -565,9 +611,7 @@ document.addEventListener("click", async (event) => {
       return;
     }
     if (target.dataset.save) {
-      target.disabled = true;
       await toggleSave(Number(target.dataset.save));
-      target.disabled = false;
       return;
     }
     if (target.dataset.rate) {
@@ -658,6 +702,7 @@ $('#search-suggestions').addEventListener('click',event=>{const button=event.tar
 $("#collection-status").addEventListener("change",loadView);
 $("#reset-filters").addEventListener("click",()=>{
   $('#search').value='';$('#release-filter').value='all';$('#country-filter').value='';$('#era').value='';$('#minimum-rating').value='0';$('#collection-status').value='all';
+  clearTimeout(searchTimer);$('#sort').value=state.view==='ratings'?'personal':state.view==='watchlist'?'title':'popular';
   state.genre='';state.page=1;renderChips();loadView();
 });
 $("#refresh").addEventListener("click", loadView);
@@ -672,10 +717,21 @@ $("#next").addEventListener("click", () => {
 let searchTimer;
 $("#search").addEventListener("input", () => {
   clearTimeout(searchTimer);
+  if(['discover','curated'].includes(state.view)){
+    if($('#search').value.trim() && $('#sort').value==='popular')$('#sort').value='relevance';
+    else if(!$('#search').value.trim() && $('#sort').value==='relevance')$('#sort').value='popular';
+  }
   searchTimer = setTimeout(() => {
     state.page = 1;
     loadView();
   }, 250);
+});
+$('#search').addEventListener('keydown',async event=>{
+  if(event.key!=='Enter' || event.isComposing)return;
+  event.preventDefault();clearTimeout(searchTimer);state.page=1;
+  $('#toolbar').scrollIntoView({block:'start'});
+  $('#result-count').focus({preventScroll:true});
+  await loadView();
 });
 document.addEventListener("keydown", (event) => {
   if (

@@ -312,9 +312,10 @@ export class Engine {
           )),
     );
     let movies=candidates.filter(m=>films.matchesQuery(m,p.q));
-    const sort = p.sort || "popular";
+    const sort = p.sort || (p.q?.trim()?"relevance":"popular");
     if (sort === "popular")
       movies.sort((a, b) => b.rating_count - a.rating_count);
+    else if (sort === "relevance") movies.sort((a,b)=>films.searchRelevance(b,p.q)-films.searchRelevance(a,p.q) || b.rating_count-a.rating_count || a.movie_id-b.movie_id);
     else if (sort === "year") movies.sort((a, b) => b.year - a.year);
     else if (sort === "rating")
       movies.sort(

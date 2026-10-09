@@ -102,7 +102,7 @@ def benchmark_report():
 @app.get("/movies")
 def catalog(q: str = Query(default="", max_length=200), genre: str | None = None,
             year_min: int | None = None, year_max: int | None = None,
-            sort: Literal["popular", "rating", "year", "title"] = "popular",
+            sort: Literal["popular", "rating", "year", "title", "relevance"] = "relevance",
             page: int = Query(default=1, ge=1), page_size: int = Query(default=24, ge=1, le=60),
             source: Literal["MUBI", "Letterboxd", "editorial"] | None = None):
     try:

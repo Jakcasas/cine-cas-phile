@@ -32,6 +32,22 @@ def test_search_without_accents(client):
     assert any(movie['title'] == 'La Mesías' for movie in data['movies'])
 
 
+def test_search_exact_title_and_alias_priority(client):
+    response = client.get('/movies', params={'q': 'Alien', 'sort': 'relevance'})
+    assert response.status_code == 200
+    assert response.json()['movies'][0]['title'] == 'Alien'
+    response = client.get('/movies', params={'q': '룩백', 'sort': 'relevance'})
+    assert response.status_code == 200
+    assert any(movie['movie_id'] == 1000097 for movie in response.json()['movies'])
+
+
+def test_search_relevance_handles_accents_and_articles():
+    from src.api.service import search_relevance
+    assert search_relevance({'title': 'Matrix, The'}, 'The Matrix') == 100
+    assert search_relevance({'title_vi': 'Thế giới yên tĩnh'}, 'the gioi yen tinh') == 100
+    assert search_relevance({'title': 'Aliens'}, 'Alien') < search_relevance({'title': 'Alien'}, 'Alien')
+
+
 def test_recommendations_endpoint(client):
     response = client.get("/recommendations/1?k=5&model=hybrid")
     assert response.status_code == 200

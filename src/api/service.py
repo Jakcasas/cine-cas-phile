@@ -1,5 +1,6 @@
 """Artifact loading and catalog queries; no training during API startup."""
 import time
+import re
 import unicodedata
 import numpy as np
 from src import settings
@@ -12,7 +13,20 @@ from src.data.catalog import load_catalog
 def search_key(value):
     """Normalize accents for Vietnamese and international movie titles."""
     text = unicodedata.normalize('NFD', str(value).casefold()).replace('đ', 'd')
-    return ''.join(char for char in text if unicodedata.category(char) != 'Mn').strip()
+    text = ''.join(char for char in text if unicodedata.category(char) != 'Mn')
+    return ' '.join(''.join(char if char.isalnum() else ' ' for char in text).split())
+
+
+def search_relevance(movie, query):
+    key = search_key(query)
+    if not key:
+        return 0
+    if search_key(movie.get('imdb_id', '')) == key:
+        return 100
+    titles = [movie.get(name, '') for name in ('title', 'full_title', 'title_vi')]
+    titles += movie.get('title_aliases', [])
+    titles = [search_key(re.sub(r'^(.+),\s*(The|A|An|Le|La|Les|El|Il)$', r'\2 \1', title)) for title in titles if title]
+    return max([0] + [100 if title == key else 80 if title.startswith(key + ' ') else 60 if key in title else 40 if all(word in title for word in key.split()) else 0 for title in titles])
 
 
 class RecommendationService:
@@ -53,14 +67,14 @@ class RecommendationService:
             names = {"MUBI", "Letterboxd"} if source == "editorial" else {source}
             mask &= np.array([bool(names & set(self.enrichment.movies.get(int(mid), {}).get("catalog_sources", [])))
                               for mid in self.engine.movie_ids])
+        search_movies = {}
         if q:
-            query = search_key(q)
-            title_mask = np.array([query in search_key(title) for title in frame.title])
-            enrichment = getattr(self, "enrichment", None)
-            if enrichment:
-                title_mask = title_mask | np.array([query in search_key(enrichment.movies.get(int(mid), {}).get("title_vi", ""))
-                                                   for mid in self.engine.movie_ids])
-            mask &= title_mask
+            words = search_key(q).split()
+            for i, mid in enumerate(self.engine.movie_ids):
+                movie = self.enrich(self.engine.movie(int(mid)))
+                search_movies[i] = movie
+                text = search_key(' '.join(str(value) for value in [movie.get('title', ''), movie.get('full_title', ''), movie.get('title_vi', ''), movie.get('year', ''), movie.get('imdb_id', ''), *movie.get('title_aliases', []), *movie.get('directors', [])]))
+                mask[i] &= all(word in text for word in words)
         if genre:
             if genre.lower() not in self.engine.genre_index:
                 raise ValueError("Unknown genre")
@@ -70,7 +84,9 @@ class RecommendationService:
         if year_max is not None:
             mask &= frame.year.to_numpy(dtype=float) <= year_max
         indices = np.flatnonzero(mask)
-        if sort == "popular":
+        if sort == "relevance":
+            order = sorted(range(len(indices)), key=lambda j: (-search_relevance(search_movies.get(indices[j], {}), q), -self.engine.counts[indices[j]], int(self.engine.movie_ids[indices[j]])))
+        elif sort == "popular":
             order = np.argsort(-self.engine.counts[indices], kind="stable")
         elif sort == "rating":
             order = np.argsort(-self.engine.popularity[indices], kind="stable")

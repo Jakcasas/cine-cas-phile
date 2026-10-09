@@ -1,7 +1,7 @@
 {
   "site_id": "00750758-f294-4229-bdd8-865b45c6382d",
   "site_name": "cinecasphile",
-  "deploy_id": "6ac85393c03208966ed16e9a",
+  "deploy_id": "6ac856ceb8ef588fda9e40a1",
   "url": "https://cinecasphile.netlify.app",
   "version": "1.0",
   "catalog_size": 4084,
@@ -74,5 +74,17 @@
   ],
   "production_filters_verified": true,
   "opening_date_sort_verified": true,
-  "cinema_card_links": true
+  "cinema_card_links": true,
+  "discovery_improvements": [
+    "exact-title and multilingual search ranking",
+    "removable active filters",
+    "collection-preserving empty result reset",
+    "Enter focuses results",
+    "deduplicated pending save requests"
+  ],
+  "discovery_checks": {
+    "python_tests": 56,
+    "production_search_verified": true,
+    "mobile_width_tested": 390
+  }
 }

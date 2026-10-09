@@ -129,3 +129,7 @@ Nguồn: `Cine_Cas_Phile.zip`, bản Python all-in-one, `movielens-recsys.zip` v
 MovieLens thuộc GroupLens, University of Minnesota. Điều khoản gốc trong `docs/MOVIELENS_README.txt` yêu cầu ghi nhận nguồn, không phân phối lại hoặc dùng thương mại nếu chưa có quyền phù hợp. Repository được công khai theo yêu cầu của chủ project; giấy phép riêng của dữ liệu và tài nguyên vẫn được giữ nguyên. Giấy phép MIT của repository nguồn được giữ tại `docs/UPSTREAM_LICENSE.txt`.
 
 Citation: F. Maxwell Harper and Joseph A. Konstan (2015), *The MovieLens Datasets: History and Context*, ACM TiiS 5(4), Article 19, DOI: 10.1145/2827872.
+
+### Discovery usability (version 1.0)
+
+Search supports exact-title priority, native aliases and accent-free names. Explicit popularity sorting remains available. Active filter chips can be removed individually; empty results offer a reset without leaving the collection. Enter moves from the search field to the results. Save requests for the same film are serialized while pending, including card and detail buttons.

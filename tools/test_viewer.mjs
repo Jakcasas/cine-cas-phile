@@ -96,3 +96,17 @@ const dateMovies=[
 const dateEngine=new Engine({movies:dateMovies,movie_ids:[1,2,3],user_ids:[],genres:['Sci-Fi']});
 assert.deepEqual(dateEngine.catalog({release_region:'JP',release:'upcoming',sort:'release-date'}).movies.map(m=>m.movie_id),[2,1,3]);
 console.log('PASS: audience ratings, survey, collection search, country release dates, cinema links and opening-date sorting.');
+const searchRows=[
+ {...movie(11,'Alien','Horror',4),rating_count:10},
+ {...movie(12,'Aliens','Horror',5),rating_count:900},
+ {...movie(13,'The Alien Story','Horror',4),rating_count:800},
+ {...movie(14,'A Quiet World','Drama',4),title_vi:'Thế giới yên tĩnh',title_aliases:['静かな世界'],imdb_id:'tt1234567',rating_count:1}
+];
+const rankedSearch=new Engine({movies:searchRows,movie_ids:[11,12,13,14],user_ids:[],genres:['Horror','Drama']});
+assert.equal(rankedSearch.catalog({q:'alien'}).movies[0].movie_id,11);
+assert.equal(rankedSearch.catalog({q:'alien',sort:'popular'}).movies[0].movie_id,12);
+assert.equal(rankedSearch.catalog({q:'the gioi yen tinh',sort:'relevance'}).movies[0].movie_id,14);
+assert.equal(films.searchRelevance(searchRows[3],'静かな世界'),100);
+assert.equal(films.searchRelevance(searchRows[3],'tt1234567'),100);
+assert.equal(rankedSearch.catalog({sort:'relevance'}).movies[0].movie_id,12);
+console.log('PASS: exact titles outrank popular partial matches; native aliases, accent-free searches and explicit sort choices are preserved.');

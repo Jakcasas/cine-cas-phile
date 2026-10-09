@@ -21,6 +21,13 @@
     const text=searchKey([displayTitle(movie.title),movie.full_title,movie.title_vi,...(movie.title_aliases || []),movie.year,movie.imdb_id,...(movie.directors || []),...(movie.genres || '').split('|').map(g=>genreNames[g] || g)].join(' '));
     return words.every(word=>text.includes(word));
   }
+  function searchRelevance(movie, query) {
+    const key=searchKey(query),words=key.split(' ').filter(Boolean);
+    if(!key)return 0;
+    if(searchKey(movie.imdb_id)===key)return 100;
+    const titles=[displayTitle(movie.title),movie.full_title,movie.title_vi,...(movie.title_aliases || [])].filter(Boolean).map(searchKey);
+    return Math.max(0,...titles.map(title=>title===key?100:title.startsWith(key+' ')?80:title.includes(key)?60:words.every(word=>title.includes(word))?40:0));
+  }
   const marketZones={VN:'Asia/Ho_Chi_Minh',US:'America/New_York',GB:'Europe/London',FR:'Europe/Paris',JP:'Asia/Tokyo',KR:'Asia/Seoul'};
   const dayFormatters={};
   function localDay(region='VN', now=new Date()) {
@@ -127,5 +134,5 @@
     const sort=options.sort || 'title';
     return filtered.sort((a,b)=>(sort==='personal'?(b.my_rating || 0)-(a.my_rating || 0):sort==='rating'?(audienceRating(b)?.normalized || 0)-(audienceRating(a)?.normalized || 0):sort==='year'?(b.year || 0)-(a.year || 0):sort==='popular'?(b.rating_count || 0)-(a.rating_count || 0):0) || title(a,b));
   }
-  return {genreNames,searchKey,displayTitle,audienceRating,matchesQuery,collectionMovies,searchSuggestions,releaseState,matchesRelease,releaseLabel,localDay,regions,releaseEvents,releaseSortDate,cinemaAction,unreleased,cinemaListings,cinemaNow,cinemaSources,cinemaCoverage};
+  return {genreNames,searchKey,displayTitle,audienceRating,matchesQuery,searchRelevance,collectionMovies,searchSuggestions,releaseState,matchesRelease,releaseLabel,localDay,regions,releaseEvents,releaseSortDate,cinemaAction,unreleased,cinemaListings,cinemaNow,cinemaSources,cinemaCoverage};
 });
